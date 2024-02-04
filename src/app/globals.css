@@ -23,6 +23,11 @@ body {
 }
 
 @font-face {
+  font-family: "museo";
+  src: url("/fonts/exljbris-MuseoCyrl900.woff");
+}
+
+@font-face {
   font-family: "museo500";
   src: url("/fonts/exljbris-MuseoCyrl500.woff");
 }
