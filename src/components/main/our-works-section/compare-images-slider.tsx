@@ -24,7 +24,7 @@ function PrevArrow({ onClick }: PropsWithOnClick) {
 
 function CompareImagesSlider() {
     const { compareImages } = options;
-    return <Slider className="mt-[50px]" nextArrow={<NextArrow />} prevArrow={<PrevArrow />}>
+    return <Slider className="mt-[50px]" nextArrow={<NextArrow />} prevArrow={<PrevArrow />} swipe={false}>
         {compareImages.images.map((images, i) => {
             const path = `${compareImages.root}${images.path}`;
             return <ComparedImages
