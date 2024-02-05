@@ -1,3 +1,4 @@
+import IconCheck from "@/components/icons/icon-check";
 import { useAppDispatch, useAppSelector } from "@/hooks";
 import { toggleOrderFormAgreement } from "@/reducers/header-reducer";
 
@@ -7,7 +8,9 @@ type CheckBoxProps = {
 
 function CheckBox({ checked }: CheckBoxProps) {
     if (checked) {
-        return <span className="bg-[#1b88d8] rounded-[6px] border-[1px] border-[#1b88d8] absolute size-[20px] left-0 top-0 bg-[url(/images/icon_agree_check.svg)] bg-center bg-no-repeat"></span>
+        return <span className="bg-[#1b88d8] rounded-[6px] border-[1px] border-[#1b88d8] absolute size-[20px] left-0 top-0 flex items-center justify-center text-white">
+            <IconCheck />
+        </span>
     }
     return <span className="bg-white rounded-[6px] border-[1px] border-[#bec1c5] absolute size-[20px] left-0 top-0"></span>;
 }
