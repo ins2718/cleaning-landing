@@ -10,35 +10,38 @@ const options = {
         { title: "preguntas", href: "#faq-section" },
     ],
 
-    compareImages: {
-        root: '/images/compare/',
-        images: [
-            {
-                path: 'mattress/',
-                before: 'before.jpg',
-                after: 'after.jpg',
-            }, {
-                path: 'sofa_brown/',
-                before: 'before.jpg',
-                after: 'after.jpg',
-            }, {
-                path: 'sofa_corner/',
-                before: 'before.jpg',
-                after: 'after.jpg',
-            }, {
-                path: 'sofa_corner_black/',
-                before: 'before.jpg',
-                after: 'after.jpg',
-            }, {
-                path: 'sofa_light/',
-                before: 'before.jpg',
-                after: 'after.jpg',
-            }, {
-                path: 'sofa_orange/',
-                before: 'before.jpg',
-                after: 'after.jpg',
-            },
-        ],
+    ourWorksSection: {
+        title: "Aquí tenemos ejemplos de nuestro trabajo",
+        compareImages: {
+            root: '/images/compare/',
+            images: [
+                {
+                    path: 'mattress/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
+                    path: 'sofa_brown/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
+                    path: 'sofa_corner/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
+                    path: 'sofa_corner_black/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
+                    path: 'sofa_light/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
+                    path: 'sofa_orange/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },
+            ],
+        },
     },
 
     videos: [
