@@ -2,7 +2,7 @@ import ItemCard from "./item-card";
 import ButtonOrder from "@/components/buttons/button-order";
 import ButtonWhatsApp from "@/components/buttons/button-whats-app";
 
-function ThirdSection() {
+function WhyUsSection() {
     return <div className="relative mb-0 py-[50px]">
         <img className="absolute left-0 top-[150px]" src="/images/l3.svg" alt="decor leaf" />
         <div className="px-[15px] max-w-[1260px] mx-auto my-0">
@@ -23,4 +23,4 @@ function ThirdSection() {
     </div>;
 }
 
-export default ThirdSection;
+export default WhyUsSection;

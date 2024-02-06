@@ -1,14 +1,8 @@
 import FirstSection from "./first-section";
-// import SecondSection from "./second-section";
-// import ThirdSection from "./third-section";
-// import VideoSection from "./video-section";
-// import { lazy } from "react";
-// import RenderOnViewportEntry from "../RenderOnViewportEntry";
-// const VideoSection = lazy(() => import("./video-section"));
 import dynamic from "next/dynamic";
 const RenderOnViewportEntry = dynamic(() => import("../RenderOnViewportEntry"), { ssr: false });
-const SecondSection = dynamic(() => import("./second-section"), { ssr: false });
-const ThirdSection = dynamic(() => import("./third-section"), { ssr: false });
+const WhatWeCleanSection = dynamic(() => import("./what-we-clean-section"), { ssr: false });
+const WhyUsSection = dynamic(() => import("./why-us-section"), { ssr: false });
 const OurWorksSection = dynamic(() => import("./our-works-section"), { ssr: false });
 const VideoSection = dynamic(() => import("./video-section"), { ssr: false });
 const FaqSection = dynamic(() => import("./faq-section"), { ssr: false });
@@ -16,19 +10,19 @@ const FaqSection = dynamic(() => import("./faq-section"), { ssr: false });
 function Main() {
     return <main className="">
         <FirstSection />
-        <RenderOnViewportEntry className="min-h-72">
-            <SecondSection />
+        <RenderOnViewportEntry className="min-h-[531px]" id="what-we-clean-section">
+            <WhatWeCleanSection />
         </RenderOnViewportEntry>
-        <RenderOnViewportEntry className="min-h-72">
-            <ThirdSection />
+        <RenderOnViewportEntry className="min-h-[506px]" id="why-us-section">
+            <WhyUsSection />
         </RenderOnViewportEntry>
-        <RenderOnViewportEntry className="min-h-72">
+        <RenderOnViewportEntry className="min-h-[830px]" id="our-works-section">
             <OurWorksSection />
         </RenderOnViewportEntry>
-        <RenderOnViewportEntry className="min-h-72">
+        <RenderOnViewportEntry className="min-h-[980px]" id="video-section">
             <VideoSection />
         </RenderOnViewportEntry>
-        <RenderOnViewportEntry className="min-h-72">
+        <RenderOnViewportEntry className="min-h-72" id="faq-section">
             <FaqSection />
         </RenderOnViewportEntry>
     </main>;

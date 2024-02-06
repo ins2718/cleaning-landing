@@ -2,7 +2,7 @@ import ItemCard from "./item-card";
 import ButtonOrder from "@/components/buttons/button-order";
 import ButtonWhatsApp from "@/components/buttons/button-whats-app";
 
-function SecondSection() {
+function WhatWeCleanSection() {
     return <div className="mb-0 py-[50px] relative">
         <img className="absolute right-0 bottom-[50px] max-h-[400px] hidden min-[968px]:block" src="/images/bg_services_new_2.jpg" alt="sofá background" />
         <div className="relative px-[15px]">
@@ -24,4 +24,4 @@ function SecondSection() {
     </div>;
 }
 
-export default SecondSection;
+export default WhatWeCleanSection;

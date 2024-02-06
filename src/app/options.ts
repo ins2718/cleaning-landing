@@ -3,14 +3,11 @@ const options = {
     whatsAppPlaceholder: "Hola, estoy interesado en la limpieza de muebles.",
 
     menuItems: [
-        { title: "INICIO", href: "#" },
-        { title: "SOBRE NOSOTROS", href: "#" },
-        { title: "¿QUÉ LIMPIAMOS?", href: "#" },
-        { title: "ejemplos", href: "#" },
-        { title: "PROMOCIONES", href: "#" },
-        { title: "¡¡ GRACIAS !!", href: "#" },
-        { title: "preguntas", href: "#" },
-        { title: "CONTACTO", href: "#" },
+        { title: "INICIO", href: "#first-section" },
+        { title: "¿QUÉ LIMPIAMOS?", href: "#what-we-clean-section" },
+        { title: "SOBRE NOSOTROS", href: "#why-us-section" },
+        { title: "ejemplos", href: "#our-works-section" },
+        { title: "preguntas", href: "#faq-section" },
     ],
 
     compareImages: {
