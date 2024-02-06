@@ -11,7 +11,7 @@ function VideoGallery() {
     const dispatch = useAppDispatch();
     const { videoGalleryVideo } = useAppSelector(state => state.header);
     const hideForm = () => dispatch(closeVideoGallery());
-    const { videos } = options;
+    const { videos } = options.videoSection;
     const galleryRef = useRef<ImageGallery>(null);
     if (videoGalleryVideo !== false) {
         galleryRef.current?.slideToIndex(videoGalleryVideo);
