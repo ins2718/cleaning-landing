@@ -7,3 +7,8 @@ interface ItemsWrapperProps {
 type PropsWithOnClick = {
     onClick?: () => void;
 }
+
+type FormItemProps = {
+    register: UseFormRegister<FieldValues>;
+    errorText?: string;
+}

@@ -44,8 +44,11 @@ body {
   font-style: normal;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@layer components {
+  .PhoneInput > input.PhoneInputInput {
+    @apply border-[#bec1c5] border-b-[1px] text-[14px] leading-[20px] pb-[16px] text-black w-full placeholder:text-[#bec1c5] outline-none;
+  }
+  .PhoneInput.error > input.PhoneInputInput {
+    @apply border-red-500;
   }
 }

@@ -2,30 +2,22 @@ import IconCheck from "@/components/icons/icon-check";
 import { useAppDispatch, useAppSelector } from "@/hooks";
 import { toggleOrderFormAgreement } from "@/reducers/header-reducer";
 
-type CheckBoxProps = {
-    checked: boolean;
-};
-
-function CheckBox({ checked }: CheckBoxProps) {
-    if (checked) {
-        return <span className="bg-[#1b88d8] rounded-[6px] border-[1px] border-[#1b88d8] absolute size-[20px] left-0 top-0 flex items-center justify-center text-white">
-            <IconCheck />
-        </span>
-    }
-    return <span className="bg-white rounded-[6px] border-[1px] border-[#bec1c5] absolute size-[20px] left-0 top-0"></span>;
-}
-
-function AgreeCheckbox() {
+function AgreeCheckbox({ register, errorText }: FormItemProps) {
     const dispatch = useAppDispatch();
     const { isOrderFormAgreed } = useAppSelector(state => state.header);
     return <div className="mt-[-10px]">
-        <span className="relative">
-            <CheckBox checked={isOrderFormAgreed} />
-        </span>
-        <span onClick={() => dispatch(toggleOrderFormAgreement())} className="cursor-pointer inline-block text-[14px] leading-[1.7] text-black pl-[33px] pr-[45px] relative align-top">
+        <label onClick={() => dispatch(toggleOrderFormAgreement())} className="cursor-pointer inline-block text-[14px] leading-[1.7] text-black pl-[33px] pr-[45px] relative align-top">
+            <span className="relative -left-[30px]">
+                <input type="checkbox" {...register("agree")} className="peer size-[20px] opacity-0 left-0 top-0 absolute z-10 cursor-pointer" />
+                <span className="bg-transparent peer-checked:bg-[#1b88d8] rounded-[6px] border-[1px] border-[#bec1c5] peer-checked:border-[#1b88d8] absolute size-[20px] left-0 top-0 flex items-center justify-center text-white">
+                    <IconCheck />
+                </span>
+                {/* <CheckBox {...register("agree")} checked={isOrderFormAgreed} /> */}
+            </span>
             Даю согласие на обработку &nbsp;
             <a className="text-black underline" href="#">персональных данных</a>
-        </span>
+        </label>
+        <p className="text-red-500">{errorText}</p>
     </div>;
 }
 
