@@ -2,7 +2,7 @@ import options from "@/app/options";
 import QuestionAnswer from "./question-answer";
 
 function FaqSection() {
-    const { title, questions } = options.faq;
+    const { title, questions } = options.faqSection;
     return <div className="relative mb-[76px] pt-[50px] pb-0">
         <img className="absolute right-0 top-[40px] z-[-1]" src="/images/l8.svg" alt="decor leaf" />
         <div className="px-[15px] max-w-[1260px] mx-auto my-0">

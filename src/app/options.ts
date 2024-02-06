@@ -54,7 +54,11 @@ const options = {
         }
     ],
 
-    faq: {
+    firstSection: {
+        title: "LIMPIEZA PROFESIONAL DE SOFÁS, SILLAS, COLCHONES, Y ALFOMBRAS EN CASA",
+    },
+
+    faqSection: {
         title: "PREGUNTAS FRECUENTES Y SUS RESPUESTAS",
         questions: [
             {
