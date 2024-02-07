@@ -9,9 +9,9 @@ function LeftSide() {
             {title}
         </h1>
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold">
-            <strong className="font-bold">¡PROMCIÓN!</strong>
+            <strong className="font-bold">¿Tus muebles, colchón o alfombra están sucios, huelen mal o simplemente necesitan una limpieza a fondo?</strong>
             <br />
-            ENVÍA TU SOLICITUD Y EL TRANSPORTE DEL TRABAJADOR LE SALDRÁ GRATIS A USTED DENTRO DE LA CIUDAD.
+            ¡No los tires! En limpiarmuebles.pro ofrecemos un servicio profesional de limpieza de muebles a domicilio que les dará una nueva vida.
         </p>
         <div className="flex mt-[60px] items-center justify-center">
             {/* <Button content="калькулятор стоимости" className="border-[#e23936] bg-[#e23936] hover:shadow-[0_10px_15px_rgba(226,57,54,0.22)]" /> */}

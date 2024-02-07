@@ -11,31 +11,31 @@ const options = {
     ],
 
     firstSection: {
-        title: "LIMPIEZA PROFESIONAL DE SOFÁS, SILLAS, COLCHONES, Y ALFOMBRAS EN CASA",
+        title: "Limpieza profesional de muebles a domicilio.",
     },
 
     whatWeCleanSection: {
-        title: "¿QUÉ LIMPIAMOS?",
+        title: "Nuestros servicios:",
         root: "/images/what-we-clean/",
         cards: [
             {
-                title: "Sofá: desde 60 €",
+                title: "Limpieza de sofás desde 60€ por sofá de dos plazas",
                 image: "sofa.jpg"
             }, {
-                title: "Sillas: desde 8€",
+                title: "Limpieza de sillones y sillas desde 10€",
                 image: "mattress.jpg"
             }, {
-                title: "Colchón: desde 25€",
+                title: "Limpieza de colchones desde 25€",
                 image: "carpet.jpg"
             }, {
-                title: "Alfombra: desde 8€/m²",
+                title: "Limpieza de alfombras desde 8€/m²",
                 image: "chair.jpg"
             },
         ]
     },
 
     whyUsSection: {
-        title: "¿Porque nosotros?",
+        title: "¿Porqué elegirnos?",
         root: "/images/why-us/",
         cards: [
             {
@@ -48,7 +48,7 @@ const options = {
                 image: "hand.png",
             }, {
                 title: "CORRECTA ORGANIZACIÓN DEL TRABAJO",
-                text: `Gracias a la moderna organización de nuestro equipo, respondemos rápidamente a todas las solicitudes, no nos olvidamos de nadie y estamos constantemente en contacto con nuestros clientes.`,
+                text: `•	Somos una empresa con experiencia y profesionalidad`,
                 image: "thumb.png",
             },
         ],
