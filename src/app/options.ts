@@ -84,6 +84,26 @@ const options = {
         ]
     },
 
+    whyUsSection: {
+        title: "¿Porque nosotros?",
+        root: "/images/why-us/",
+        cards: [
+            {
+                title: "Tenemos PRECIOS FIJOS",
+                text: `El precio anunciado por nuestros operadores no aumenta. Los maestros no le imponen nada "adicionalmente". El precio incluye todas las etapas necesarias de limpieza de alta calidad.`,
+                image: "money.png",
+            }, {
+                title: "TRABAJAMOS PARA LAS PERSONAS",
+                text: `No prometemos lo imposible. Sialgo no se puede limpiar lo comunicaremos por adelantado. Pero nuestros maestros no se irán hasta que hagan todo lo que está a su alcance.`,
+                image: "hand.png",
+            }, {
+                title: "CORRECTA ORGANIZACIÓN DEL TRABAJO",
+                text: `Gracias a la moderna organización de nuestro equipo, respondemos rápidamente a todas las solicitudes, no nos olvidamos de nadie y estamos constantemente en contacto con nuestros clientes.`,
+                image: "thumb.png",
+            },
+        ],
+    },
+
     faqSection: {
         title: "PREGUNTAS FRECUENTES Y SUS RESPUESTAS",
         questions: [
