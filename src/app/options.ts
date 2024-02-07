@@ -10,6 +10,50 @@ const options = {
         { title: "preguntas", href: "#faq-section" },
     ],
 
+    firstSection: {
+        title: "LIMPIEZA PROFESIONAL DE SOFÁS, SILLAS, COLCHONES, Y ALFOMBRAS EN CASA",
+    },
+
+    whatWeCleanSection: {
+        title: "¿QUÉ LIMPIAMOS?",
+        root: "/images/what-we-clean/",
+        cards: [
+            {
+                title: "Sofá: desde 60 €",
+                image: "sofa.jpg"
+            }, {
+                title: "Sillas: desde 8€",
+                image: "mattress.jpg"
+            }, {
+                title: "Colchón: desde 25€",
+                image: "carpet.jpg"
+            }, {
+                title: "Alfombra: desde 8€/m²",
+                image: "chair.jpg"
+            },
+        ]
+    },
+
+    whyUsSection: {
+        title: "¿Porque nosotros?",
+        root: "/images/why-us/",
+        cards: [
+            {
+                title: "Tenemos PRECIOS FIJOS",
+                text: `El precio anunciado por nuestros operadores no aumenta. Los maestros no le imponen nada "adicionalmente". El precio incluye todas las etapas necesarias de limpieza de alta calidad.`,
+                image: "money.png",
+            }, {
+                title: "TRABAJAMOS PARA LAS PERSONAS",
+                text: `No prometemos lo imposible. Sialgo no se puede limpiar lo comunicaremos por adelantado. Pero nuestros maestros no se irán hasta que hagan todo lo que está a su alcance.`,
+                image: "hand.png",
+            }, {
+                title: "CORRECTA ORGANIZACIÓN DEL TRABAJO",
+                text: `Gracias a la moderna organización de nuestro equipo, respondemos rápidamente a todas las solicitudes, no nos olvidamos de nadie y estamos constantemente en contacto con nuestros clientes.`,
+                image: "thumb.png",
+            },
+        ],
+    },
+
     ourWorksSection: {
         title: "Aquí tenemos ejemplos de nuestro trabajo",
         compareImages: {
@@ -57,50 +101,6 @@ const options = {
                 original: "//www.youtube.com/embed/a2np9IDDTHQ?autoplay=0&loop=1&html5=1",
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             }
-        ],
-    },
-
-    firstSection: {
-        title: "LIMPIEZA PROFESIONAL DE SOFÁS, SILLAS, COLCHONES, Y ALFOMBRAS EN CASA",
-    },
-
-    whatWeCleanSection: {
-        title: "¿QUÉ LIMPIAMOS?",
-        root: "/images/what-we-clean/",
-        cards: [
-            {
-                title: "Sofá: desde 60 €",
-                image: "sofa.jpg"
-            }, {
-                title: "Sillas: desde 8€",
-                image: "mattress.jpg"
-            }, {
-                title: "Colchón: desde 25€",
-                image: "carpet.jpg"
-            }, {
-                title: "Alfombra: desde 8€/m²",
-                image: "chair.jpg"
-            },
-        ]
-    },
-
-    whyUsSection: {
-        title: "¿Porque nosotros?",
-        root: "/images/why-us/",
-        cards: [
-            {
-                title: "Tenemos PRECIOS FIJOS",
-                text: `El precio anunciado por nuestros operadores no aumenta. Los maestros no le imponen nada "adicionalmente". El precio incluye todas las etapas necesarias de limpieza de alta calidad.`,
-                image: "money.png",
-            }, {
-                title: "TRABAJAMOS PARA LAS PERSONAS",
-                text: `No prometemos lo imposible. Sialgo no se puede limpiar lo comunicaremos por adelantado. Pero nuestros maestros no se irán hasta que hagan todo lo que está a su alcance.`,
-                image: "hand.png",
-            }, {
-                title: "CORRECTA ORGANIZACIÓN DEL TRABAJO",
-                text: `Gracias a la moderna organización de nuestro equipo, respondemos rápidamente a todas las solicitudes, no nos olvidamos de nadie y estamos constantemente en contacto con nuestros clientes.`,
-                image: "thumb.png",
-            },
         ],
     },
 
