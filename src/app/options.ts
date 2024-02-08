@@ -15,25 +15,25 @@ const options = {
     },
 
     whyUsSection: {
-        title: "¡Cómo hacer un pedido fácilmente!",
+        title: "15 años de experiencia en limpieza profesional ",
         root: "/images/why-us/",
         cards: [
             {
-                title: "1. Envíanos fotos y tu dirección:",
-                text: `Haz clic en el botón de WhatsApp para enviar fotos de tu sofá/ colchón/ alfombra/ silla/ sillón.
-                IndIndica tu código postal.`,
+                title: "Expertos en limpieza:",
+                text: `
+                Contamos con un equipo de técnicos altamente cualificados y experimentados en la limpieza de todo tipo de muebles, colchones y alfombras.
+                Más de 5000 clientes satisfechos avalan nuestro trabajo.`,
                 image: "money.png",
             }, {
-                title: "2. Cálculo del precio:",
-                text: `Te haremos algunas preguntas para calcular el precio exacto de la limpieza.
-                El precio no cambiará durante el proceso.`,
+                title: "Limpieza segura y eficaz:",
+                text: `
+                Utilizamos equipos profesionales Karcher y productos de limpieza profesionales de fabricación alemana y suiza, hipoalergénicos, inofensivos para personas y animales, con un ligero aroma que desaparece a los 20 minutos.`,
                 image: "hand.png",
             }, {
-                title: "3. Confirmación del pedido:",
-                text: `•	Si te parece bien el precio, acordaremos una fecha y hora convenientes para la limpieza.
-                Confirmaremos tu dirección.`,
+                title: "Limpieza honesta:",
+                text: `No prometemos lo imposible. Si hay manchas o suciedad que no se pueden eliminar, te lo avisaremos con antelación. Nuestros especialistas siempre se esfuerzan al máximo para eliminar las manchas y la suciedad.`,
                 image: "thumb.png",
-            },
+            }, 
         ],
     },
 
@@ -45,13 +45,13 @@ const options = {
                 title: "Limpieza de sofás desde 60€ por sofá de dos plazas",
                 image: "sofa.jpg"
             }, {
-                title: "Limpieza de sillones y sillas desde 10€",
+                title: "Limpieza de colchones desde 25€",
                 image: "mattress.jpg"
             }, {
-                title: "Limpieza de colchones desde 25€",
+                title: "Limpieza de alfombras desde 8€/m²",
                 image: "carpet.jpg"
             }, {
-                title: "Limpieza de alfombras desde 8€/m²",
+                title: "Limpieza de sillones y sillas desde 10€",
                 image: "chair.jpg"
             },
         ]
