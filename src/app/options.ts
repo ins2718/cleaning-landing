@@ -35,20 +35,23 @@ const options = {
     },
 
     whyUsSection: {
-        title: "¿Porqué elegirnos?",
+        title: "¡Cómo hacer un pedido fácilmente!",
         root: "/images/why-us/",
         cards: [
             {
-                title: "Tenemos PRECIOS FIJOS",
-                text: `El precio anunciado por nuestros operadores no aumenta. Los maestros no le imponen nada "adicionalmente". El precio incluye todas las etapas necesarias de limpieza de alta calidad.`,
+                title: "1. Envíanos fotos y tu dirección:",
+                text: `Haz clic en el botón de WhatsApp para enviar fotos de tu sofá/ colchón/ alfombra/ silla/ sillón.
+                IndIndica tu código postal.`,
                 image: "money.png",
             }, {
-                title: "TRABAJAMOS PARA LAS PERSONAS",
-                text: `No prometemos lo imposible. Sialgo no se puede limpiar lo comunicaremos por adelantado. Pero nuestros maestros no se irán hasta que hagan todo lo que está a su alcance.`,
+                title: "2. Cálculo del precio:",
+                text: `Te haremos algunas preguntas para calcular el precio exacto de la limpieza.
+                El precio no cambiará durante el proceso.`,
                 image: "hand.png",
             }, {
-                title: "CORRECTA ORGANIZACIÓN DEL TRABAJO",
-                text: `•	Somos una empresa con experiencia y profesionalidad`,
+                title: "3. Confirmación del pedido:",
+                text: `•	Si te parece bien el precio, acordaremos una fecha y hora convenientes para la limpieza.
+                Confirmaremos tu dirección.`,
                 image: "thumb.png",
             },
         ],
