@@ -14,6 +14,29 @@ const options = {
         title: "Limpieza profesional de muebles a domicilio.",
     },
 
+    whyUsSection: {
+        title: "¡Cómo hacer un pedido fácilmente!",
+        root: "/images/why-us/",
+        cards: [
+            {
+                title: "1. Envíanos fotos y tu dirección:",
+                text: `Haz clic en el botón de WhatsApp para enviar fotos de tu sofá/ colchón/ alfombra/ silla/ sillón.
+                IndIndica tu código postal.`,
+                image: "money.png",
+            }, {
+                title: "2. Cálculo del precio:",
+                text: `Te haremos algunas preguntas para calcular el precio exacto de la limpieza.
+                El precio no cambiará durante el proceso.`,
+                image: "hand.png",
+            }, {
+                title: "3. Confirmación del pedido:",
+                text: `•	Si te parece bien el precio, acordaremos una fecha y hora convenientes para la limpieza.
+                Confirmaremos tu dirección.`,
+                image: "thumb.png",
+            },
+        ],
+    },
+
     whatWeCleanSection: {
         title: "Nuestros servicios:",
         root: "/images/what-we-clean/",
@@ -34,7 +57,7 @@ const options = {
         ]
     },
 
-    whyUsSection: {
+    howToOrderEasySection: {
         title: "¡Cómo hacer un pedido fácilmente!",
         root: "/images/why-us/",
         cards: [
