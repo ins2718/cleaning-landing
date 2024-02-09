@@ -59,7 +59,7 @@ const options = {
 
     howToOrderEasySection: {
         title: "¡Cómo hacer un pedido fácilmente!",
-        root: "/images/why-us/",
+        root: "/images/how-to-order-easy/",
         cards: [
             {
                 title: "1. Envíanos fotos y tu dirección:",
