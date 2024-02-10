@@ -33,7 +33,7 @@ const options = {
                 title: "Limpieza honesta:",
                 text: `No prometemos lo imposible. Si hay manchas o suciedad que no se pueden eliminar, te lo avisaremos con antelación. Nuestros especialistas siempre se esfuerzan al máximo para eliminar las manchas y la suciedad.`,
                 image: "thumb.png",
-            }, 
+            },
         ],
     },
 
@@ -205,6 +205,10 @@ const options = {
             Recomendamos limpiar sus muebles al menos una vez al año.`,
             },
         ],
+    },
+
+    chooseFurnitureSection: {
+        title: "choose your furniture",
     },
 };
 
