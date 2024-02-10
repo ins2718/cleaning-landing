@@ -5,12 +5,11 @@ type SectionProps = PropsWithChildren & {
     footer?: ReactNode;
     decorators?: ReactNode;
     bodyWrapperClassName?: string;
-    id?: string;
 };
 
 
-function Section({ header, footer, decorators, bodyWrapperClassName = "", id, children }: SectionProps) {
-    return <div className="relative mb-0 py-[50px] overflow-x-hidden" id={id}>
+function Section({ header, footer, decorators, bodyWrapperClassName = "", children }: SectionProps) {
+    return <div className="relative mb-0 py-[50px] overflow-x-hidden">
         {decorators}
         <div className="px-[15px] max-w-[1260px] mx-auto my-0">
             <h2 className="mb-[27px] font-[museo] font-bold text-[40px] leading-[46px] text-center text-[#444b54] relative
