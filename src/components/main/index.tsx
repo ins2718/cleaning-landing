@@ -12,6 +12,9 @@ const ChooseFurnitureSection = dynamic(() => import("./choose-furnitute-section"
 function Main() {
     return <main className="">
         <FirstSection />
+        <RenderOnViewportEntry className="min-h-[1183px] lg:min-h-[903px]" id="choose-furniture">
+            <ChooseFurnitureSection />
+        </RenderOnViewportEntry>
         <RenderOnViewportEntry className="min-h-[506px]" id="why-us-section">
             <WhyUsSection />
         </RenderOnViewportEntry>
@@ -29,9 +32,6 @@ function Main() {
         </RenderOnViewportEntry>
         <RenderOnViewportEntry className="min-h-72" id="faq-section">
             <FaqSection />
-        </RenderOnViewportEntry>
-        <RenderOnViewportEntry className="min-h-[1183px] lg:min-h-[903px]" id="choose-furniture">
-            <ChooseFurnitureSection />
         </RenderOnViewportEntry>
     </main>;
 }
