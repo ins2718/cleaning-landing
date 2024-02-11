@@ -9,6 +9,8 @@
   --logo-size: 52px;
   --header-height: 70px;
   --mobile-menu-bg: #f2f2f2;
+  --font-primary: "museo";
+  --font-secondary: "museo500";
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -32,7 +34,7 @@ body {
   src: url("/fonts/exljbris-MuseoCyrl500.woff");
 }
 
-@font-face {
+/* @font-face {
   font-family: "Proxima Nova Rg";
   src: url("/fonts/ProximaNova-Regular.woff2");
 }
@@ -41,6 +43,20 @@ body {
   font-family: "Proxima Nova Lt";
   src: url("/fonts/ProximaNova-Semibold.woff") format("woff");
   font-weight: 600;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'museo700';
+  src: url("/fonts/museo700.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'museo300';
+  src: url("/fonts/museo300.otf");
+  font-weight: 700;
   font-style: normal;
 }
 

@@ -12,7 +12,7 @@ function Footer() {
                     <div className="flex flex-wrap">
                         <ul className="flex flex-row justify-start flex-wrap items-center text-center">
                             {menuItems.map(({ title, href }, i) => <li key={i} className="mb-[22px] list-none w-1/2 sm:w-1/3">
-                                <a href={href} className="relative font-[museo500] text-[15px] text-[#3c3d41] no-underline">{title}</a>
+                                <a href={href} className="relative font-secondary text-[15px] text-[#3c3d41] no-underline">{title}</a>
                             </li>)}
                         </ul>
                     </div>
