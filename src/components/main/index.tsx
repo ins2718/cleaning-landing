@@ -1,6 +1,6 @@
 import FirstSection from "./first-section";
 import dynamic from "next/dynamic";
-const RenderOnViewportEntry = dynamic(() => import("../RenderOnViewportEntry"), { ssr: false });
+const RenderOnViewportEntry = dynamic(() => import("../render-on-viewport-entry"), { ssr: false });
 const WhyUsSection = dynamic(() => import("./why-us-section"), { ssr: false });
 const WhatWeCleanSection = dynamic(() => import("./what-we-clean-section"), { ssr: false });
 const HowToOrderEasySection = dynamic(() => import("./how-to-order-easy-section"), { ssr: false });

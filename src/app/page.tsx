@@ -6,7 +6,7 @@ import store from "../store";
 import Main from "@/components/main";
 import Overlay from "@/components/overlay";
 import dynamic from "next/dynamic";
-const RenderOnViewportEntry = dynamic(() => import("@/components/RenderOnViewportEntry"), { ssr: false });
+const RenderOnViewportEntry = dynamic(() => import("@/components/render-on-viewport-entry"), { ssr: false });
 const Footer = dynamic(() => import("@/components/footer"), { ssr: false });
 
 export default function Home() {
