@@ -8,7 +8,7 @@ function LeftSide() {
             <span className="relative w-max before:content-[''] before:absolute before:left-0 before:bottom-[5px] md:before:bottom-[14px] before:z-[-1] before:h-[9px] md:before:h-[22px] before:w-full before:bg-[#d1e8fa] mx-auto">limpiarmuebles.pro</span>
             {title}
         </h1>
-        <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold">
+        <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left">
             <strong className="font-bold">¿Tus muebles, colchón o alfombra están sucios, huelen mal o simplemente necesitan una limpieza a fondo?</strong>
             <br />
             ¡No los tires! En limpiarmuebles.pro ofrecemos un servicio profesional de limpieza de muebles a domicilio que les dará una nueva vida.
