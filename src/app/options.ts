@@ -209,6 +209,8 @@ const options = {
 
     chooseFurnitureSection: {
         title: "choose your furniture",
+        subtitle: "¿Cuál se parece al tuyo?",
+        // @see "../components/main/choose-furnitute-section/right-side.tsx"
     },
 };
 
