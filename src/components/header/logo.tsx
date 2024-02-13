@@ -1,7 +1,12 @@
+import options from "@/app/options";
+import Image from "../Image";
+import logo from "/public/images/logo.png";
+
 function Logo() {
-    return <div className="">
+    const { logoHeight } = options;
+    return <div>
         <a href="/" >
-            <img className="h-[--logo-size]" src="/images/logo.png" alt="Logo" />
+            <Image height={logoHeight} img={logo} alt="Logo" style={{ height: logoHeight }} />
         </a>
     </div>;
 }

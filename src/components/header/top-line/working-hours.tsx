@@ -1,11 +1,13 @@
+import options from "@/app/options";
 import IconClock from "../../icons/icon-clock";
 import RightSideItemTemplate from "./icon-text-pair-template";
 
 function WorkingHours() {
+    const { workingHours, workingHoursText, logoHeight } = options;
     return <RightSideItemTemplate
-        topText="Horario de trabajo"
-        bottomText="Lun-Dom: 10.00 -22.00"
-        icon={<IconClock className="h-[--logo-size] w-[--logo-size]" />}
+        topText={workingHoursText}
+        bottomText={workingHours}
+        icon={<IconClock height={logoHeight} width={logoHeight} style={{ height: logoHeight, width: logoHeight }} />}
     />;
 }
 

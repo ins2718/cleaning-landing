@@ -5,15 +5,15 @@ import IconWhatsApp from "@/components/icons/icon-whats-app";
 import WhatsAppService from "@/services/whats-app-service";
 
 function WhatsApp() {
-    const { phone } = options;
+    const { logoHeight, whatsAppText, phone } = options;
     const phoneNumber = new PhoneService(phone);
     return <a
         className="text-green-500"
         href={WhatsAppService.getLink()}>
         <RightSideItemTemplate
-            topText="Pedir cotización por WhatsApp"
+            topText={whatsAppText}
             bottomText={phoneNumber.getPrettyPhoneNumber()}
-            icon={<IconWhatsApp className="h-[--logo-size] w-[--logo-size]" />}
+            icon={<IconWhatsApp height={logoHeight} width={logoHeight} style={{ height: logoHeight, width: logoHeight }} />}
         />
     </a>;
 }
