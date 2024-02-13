@@ -1,6 +1,12 @@
 const options = {
+    cloudImages: false,
+    logoHeight: 52,
+
     phone: "+34637247740",
     whatsAppPlaceholder: "Hola, estoy interesado en la limpieza de muebles.",
+    whatsAppText: "Pedir cotización por WhatsApp",
+    workingHoursText: "Horario de trabajo",
+    workingHours: "Lun-Dom: 10.00 -22.00",
 
     menuItems: [
         { title: "INICIO", href: "#first-section" },
