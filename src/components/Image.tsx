@@ -38,26 +38,30 @@ function calcImageProps({ img, src, width, height, dpr = [1, 2, 3] }: ImageProps
     if (cloudImages) {
         let imgName = process.env.NEXT_PUBLIC_CLOUDINARY_PATH + (img ? originalSrc.substring(originalSrc.lastIndexOf("/") + 1) : originalSrc.substring(8));
         let cldImg = cld.image(imgName).quality("auto");
-        if (width || height) {
-            if (width && height) {
-                cldImg.resize(Resize.scale(width, height));
-            } else if (width) {
-                cldImg.resize(Resize.scale().width(width));
-                if (img) {
-                    height = Math.round(+width / img.width / img.height);
+        if (imgName.substring(imgName.lastIndexOf(".")) === ".svg") {
+            srcSet = cldImg.toURL();
+        } else {
+            if (width || height) {
+                if (width && height) {
+                    cldImg.resize(Resize.scale(width, height));
+                } else if (width) {
+                    cldImg.resize(Resize.scale().width(width));
+                    if (img) {
+                        height = Math.round(+width / img.width / img.height);
+                    }
+                } else if (height) {
+                    cldImg.resize(Resize.scale().height(height));
+                    if (img) {
+                        width = Math.round(+height * img.width / img.height);
+                    }
                 }
-            } else if (height) {
-                cldImg.resize(Resize.scale().height(height));
-                if (img) {
-                    width = Math.round(+height * img.width / img.height);
-                }
+            } else if (img) {
+                width = img!.width;
+                height = img!.height;
             }
-        } else if (img) {
-            width = img!.width;
-            height = img!.height;
+            const url = cldImg.addTransformation("dpr_1").toURL();
+            srcSet = dpr.map(dpr => url.replace("dpr_1", `dpr_${dpr}`) + ` ${dpr}x`).join(",");
         }
-        const url = cldImg.addTransformation("dpr_1").toURL();
-        srcSet = dpr.map(dpr => url.replace("dpr_1", `dpr_${dpr}`) + ` ${dpr}x`).join(",");
     }
     return { originalSrc, width, height, srcSet };
 }

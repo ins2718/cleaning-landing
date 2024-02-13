@@ -1,3 +1,4 @@
+import Image from "@/components/Image";
 import { useState } from "react";
 
 type QuestionAnswerProps = {
@@ -50,7 +51,7 @@ function QuestionAnswer({ question, answer, answerInHtml = false }: QuestionAnsw
         <div onClick={() => setIsOpen(!isOpen)} className="font-semibold text-[15px] leading-[20px] text-black flex items-center min-h-[50px] cursor-pointer">
             <div className="absolute size-[24px] left-[15px] top-[12px] bg-[#1b88d8] font-bold text-[13px] leading-[20px] text-white flex justify-center items-center rounded-[50%]">?</div>
             <div className={`absolute size-[10px] right-[15px] top-[15px] duration-500 transition-transform ${currentClasses.arrow}`}>
-                <img src="/images/faq/arrow-down.svg" alt="arrow down" className="w-full h-auto" />
+                <Image src="/images/faq/arrow-down.svg" alt="arrow down" className="w-full h-auto" />
             </div>
             <p>{question}</p>
         </div>

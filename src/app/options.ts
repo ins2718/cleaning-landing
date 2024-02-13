@@ -1,5 +1,5 @@
 const options = {
-    cloudImages: false || process.env.NODE_ENV === "production",
+    cloudImages: true || process.env.NODE_ENV === "production",
     logoHeight: 52,
 
     phone: "+34637247740",

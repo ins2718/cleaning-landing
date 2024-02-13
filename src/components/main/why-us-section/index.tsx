@@ -3,11 +3,12 @@ import ItemCard from "./item-card";
 import ButtonOrder from "@/components/buttons/button-order";
 import ButtonWhatsApp from "@/components/buttons/button-whats-app";
 import Section from "@/components/section";
+import Image from "@/components/Image";
 
 function WhyUsSection() {
     const { title, root, cards } = options.whyUsSection;
     return <Section
-        decorators={<img className="absolute left-0 top-[150px]" src="/images/why-us/page-decoration-leaf.svg" alt="page decoration leaf" />}
+        decorators={<Image className="absolute left-0 top-[150px]" src="/images/why-us/page-decoration-leaf.svg" alt="page decoration leaf" />}
         header={title}
         footer={<>
             <ButtonOrder />

@@ -18,7 +18,7 @@ function getAllImages(path: string): string[] {
         if (fs.lstatSync(fullName).isDirectory()) {
             ret.push(...getAllImages(fullName));
         } else {
-            if ([".png", ".jpg"].includes(fullName.substring(fullName.length - 4))) {
+            if ([".png", ".jpg", ".svg"].includes(fullName.substring(fullName.length - 4))) {
                 ret.push(fullName);
             }
         }
@@ -50,9 +50,13 @@ async function main() {
     // console.log(addArray, deleteArray)
     console.log("upload files:", addArray);
     addArray.forEach(async fileName => {
-        await cloudinary.v2.uploader.upload(localFilesNames[fileName], {
-            public_id: prefix + fileName.substring(0, fileName.lastIndexOf("."))
-        });
+        try {
+            await cloudinary.v2.uploader.upload(localFilesNames[fileName], {
+                public_id: prefix + fileName.substring(0, fileName.lastIndexOf("."))
+            });
+        } catch (e) {
+            console.log(fileName, e);
+        }
     });
     deleteArray.forEach(async fileName => {
         await cloudinary.v2.uploader.destroy(prefix + fileName.substring(0, fileName.lastIndexOf(".")));
