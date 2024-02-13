@@ -1,5 +1,5 @@
 const options = {
-    cloudImages: false,
+    cloudImages: true,
     logoHeight: 52,
 
     phone: "+34637247740",
@@ -35,7 +35,7 @@ const options = {
                 text: `
                 Contamos con un equipo de técnicos altamente cualificados y experimentados en la limpieza de todo tipo de muebles, colchones y alfombras.
                 Más de 5000 clientes satisfechos avalan nuestro trabajo.`,
-                image: "money.png",
+                image: "three-people.png",
             }, {
                 title: "Limpieza segura y eficaz:",
                 text: `
@@ -44,7 +44,7 @@ const options = {
             }, {
                 title: "Limpieza honesta:",
                 text: `No prometemos lo imposible. Si hay manchas o suciedad que no se pueden eliminar, te lo avisaremos con antelación. Nuestros especialistas siempre se esfuerzan al máximo para eliminar las manchas y la suciedad.`,
-                image: "thumb.png",
+                image: "handshake.png",
             },
         ],
     },
@@ -77,17 +77,17 @@ const options = {
                 title: "1. Envíanos fotos y tu dirección:",
                 text: `Haz clic en el botón de WhatsApp para enviar fotos de tu sofá/ colchón/ alfombra/ silla/ sillón.
                 IndIndica tu código postal.`,
-                image: "money.png",
+                image: "whats-app.png",
             }, {
                 title: "2. Cálculo del precio:",
                 text: `Te haremos algunas preguntas para calcular el precio exacto de la limpieza.
                 El precio no cambiará durante el proceso.`,
-                image: "hand.png",
+                image: "calculator.png",
             }, {
                 title: "3. Confirmación del pedido:",
                 text: `•	Si te parece bien el precio, acordaremos una fecha y hora convenientes para la limpieza.
                 Confirmaremos tu dirección.`,
-                image: "thumb.png",
+                image: "checked.png",
             },
         ],
     },

@@ -26,10 +26,14 @@ function Image({ img, alt, src, width, height, dpr = [1, 2, 3], ...props }: Imag
                 cldImg.resize(Resize.scale(width, height));
             } else if (width) {
                 cldImg.resize(Resize.scale().width(width));
-                height = Math.round(+width / img!.width / img!.height);
+                if (img) {
+                    height = Math.round(+width / img.width / img.height);
+                }
             } else if (height) {
                 cldImg.resize(Resize.scale().height(height));
-                width = Math.round(+height * img!.width / img!.height);
+                if (img) {
+                    width = Math.round(+height * img.width / img.height);
+                }
             }
         } else if (img) {
             width = img!.width;
