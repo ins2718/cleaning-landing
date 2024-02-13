@@ -15,11 +15,11 @@ function Arrow({ onClick, className = "", children }: ArrowProps) {
 }
 
 function NextArrow({ onClick }: PropsWithOnClick) {
-    return <Arrow className="before:bg-[url(/images/sl-r.svg)] right-[-37px]" onClick={onClick}>Next</Arrow>;
+    return <Arrow className="before:bg-[url(/images/our-works/sl-r.svg)] right-[-37px]" onClick={onClick}>Next</Arrow>;
 }
 
 function PrevArrow({ onClick }: PropsWithOnClick) {
-    return <Arrow className="before:bg-[url(/images/sl-l.svg)] left-[-37px]" onClick={onClick}>Previous</Arrow>;
+    return <Arrow className="before:bg-[url(/images/our-works/sl-l.svg)] left-[-37px]" onClick={onClick}>Previous</Arrow>;
 }
 
 function CompareImagesSlider() {

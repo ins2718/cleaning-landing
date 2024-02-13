@@ -8,17 +8,34 @@ type ImageProps = React.ImgHTMLAttributes<HTMLImageElement> & {
     dpr?: number[] | number;
 }
 
-function Image({ img, alt, src, width, height, dpr = [1, 2, 3], ...props }: ImageProps) {
+type ImageSize = {
+    width?: number;
+    height?: number;
+}
+
+const { cloudImages } = options;
+
+function calcImageOptimizedSrc(src: string, { width, height }: ImageSize = {}) {
+    if (!cloudImages) {
+        return src;
+    }
+    let cldImg = cld.image(process.env.NEXT_PUBLIC_CLOUDINARY_PATH + src.substring(8)).quality("auto");
+    if (width || height) {
+        cldImg.resize(Resize.scale(width, height));
+    }
+    return cldImg.toURL();
+}
+
+function calcImageProps({ img, src, width, height, dpr = [1, 2, 3] }: ImageProps) {
     if (!img && !src) {
         throw "Your must set img or src prop!";
     }
     if (!Array.isArray(dpr)) {
         dpr = [dpr];
     }
-    const { cloudImages } = options;
     let srcSet;
     const originalSrc = (img ? img.src : src) as string;
-    if (cloudImages || process.env.NODE_ENV === "production") {
+    if (cloudImages) {
         let imgName = process.env.NEXT_PUBLIC_CLOUDINARY_PATH + (img ? originalSrc.substring(originalSrc.lastIndexOf("/") + 1) : originalSrc.substring(8));
         let cldImg = cld.image(imgName).quality("auto");
         if (width || height) {
@@ -42,7 +59,13 @@ function Image({ img, alt, src, width, height, dpr = [1, 2, 3], ...props }: Imag
         const url = cldImg.addTransformation("dpr_1").toURL();
         srcSet = dpr.map(dpr => url.replace("dpr_1", `dpr_${dpr}`) + ` ${dpr}x`).join(",");
     }
-    return <img src={originalSrc} srcSet={srcSet} width={width} height={height} alt={alt} {...props} />;
+    return { originalSrc, width, height, srcSet };
+}
+
+function Image({ img, alt, src, width, height, dpr = [1, 2, 3], ...props }: ImageProps) {
+    const { originalSrc, srcSet, width: newWidth, height: newHeight } = calcImageProps({ img, src, width, height, dpr });
+    return <img src={originalSrc} srcSet={srcSet} width={newWidth} height={newHeight} alt={alt} {...props} />;
 }
 
 export default Image;
+export { calcImageProps, calcImageOptimizedSrc };

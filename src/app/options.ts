@@ -1,5 +1,5 @@
 const options = {
-    cloudImages: true,
+    cloudImages: false || process.env.NODE_ENV === "production",
     logoHeight: 52,
 
     phone: "+34637247740",
@@ -95,7 +95,7 @@ const options = {
     ourWorksSection: {
         title: "Aquí tenemos ejemplos de nuestro trabajo",
         compareImages: {
-            root: '/images/compare/',
+            root: '/images/our-works/compare/',
             images: [
                 {
                     path: 'mattress/',

@@ -1,6 +1,6 @@
 import Image from "@/components/Image";
-import chairImage from "/public/images/chair.png";
-import treeImage from "/public/images/tree-pot.png";
+import chairImage from "/public/images/first/chair.png";
+import treeImage from "/public/images/first/tree-pot.png";
 
 function RightSide() {
     return <div className="w-[calc(100%-830px)] relative h-[570px] hidden min-[1170px]:block">

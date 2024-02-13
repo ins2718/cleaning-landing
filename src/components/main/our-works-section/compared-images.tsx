@@ -1,3 +1,4 @@
+import { calcImageProps } from "@/components/Image";
 import { ReactCompareSlider, ReactCompareSliderImage } from "react-compare-slider";
 
 type ComparedImagesProps = {
@@ -9,9 +10,11 @@ type ComparedImagesProps = {
 };
 
 function ComparedImages({ className = "", firstImage, secondImage, firstAltText = "", secondAltText = "" }: ComparedImagesProps) {
+    const { originalSrc: firstImageSrc, srcSet: firstImageSrcSet } = calcImageProps({ src: firstImage });
+    const { originalSrc: secondImageSrc, srcSet: secondImageSrcSet } = calcImageProps({ src: secondImage });
     return <ReactCompareSlider className={className}
-        itemOne={<ReactCompareSliderImage src={firstImage} alt={firstAltText} />}
-        itemTwo={<ReactCompareSliderImage src={secondImage} alt={secondAltText} />}
+        itemOne={<ReactCompareSliderImage src={firstImageSrc} srcSet={firstImageSrcSet} alt={firstAltText} />}
+        itemTwo={<ReactCompareSliderImage src={secondImageSrc} srcSet={secondImageSrcSet} alt={secondAltText} />}
     />;
 }
 

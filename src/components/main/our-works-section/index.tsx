@@ -7,7 +7,7 @@ import Section from "@/components/section";
 function OurWorksSection() {
     const { title } = options.ourWorksSection;
     return <Section
-        decorators={<img className="absolute right-0 bottom-[150px]" src="/images/l4.svg" alt="decor leaf 4" />}
+        decorators={<img className="absolute right-0 bottom-[150px]" src="/images/our-works/page-decoration-leaf.svg" alt="page decoration leaf" />}
         header={title}
         footer={<>
             <ButtonOrder />

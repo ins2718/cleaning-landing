@@ -7,7 +7,7 @@ import Section from "@/components/section";
 function WhyUsSection() {
     const { title, root, cards } = options.whyUsSection;
     return <Section
-        decorators={<img className="absolute left-0 top-[150px]" src="/images/l3.svg" alt="decor leaf" />}
+        decorators={<img className="absolute left-0 top-[150px]" src="/images/why-us/page-decoration-leaf.svg" alt="page decoration leaf" />}
         header={title}
         footer={<>
             <ButtonOrder />
