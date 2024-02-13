@@ -20,6 +20,12 @@ const options = {
         title: "Limpieza profesional de muebles a domicilio.",
     },
 
+    chooseFurnitureSection: {
+        title: "choose your furniture",
+        subtitle: "¿Cuál se parece al tuyo?",
+        // @see "../components/main/choose-furnitute-section/right-side.tsx"
+    },
+
     whyUsSection: {
         title: "15 años de experiencia en limpieza profesional ",
         root: "/images/why-us/",
@@ -211,12 +217,6 @@ const options = {
             Recomendamos limpiar sus muebles al menos una vez al año.`,
             },
         ],
-    },
-
-    chooseFurnitureSection: {
-        title: "choose your furniture",
-        subtitle: "¿Cuál se parece al tuyo?",
-        // @see "../components/main/choose-furnitute-section/right-side.tsx"
     },
 };
 
