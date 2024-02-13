@@ -23,6 +23,9 @@ function Image({ img, alt, src, width, height, ...props }: ImageProps) {
                 cldImg.resize(Resize.scale().height(height));
                 width = Math.round(+height * img.width / img.height);
             }
+        } else {
+            width = img.width;
+            height = img.height;
         }
         const url = cldImg.addTransformation("dpr_1").toURL();
         srcSet = [url + " 1x", url.replace("dpr_1", "dpr_2") + " 2x", url.replace("dpr_1", "dpr_3") + " 3x"].join(",");
