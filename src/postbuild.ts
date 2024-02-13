@@ -26,22 +26,31 @@ function getAllImages(path: string): string[] {
     return ret;
 }
 
+function getAllImagesObject(baseDir: string) {
+    const localFiles = getAllImages(baseDir);
+    const localFilesNames = Object.fromEntries(localFiles.map(fileName => [fileName.substring(baseDir.length + 1), fileName]));
+    return localFilesNames;
+}
+
 async function main() {
     if (!prefix) {
         return;
     }
-    const localFiles = getAllImages("out/_next/static/media");
+    const localFilesNames = ["public/images", "out/_next/static/media"].reduce<{ [key: string]: string }>((result, fileName) => ({ ...result, ...getAllImagesObject(fileName) }), {});
     const serverFiles = await cloudinary.v2.api.resources({
         type: "upload",
         prefix: prefix,
+        max_results: 500,
     });
-    const localFilesNames = localFiles.map(fileName => fileName.substring(fileName.lastIndexOf("/") + 1));
-    const serverFilesNames: string[] = serverFiles.resources.map((f: any) => (`${f.public_id}.${f.format}`).substring(prefix.length));
-    const deleteArray = serverFilesNames.filter(fileName => !localFilesNames.includes(fileName));
-    const addArray = localFilesNames.filter(fileName => !serverFilesNames.includes(fileName));
+    // console.log(serverFiles);
+    const serverFilesNames = Object.fromEntries(serverFiles.resources.map((f: any) => [(`${f.public_id}.${f.format}`).substring(prefix.length), `${f.public_id}.${f.format}`]));
+    // console.log(Object.keys(localFilesNames), Object.keys(serverFilesNames))
+    const deleteArray = Object.keys(serverFilesNames).filter(fileName => !Object.keys(localFilesNames).includes(fileName));
+    const addArray = Object.keys(localFilesNames).filter(fileName => !Object.keys(serverFilesNames).includes(fileName));
+    // console.log(addArray, deleteArray)
     console.log("upload files:", addArray);
     addArray.forEach(async fileName => {
-        await cloudinary.v2.uploader.upload("out/_next/static/media/" + fileName, {
+        await cloudinary.v2.uploader.upload(localFilesNames[fileName], {
             public_id: prefix + fileName.substring(0, fileName.lastIndexOf("."))
         });
     });
