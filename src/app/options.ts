@@ -1,5 +1,5 @@
 const options = {
-    cloudImages: true || process.env.NODE_ENV === "production",
+    cloudImages: false || process.env.NODE_ENV === "production",
     logoHeight: 52,
 
     title: "Create Next App",
