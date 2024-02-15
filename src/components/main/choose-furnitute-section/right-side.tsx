@@ -1,5 +1,5 @@
 function RightSide() {
-    return <>
+    return <div className="max-w-[480px] min-w-[50vw] mx-auto px-[10px] font-bold text-[24px] leading-[32px] min-[1024px]:text-[32px] min-[1024px]:leading-[40px] pt-[10px] min-[1024px]:pt-0 flex justify-center flex-col">
         <p className="whitespace-normal">
             Para calcular el costo de la<br />
             limpieza de tu sofá,<br />
@@ -10,7 +10,7 @@ function RightSide() {
             <li>Número de sofá o foto de tu sofá</li>
             <li>Tu código postal</li>
         </ol>
-    </>;
+    </div>;
 }
 
 

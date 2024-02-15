@@ -10,10 +10,8 @@ function ChooseFurnitureSection() {
     return <Section header={title} footer={<ButtonWhatsApp />}>
         <h2 className="text-inherit leading-[40px] text-[32px] mb-[13px] font-bold text-left min-[480px]:text-center font-primary">{subtitle}</h2>
         <div className="flex flex-wrap lg:flex-nowrap">
-            <Image className="max-w-[480px] mx-auto w-full" width={480} img={allFurnitureImage} alt="all-furniture" />
-            <div className="max-w-[480px] mx-auto px-[10px] font-bold text-[24px] leading-[32px] min-[480px]:text-[32px] min-[480px]:leading-[40px] flex justify-center flex-col">
-                <RightSide />
-            </div>
+            <Image className="max-w-[480px] min-w-[50vw] mx-auto w-full" width={480} img={allFurnitureImage} alt="all-furniture" />
+            <RightSide />
         </div>
     </Section>;
 }
