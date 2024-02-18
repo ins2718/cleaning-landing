@@ -9,7 +9,7 @@ function LeftSide() {
             {title}
         </h1>
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
-            <strong className="font-bold">¿Tus muebles, colchón o alfombra están sucios, huelen mal o simplemente necesitan una limpieza a fondo?</strong>
+            <strong className="">¿Tus muebles, colchón o alfombra están sucios, huelen mal o simplemente necesitan una limpieza a fondo?</strong>
             <br />
             ¡No los tires! En limpiarmuebles.pro ofrecemos un servicio profesional de limpieza de muebles a domicilio que les dará una nueva vida.
         </p>
