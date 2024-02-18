@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        "primary": ["museo700"],
-        "secondary": ["museo300"],
+        "primary": ["bebas-neue"],
+        "secondary": ["bebas-neue"],
         "button": ["Proxima_Nova_Lt"]
       },
       animation: {
