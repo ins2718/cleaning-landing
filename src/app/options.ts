@@ -221,6 +221,14 @@ const options = {
             },
         ],
     },
+
+    orderFormDialog: {
+        title: "Ordenar limpieza",
+        subTitle: "Rellene el formulario para solicitar una llamada gratuita. Nuestro especialista se pondrá en contacto con usted en un periodo de 5 minutos",
+        phonePlaceholder: "Número de telf",
+        namePlaceholder: "Nombre",
+        // @see "../components/overlay/order-form-dialog/agree-checkbox.tsx"
+    },
 };
 
 export default options;

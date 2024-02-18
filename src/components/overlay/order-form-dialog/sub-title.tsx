@@ -1,5 +1,8 @@
+import options from "@/app/options";
+
 function SubTitle() {
-    return <div className="mb-[24px] text-[16px] text-black text-left leading-[1.85]">Rellene el formulario para solicitar una llamada gratuita. Nuestro especialista se pondrá en contacto con usted en un periodo de 5 minutos</div>;
+    const { subTitle } = options.orderFormDialog;
+    return <div className="mb-[24px] text-[16px] text-black text-left leading-[1.85]">{subTitle}</div>;
 }
 
 export default SubTitle;
