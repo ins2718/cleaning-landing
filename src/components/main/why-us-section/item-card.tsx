@@ -12,8 +12,8 @@ function ItemCard({ imageUrl, title, text }: ItemCardProps) {
             <div className="mb-[18px] h-[82px] flex justify-center items-end">
                 <Image src={imageUrl} alt={title} height={82} className="h-[82px]" />
             </div>
-            <div className="leading-[1.3] mb-[11px] font-bold text-[17px] text-center text-[#3c3d41] h-[2.5em] flex items-center">{title}</div>
-            <div className="text-[#3c3d41] text-[13px] leading-[1.7] text-left">{text}</div>
+            <div className="leading-[1.3] mb-[11px] font-bold text-[20px] text-center text-[#3c3d41] h-[2.5em] flex items-center">{title}</div>
+            <div className="text-[#3c3d41] text-[15px] leading-[1.7] text-left">{text}</div>
         </div>
     </div>;
 }
