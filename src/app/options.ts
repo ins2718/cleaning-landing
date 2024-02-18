@@ -24,7 +24,7 @@ const options = {
     },
 
     chooseFurnitureSection: {
-        title: "choose your furniture",
+        title: "Calcula el precio de la limpieza de tu sofá en minutos",
         subtitle: "¿Cuál se parece al tuyo?",
         // @see "../components/main/choose-furnitute-section/right-side.tsx"
     },
