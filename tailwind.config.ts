@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         "primary": ["bebas-neue"],
-        "secondary": ["bebas-neue"],
+        "secondary": ["museo300"],
         "button": ["Proxima_Nova_Lt"]
       },
       animation: {
