@@ -1,12 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit";
 import headerReducer from "./reducers/header-reducer";
-import infoReducer from "./reducers/info-reducer";
+import api from "./app/api/index";
 
 const store = configureStore({
     reducer: {
-        info: infoReducer,
         header: headerReducer,
+        [api.reducerPath]: api.reducer,
     },
+    middleware: getDefaultMiddleware => getDefaultMiddleware().concat(api.middleware),
 });
 
 export default store;
