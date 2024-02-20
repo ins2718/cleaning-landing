@@ -224,9 +224,13 @@ const options = {
 
     orderFormDialog: {
         title: "Ordenar limpieza",
+        sendedOrderTitle: "Спасибо, что оформили заказ!",
         subTitle: "No dudes en contactarnos. Rellena el formulario y nuestro especialista se pondrá en contacto contigo a través de WhatsApp en breve para responder a tus preguntas.¡Esperamos tu consulta!",
+        sendedOrderSubTitle: "Мы получили ваш заказ и наши операторы свяжутся с вами в самое ближайшее время! Спасибо за внимание и всего хорошего!",
         phonePlaceholder: "Número de telf",
         namePlaceholder: "Nombre",
+        buttonText: "Ordenar limpieza",
+        sendedOrderButtonText: "Изменить данные",
         // @see "../components/overlay/order-form-dialog/agree-checkbox.tsx"
     },
 };
