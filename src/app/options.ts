@@ -229,6 +229,7 @@ const options = {
         sendedOrderSubTitle: "Мы получили ваш заказ и наши операторы свяжутся с вами в самое ближайшее время! Спасибо за внимание и всего хорошего!",
         phonePlaceholder: "Número de telf",
         namePlaceholder: "Nombre",
+        zipPlaceholder: "Zip",
         buttonText: "Ordenar limpieza",
         sendedOrderButtonText: "Изменить данные",
         // @see "../components/overlay/order-form-dialog/agree-checkbox.tsx"

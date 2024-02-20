@@ -11,6 +11,8 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import schema from "./schema";
 import { useSendOrderFormMutation } from "@/app/api/order-form";
 import options from "@/app/options";
+import ZipField from "./zip-field";
+import CitiesService from "@/services/cities-service";
 
 function Form() {
     const dispatch = useAppDispatch();
@@ -20,15 +22,20 @@ function Form() {
         handleSubmit,
         control,
         formState: { errors },
+        watch,
     } = useForm({
         resolver: zodResolver(schema),
     });
+    const watchZip = watch("zip");
     const [sendForm, { isLoading, data: response, reset }] = useSendOrderFormMutation();
     const formSended = isLoading || response?.status === "ok";
     const updateData = (data: SendOrderForm): SendOrderForm => {
         const fbclid = (new URLSearchParams(window.location.search)).get("fbclid");
         if (fbclid) {
             data.fbclid = fbclid;
+        }
+        if (data.zip) {
+            data.city = CitiesService.getCityByZip(data.zip).toLowerCase();
         }
         return data;
     };
@@ -49,6 +56,7 @@ after:bg-[#91a5be] after:content-[''] after:-rotate-45 after:left-0 after:h-[2px
                 <SubTitle text={formSended ? sendedOrderSubTitle : subTitle} />
                 <NameField disabled={formSended} register={register} errorText={errors.name?.message?.toString()} />
                 <PhoneField disabled={formSended} control={control} errorText={errors.phone?.message?.toString()} />
+                <ZipField disabled={formSended} register={register} errorText={errors.zip?.message?.toString()} value={watchZip} />
                 <AgreeCheckbox disabled={formSended} register={register} errorText={errors.agree?.message?.toString()} />
             </div>
             <SendButton onClick={onClick} text={formSended ? sendedOrderButtonText : buttonText} disabled={isLoading} />

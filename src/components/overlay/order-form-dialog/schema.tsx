@@ -7,6 +7,7 @@ const schema = z.object({
         console.log(`checking ${phone}`)
         return isValidPhoneNumber(phone);
     }),
+    zip: z.string().trim().length(5).regex(/^(0[1-9]|[1-4]\d|5[0-2])\d{3}$/).optional().or(z.literal("")),
     agree: z.literal(true)
 });
 
