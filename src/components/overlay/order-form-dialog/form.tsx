@@ -33,7 +33,7 @@ function Form() {
         return data;
     };
     const { sendedOrderButtonText, buttonText, title, sendedOrderTitle, subTitle, sendedOrderSubTitle } = options.orderFormDialog;
-    const onClick = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+    const onClick = (event: React.MouseEvent<HTMLElement, MouseEvent>) => {
         if (formSended) {
             event.preventDefault();
             reset();

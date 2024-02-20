@@ -5,7 +5,7 @@ interface ItemsWrapperProps {
 }
 
 type PropsWithOnClick = {
-    onClick?: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+    onClick?: (event: React.MouseEvent<HTMLElement, MouseEvent>) => void;
     disabled?: boolean;
     text?: string;
 }
