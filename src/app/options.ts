@@ -12,11 +12,11 @@ const options = {
     workingHours: "Lun-Dom: 10.00 -22.00",
 
     menuItems: [
-        { title: "INICIO", href: "#first-section" },
-        { title: "¿QUÉ LIMPIAMOS?", href: "#what-we-clean-section" },
-        { title: "SOBRE NOSOTROS", href: "#why-us-section" },
-        { title: "ejemplos", href: "#our-works-section" },
-        { title: "preguntas", href: "#faq-section" },
+        { title: "Inicio", href: "#first-section" },
+        { title: "Servicios", href: "#what-we-clean-section" },
+        { title: "Sobre nosotros", href: "#why-us-section" },
+        { title: "Ejemplos de trabajos", href: "#our-works-section" },
+        { title: "Preguntas frecuentes", href: "#faq-section" },
     ],
 
     firstSection: {
@@ -78,7 +78,7 @@ const options = {
         cards: [
             {
                 title: "1. Envíanos fotos y tu dirección:",
-                text: `Haz clic en el botón de WhatsApp para enviar fotos de tu sofá/ colchón/ alfombra/ silla/ sillón.
+                text: `Haz clic en el botón de WhatsApp para enviar fotos de tu sofá, colchón, alfombra, silla, sillón.
                 IndIndica tu código postal.`,
                 image: "whats-app.png",
             }, {
@@ -88,7 +88,7 @@ const options = {
                 image: "calculator.png",
             }, {
                 title: "3. Confirmación del pedido:",
-                text: `•	Si te parece bien el precio, acordaremos una fecha y hora convenientes para la limpieza.
+                text: `	Si te parece bien el precio, acordaremos una fecha y hora convenientes para la limpieza.
                 Confirmaremos tu dirección.`,
                 image: "checked.png",
             },
