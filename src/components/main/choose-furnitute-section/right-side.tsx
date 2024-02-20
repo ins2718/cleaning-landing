@@ -7,7 +7,7 @@ function RightSide() {
             con el siguiente texto:
         </p>
         <ol className="list-decimal list-inside">
-            <li>Número de sofá o foto de tu sofá</li>
+            <li>Número de sofá o foto de tu sofá. (Si necesitas limpiar algo más que sofás, háznoslo saber en el mensaje.)</li>
             <li>Tu código postal</li>
         </ol>
     </div>;
