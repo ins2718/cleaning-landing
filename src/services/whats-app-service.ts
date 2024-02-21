@@ -4,6 +4,8 @@ import PhoneService from "./phone-service";
 export default class WhatsAppService {
     static getLink = () => {
         const { phone, whatsAppPlaceholder } = options;
-        return `https://wa.me/${new PhoneService(phone).getPhoneNumberWithoutPlus()}?text=${encodeURIComponent(whatsAppPlaceholder)}`;
+        const url = `https://wa.me/${new PhoneService(phone).getPhoneNumberWithoutPlus()}?text=${encodeURIComponent(whatsAppPlaceholder)}`;
+        const fbclid = (new URLSearchParams(window.location.search)).get("fbclid") ?? "";
+        return `//pro-chistka-mebeli.ru/landing-redirect.php?url=${encodeURIComponent(url)}&fbclid=${fbclid}`;
     }
 }
