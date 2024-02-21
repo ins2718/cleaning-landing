@@ -12,7 +12,9 @@ type ComparedImagesProps = {
 function ComparedImages({ className = "", firstImage, secondImage, firstAltText = "", secondAltText = "" }: ComparedImagesProps) {
     const { originalSrc: firstImageSrc, srcSet: firstImageSrcSet } = calcImageProps({ src: firstImage });
     const { originalSrc: secondImageSrc, srcSet: secondImageSrcSet } = calcImageProps({ src: secondImage });
-    return <ReactCompareSlider className={className}
+    const isTouchDevice = window.matchMedia('(pointer: coarse)').matches;
+    return <ReactCompareSlider className={className} onlyHandleDraggable={isTouchDevice}
+        onPointerMove={(e) => { isTouchDevice && e.pointerType === "touch" && window.scrollBy({ top: e.movementY }); }}
         itemOne={<ReactCompareSliderImage src={firstImageSrc} srcSet={firstImageSrcSet} alt={firstAltText} />}
         itemTwo={<ReactCompareSliderImage src={secondImageSrc} srcSet={secondImageSrcSet} alt={secondAltText} />}
     />;
