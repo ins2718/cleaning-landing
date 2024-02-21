@@ -4,10 +4,10 @@ import Testimonial from "./testimonial";
 import Slider from "react-slick";
 import { NextArrow, PrevArrow } from "@/components/slider";
 
-function FaqSection() {
+function TestimonialsSection() {
     const { title, subTitle, testimonials, imagesPath } = options.testimonialsSection;
     return <Section header={title}>
-        <h3 className="text-inherit leading-[40px] text-[32px] mb-[13px] font-bold text-left min-[480px]:text-center font-primary">{subTitle}</h3>
+        <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary mb-[13px] min-[480px]:text-center">{subTitle}</p>
         <h4 className="text-yellow-500 leading-[70px] text-[64px] text-center">&#9733;&#9733;&#9733;&#9733;&#9733;</h4>
         <Slider nextArrow={<NextArrow />} prevArrow={<PrevArrow />}>
             {testimonials.map((testimonial, idx) => <Testimonial
@@ -20,4 +20,4 @@ function FaqSection() {
     </Section>
 }
 
-export default FaqSection;
+export default TestimonialsSection;
