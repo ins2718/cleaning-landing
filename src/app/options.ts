@@ -222,6 +222,79 @@ const options = {
         ],
     },
 
+    testimonialsSection: {
+        title: "Comentarios de nuestros clientes",
+        subTitle: "Durante 15 años de trabajo exitoso, hemos logrado ganar credibilidad entre los clientes. La mayoría de nuestros clientes, tras el primer contacto con la empresa, colaboran con nosotros de forma continua.",
+        imagesPath: '/images/testimonials/',
+        testimonials: [
+            {
+                name: "Adriana González",
+                text: "Gracias por el excelente y buen coordinado trabajo. Fue muy cómodo comunicarse con el operador: me explicó todo de manera clara y sencilla, sin apresurarse con la tecnología y, al mismo tiempo, sin retrasar el proceso. El precio fue muy razonable en mi opinión. El de otras empresas es mucho más alto. Gracias por la calidad y por ser como sois. Definitivamente os recomendaré a mis amigos y familiares.",
+                image: "adriana-gonzalez.png"
+            },
+            {
+                name: "Alba Lago",
+                text: "Gracias, estamos muy contentos con el resultado. ¡Ahora todos las sillas y el sofá se ven preciosos! Están limpios y da placer sentarse en ellos.",
+                image: "alba-lago.png"
+            },
+            {
+                name: "Ana Navarro Ramos",
+                text: "¡El resultado superó todas las expectativas! Los chicos llegaron puntualmente. ¡Todo fue rápido, de buena fe y excelente! Lo recomiendo. No se apresure a tirar los sofás viejos, ¡confíelos a los profesionales! :)",
+                image: "ana-navarro-ramos.jpg"
+            },
+            {
+                name: "Christian Gálvez",
+                text: "¡¡Estoy muy agradecida con los chicos por el trabajo!! ¡Todo fue rápido, claro y profesional! Gracias a Manuel, por responder, venir y transformar mi sofá favorito. ¡El resultado es una maravilla! La diferencia entre el antes y el después es muy obvia. ¡Éxitos y prosperidad para vuestra empresa!",
+                image: "christian-galvez.png"
+            },
+            {
+                name: "Diana Martínez",
+                text: "Pedimos la limpieza del sofá, sinceramente, no creíamos mucho en el resultado ¡Pero superaron todas las expectativas! ¡Estamos muy satisfechos! Queríamos tirar el sofá, ¡pero quedó como nuevo! ¡Muchas gracias, sois unos auténticos profesionales!",
+                image: "diana-martinez.jpg"
+            },
+            {
+                name: "Paz Juárez Olmos",
+                text: "¡Gracias por la gran limpieza del sofá! Estamos muy contentos con el resultado. ¡Les recomendaremos a nuestros amigos y familiares!",
+                image: "paz-juarez-olmos.png"
+            },
+            {
+                name: "Pilar Fernández-Palma",
+                text: "Hoy me limpiaron un par de sillas grandes. Manuel lo hizo maravillosamente rápido, precisa y eficientemente. Prácticamente sin olor. Agradezco al equipo por el servicio profesional y por ser muy amable con nosotros. Y nuestros tres gatos, en mi opinión, ni siquiera sintieron nada.",
+                image: "pilar-fernandez-palma.png"
+            },
+            {
+                name: "esperanza Calviño",
+                text: "¡Gracias por su rapidez, cortesía y trabajo de calidad! El sofá está como nuevo",
+                image: "esperanza-calvino.jpg"
+            },
+            {
+                name: "Judith Arnal Martínez",
+                text: "Gracias al especialista Alex, llegó puntualmente, hizo el trabajo muy delicadamente y con calidad. ¡Ojalá hubiese más como ustedes!",
+                image: "judith-arnal-martinez.jpg"
+            },
+            {
+                name: "Cristina Yeste",
+                text: `Buenas tardes. ¡Quiero agradecerles por el trabajo de calidad!
+El sofá está casi como si fuera nuevo.😊
+¡Y gracias al maestro por esperarme!`,
+                image: "cristina-yeste.jpg"
+            },
+            {
+                name: "Hermosa Aguirre",
+                text: `Buenas tardes.
+¡Muchas gracias a Miguel!
+Estoy muy contenta con su trabajo.
+El sofá, el sillón y las alfombras están tan limpias como si fueran nuevas`,
+                image: "hermosa-aguirre.jpg"
+            },
+            {
+                name: "Irene Junquera",
+                text: `¡Muchas gracias al equipo de Limpiarmuebles.pro! ¡Las alfombras están divinamente limpias! ¡El maestro Alex es incomparable! ¡Definitivamente os contactaré de nuevo!`,
+                image: "irene-junquera.png"
+            },
+        ],
+    },
+
     orderFormDialog: {
         title: "Ordenar limpieza",
         sendedOrderTitle: "Спасибо, что оформили заказ!",

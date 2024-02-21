@@ -8,9 +8,10 @@ const OurWorksSection = dynamic(() => import("./our-works-section"), { ssr: fals
 const VideoSection = dynamic(() => import("./video-section"), { ssr: false });
 const FaqSection = dynamic(() => import("./faq-section"), { ssr: false });
 const ChooseFurnitureSection = dynamic(() => import("./choose-furnitute-section"), { ssr: false });
+const TestimonialsSection = dynamic(() => import("./testimonials-section"), { ssr: false });
 
 function Main() {
-    return <main className="">
+    return <main className="overflow-x-hidden">
         <FirstSection />
         <RenderOnViewportEntry className="min-h-[1183px] lg:min-h-[903px]" id="choose-furniture">
             <ChooseFurnitureSection />
@@ -30,7 +31,10 @@ function Main() {
         <RenderOnViewportEntry className="min-h-[1459px] min-[720px]:min-h-[1030px]" id="video-section">
             <VideoSection />
         </RenderOnViewportEntry>
-        <RenderOnViewportEntry className="min-h-72" id="faq-section">
+        <RenderOnViewportEntry className="min-h-[456px]" id="testimonials-section">
+            <TestimonialsSection />
+        </RenderOnViewportEntry>
+        <RenderOnViewportEntry className="min-h-[943px]" id="faq-section">
             <FaqSection />
         </RenderOnViewportEntry>
     </main>;
