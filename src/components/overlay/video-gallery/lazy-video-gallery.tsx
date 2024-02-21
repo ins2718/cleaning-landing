@@ -6,7 +6,7 @@ const VideoGallery = dynamic(() => import("."), { ssr: false });
 function LazyVideoGallery() {
     const [initialized, setInitialized] = useState<null | true>(null);
     const { videoGalleryVideo } = useAppSelector(state => state.header);
-    if (videoGalleryVideo && !initialized) {
+    if (videoGalleryVideo !== false && !initialized) {
         setInitialized(true);
     }
     return initialized && <Suspense>
