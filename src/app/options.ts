@@ -9,7 +9,7 @@ const options = {
     whatsAppPlaceholder: "Hola, estoy interesado en la limpieza de muebles.",
     whatsAppText: "Pedir cotización por WhatsApp",
     workingHoursText: "Horario de trabajo",
-    workingHours: "Lun-Dom: 10.00 -22.00",
+    workingHours: "Lun-Dom: 10.00 - 22.00",
 
     menuItems: [
         { title: "Inicio", href: "#first-section" },
