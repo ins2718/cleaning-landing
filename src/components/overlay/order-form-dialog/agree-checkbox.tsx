@@ -13,7 +13,7 @@ function AgreeCheckbox({ register, errorText, disabled = false, showLicence }: F
                 </span>
             </span>
             Даю согласие на обработку &nbsp;
-            <em className="text-black underline not-italic" onClick={showLicence}>персональных данных</em>
+            <em className="text-black underline not-italic" onClick={(e) => { e.preventDefault(); showLicence() }}>персональных данных</em>
         </label>
         <p className="text-red-500">{errorText}</p>
     </div>;
