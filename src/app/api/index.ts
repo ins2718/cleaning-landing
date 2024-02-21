@@ -6,7 +6,6 @@ const emptySplitApi = createApi({
             accept: "application/json",
         },
     }),
-    tagTypes: ["sendOrderForm"],
     endpoints: () => ({}),
 });
 
