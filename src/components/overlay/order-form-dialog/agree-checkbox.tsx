@@ -2,7 +2,7 @@ import IconCheck from "@/components/icons/icon-check";
 import { useAppDispatch } from "@/hooks";
 import { toggleOrderFormAgreement } from "@/reducers/header-reducer";
 
-function AgreeCheckbox({ register, errorText, disabled = false }: FormItemProps) {
+function AgreeCheckbox({ register, errorText, disabled = false, showLicence }: FormItemProps & { showLicence: () => void }) {
     const dispatch = useAppDispatch();
     return <div className="mt-[-10px]">
         <label onClick={() => dispatch(toggleOrderFormAgreement())} className="cursor-pointer inline-block text-[14px] leading-[1.7] text-black pl-[33px] pr-[45px] relative align-top">
@@ -13,7 +13,7 @@ function AgreeCheckbox({ register, errorText, disabled = false }: FormItemProps)
                 </span>
             </span>
             Даю согласие на обработку &nbsp;
-            <a className="text-black underline" href="#">персональных данных</a>
+            <em className="text-black underline not-italic" onClick={showLicence}>персональных данных</em>
         </label>
         <p className="text-red-500">{errorText}</p>
     </div>;

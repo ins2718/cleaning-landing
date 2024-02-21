@@ -13,6 +13,9 @@ import { useSendOrderFormMutation } from "@/app/api/order-form";
 import options from "@/app/options";
 import ZipField from "./zip-field";
 import CitiesService from "@/services/cities-service";
+import { useState } from "react";
+import dynamic from "next/dynamic";
+const LicenceDialog = dynamic(() => import("./licence-dialog"), { ssr: false });
 
 function Form() {
     const dispatch = useAppDispatch();
@@ -46,6 +49,7 @@ function Form() {
             reset();
         }
     };
+    const [showLicence, setShowLicence] = useState(false);
     return <form onSubmit={handleSubmit((data) => sendForm(updateData(data as SendOrderForm)))}>
         <div className="overflow-y-auto top-[3vh] max-h-[94vh] bg-white shadow-[0px_15px_10px_rgba(0,0,0,0.03)] absolute left-0 right-0 mx-auto my-0 p-[46px_58px_48px_59px] max-w-[426px] w-full">
             <div onClick={hideForm} className="cursor-pointer absolute top-[32px] right-[24px] size-[20px] z-[3]
@@ -57,9 +61,10 @@ after:bg-[#91a5be] after:content-[''] after:-rotate-45 after:left-0 after:h-[2px
                 <NameField disabled={formSended} register={register} errorText={errors.name?.message?.toString()} />
                 <PhoneField disabled={formSended} control={control} errorText={errors.phone?.message?.toString()} />
                 <ZipField disabled={formSended} register={register} errorText={errors.zip?.message?.toString()} value={watchZip} />
-                <AgreeCheckbox disabled={formSended} register={register} errorText={errors.agree?.message?.toString()} />
+                <AgreeCheckbox disabled={formSended} register={register} errorText={errors.agree?.message?.toString()} showLicence={() => setShowLicence(true)} />
             </div>
             <SendButton onClick={onClick} text={formSended ? sendedOrderButtonText : buttonText} disabled={isLoading} />
+            {showLicence && <LicenceDialog hide={() => setShowLicence(false)} />}
         </div>
     </form>;
 }

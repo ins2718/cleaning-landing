@@ -233,6 +233,7 @@ const options = {
         buttonText: "Ordenar limpieza",
         sendedOrderButtonText: "Изменить данные",
         // @see "../components/overlay/order-form-dialog/agree-checkbox.tsx"
+        // @see "../components/overlay/order-form-dialog/licence-dialog.tsx"
     },
 };
 
