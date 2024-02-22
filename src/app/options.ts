@@ -133,15 +133,15 @@ const options = {
         title: "Un vídeo que dice más que mil palabras...",
         videos: [
             {
-                original: "//www.youtube.com/embed/9X9FFHy6hZg?autoplay=0&html5=1",
+                original: "9X9FFHy6hZg",
                 thumbnail: "/images/video-thumbs/sofa-light.png",
             }, {
-                original: "//www.youtube.com/embed/-eUt39qBxFw?autoplay=0&loop=1&html5=1",
+                original: "-eUt39qBxFw",
                 thumbnail: "/images/video-thumbs/sofa-gray.png",
             }, {
-                original: "//www.youtube.com/embed/a2np9IDDTHQ?autoplay=0&loop=1&html5=1",
+                original: "a2np9IDDTHQ",
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
-            }
+            },
         ],
     },
 
