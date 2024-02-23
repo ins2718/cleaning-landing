@@ -1,6 +1,6 @@
 import options from "@/app/options";
 import { useAppSelector } from "@/hooks";
-import { useMemo, useRef } from "react";
+import { useRef } from "react";
 import YouTube from "react-youtube";
 
 type YoutubeVideoFrameProps = {
@@ -10,9 +10,9 @@ type YoutubeVideoFrameProps = {
 
 function YoutubeVideoFrame({ src }: YoutubeVideoFrameProps) {
     const ref = useRef<any>(null);
-    const onReady = useMemo(() => (event: any) => {
+    const onReady = (event: any) => {
         ref.current = event.target;
-    }, [src]);
+    };
     const { videoGalleryVideo } = useAppSelector(state => state.header);
     const { videos } = options.videoSection;
     const active = videoGalleryVideo !== false && videos[videoGalleryVideo].original === src;
@@ -23,7 +23,7 @@ function YoutubeVideoFrame({ src }: YoutubeVideoFrameProps) {
         width: "auto",
         height: "auto",
         playerVars: {
-            autoplay: 1,
+            autoplay: active ? 1 : 0,
             mute: 1,
         }
     };
