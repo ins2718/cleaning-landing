@@ -13,6 +13,7 @@ const options = {
 
     menuItems: [
         { title: "Inicio", href: "#first-section" },
+        { title: "Calcula el precio", href: "#choose-furniture" },
         { title: "Servicios", href: "#what-we-clean-section" },
         { title: "Sobre nosotros", href: "#why-us-section" },
         { title: "Ejemplos de trabajos", href: "#our-works-section" },
