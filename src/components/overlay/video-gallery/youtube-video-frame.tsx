@@ -8,13 +8,10 @@ type YoutubeVideoFrameProps = {
     active: boolean;
 }
 
-(window as any).xxx = {};
 function YoutubeVideoFrame({ src }: YoutubeVideoFrameProps) {
     const ref = useRef<any>(null);
     const onReady = useMemo(() => (event: any) => {
-        console.log(src, event.target.g.id);
         ref.current = event.target;
-        (window as any).xxx[event.target.g.id] = event.target;
     }, [src]);
     const { videoGalleryVideo } = useAppSelector(state => state.header);
     const { videos } = options.videoSection;
@@ -26,7 +23,8 @@ function YoutubeVideoFrame({ src }: YoutubeVideoFrameProps) {
         width: "auto",
         height: "auto",
         playerVars: {
-            autoplay: 0,
+            autoplay: 1,
+            mute: 1,
         }
     };
     return <YouTube
