@@ -51,7 +51,7 @@ function Form() {
     };
     const [showLicence, setShowLicence] = useState(false);
     return <form onSubmit={handleSubmit((data) => sendForm(updateData(data as SendOrderForm)))}>
-        <div className="overflow-y-auto top-[3vh] max-h-[94vh] bg-white shadow-[0px_15px_10px_rgba(0,0,0,0.03)] absolute left-0 right-0 mx-auto my-0 p-[46px_58px_48px_59px] max-w-[426px] w-full">
+        <div className="overflow-y-auto overflow-x-hidden top-[3vh] max-h-[94vh] bg-white shadow-[0px_15px_10px_rgba(0,0,0,0.03)] absolute left-0 right-0 mx-auto my-0 p-[46px_58px_48px_59px] max-w-[426px] w-full">
             <div onClick={hideForm} className="cursor-pointer absolute top-[32px] right-[24px] size-[20px] z-[3]
 before:bg-[#91a5be] before:content-[''] before:rotate-45 before:left-0 before:h-[2px] before:mt-px before:bottom-1/2 before:w-full before:absolute before:hover:bg-black before:hover:duration-200 before:hover:transition-colors
 after:bg-[#91a5be] after:content-[''] after:-rotate-45 after:left-0 after:h-[2px] after:mt-px after:bottom-1/2 after:w-full after:absolute after:hover:bg-black after:hover:duration-200 after:hover:transition-colors"/>
