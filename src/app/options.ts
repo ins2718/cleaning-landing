@@ -6,6 +6,7 @@ const options = {
     description: "Limpieza de muebles profesional: sofás, colchones, sillas y alfombras. Eliminamos ácaros, manchas, olores y suciedad. Productos seguros, bajo olor. ¡Presupuesto gratuito y desplazamiento del especialista sin costo!",
 
     phone: "+34637247740",
+    email: "x@xx.xxx",
     whatsAppPlaceholder: "Hola, estoy interesado en la limpieza de muebles.",
     whatsAppText: "Pedir cotización por WhatsApp",
     workingHoursText: "Horario de trabajo",
@@ -308,6 +309,19 @@ El sofá, el sillón y las alfombras están tan limpias como si fueran nuevas`,
         sendedOrderButtonText: "Изменить данные",
         // @see "../components/overlay/order-form-dialog/agree-checkbox.tsx"
         // @see "../components/overlay/order-form-dialog/licence-dialog.tsx"
+    },
+
+    cookieDialog: {
+        title: "Gestionar el consentimiento de las cookies",
+        text: "Para ofrecer las mejores experiencias, utilizamos tecnologías como las cookies para almacenar y/o acceder a la información del dispositivo. El consentimiento de estas tecnologías nos permitirá procesar datos como el comportamiento de navegación o las identificaciones únicas en este sitio. No consentir o retirar el consentimiento, puede afectar negativamente a ciertas características y funciones.",
+        urls: [
+            {
+                text: "Política de cookies",
+            },
+            {
+                text: "Política de Privacidad",
+            },
+        ],
     },
 };
 

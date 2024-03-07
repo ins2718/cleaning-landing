@@ -1,4 +1,5 @@
 import ButtonWhatsAppCircle from "../buttons/button-whats-app-circle";
+import CookieDialog from "./cookie-dialog";
 import OrderDialog from "./order-form-dialog";
 import LazyVideoGallery from "./video-gallery/lazy-video-gallery";
 
@@ -7,6 +8,7 @@ function Overlay() {
         <OrderDialog />
         <LazyVideoGallery />
         <ButtonWhatsAppCircle />
+        <CookieDialog />
     </>;
 }
 
