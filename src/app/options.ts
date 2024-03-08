@@ -298,7 +298,7 @@ El sofá, el sillón y las alfombras están tan limpias como si fueran nuevas`,
 
     orderFormDialog: {
         title: "Ordenar limpieza",
-        sendedOrderTitle: "Спасибо, что оформили заказ!",
+        sendedOrderTitle: "¡Gracias por realizar tu pedido!",
         subTitle: "No dudes en contactarnos. Rellena el formulario y nuestro especialista se pondrá en contacto contigo a través de WhatsApp en breve para responder a tus preguntas.¡Esperamos tu consulta!",
         sendedOrderSubTitle: "Мы получили ваш заказ и наши операторы свяжутся с вами в самое ближайшее время! Спасибо за внимание и всего хорошего!",
         phonePlaceholder: "Número de telf",
