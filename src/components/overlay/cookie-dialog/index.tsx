@@ -15,10 +15,10 @@ function CookieDialog() {
     const [isCookiePolicyVisible, setIsCookiePolicyVisible] = useState(false);
     const [isPrivatePolicyVisible, setIsPrivatePolicyVisible] = useState(false);
     return <Overlay isVisible={!isCookieConfirmed}>
-        <div className="shadow-[rgba(0,0,0,0.19)_0px_10px_20px,rgba(0,0,0,0.23)_0px_6px_6px] max-w-full min-w-[526px] fixed h-auto max-h-[calc(100vh-20px)] px-[20px] py-[15px] right-[10px] bottom-[10px] border-0 rounded-[12px] bg-white">
+        <div className="shadow-[rgba(0,0,0,0.19)_0px_10px_20px,rgba(0,0,0,0.23)_0px_6px_6px] w-full md:w-auto max-w-full md:min-w-[526px] fixed h-auto max-h-[calc(100vh-20px)] px-[20px] py-[15px] md:right-[10px] bottom-[10px] border-0 rounded-[12px] bg-white">
             <h2 className="text-[15px] text-[#222] font-medium text-center">{title}</h2>
             <div className="min-w-[300px] w-full overflow-x-hidden overflow-y-auto max-h-[55vh] mt-[10px]">
-                <div className="text-wrap text-[12px] leading-[1.5] text-[#222] mb-[5px] w-[calc(526px-42px)]">
+                <div className="text-wrap text-[12px] leading-[1.5] text-[#222] mb-[5px] md:w-[calc(526px-42px)]">
                     {text}
                 </div>
             </div>
