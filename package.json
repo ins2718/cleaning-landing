@@ -23,6 +23,7 @@
     "react": "^18",
     "react-compare-slider": "^3.0.1",
     "react-dom": "^18",
+    "react-facebook-pixel": "github:zsajjad/react-facebook-pixel#pull/100/head",
     "react-hook-form": "^7.50.1",
     "react-image-gallery": "^1.3.0",
     "react-phone-number-input": "^3.3.9",
