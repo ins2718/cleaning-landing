@@ -12,8 +12,8 @@ function AgreeCheckbox({ register, errorText, disabled = false, showLicence }: F
                     <IconCheck />
                 </span>
             </span>
-            Даю согласие на обработку &nbsp;
-            <em className="text-black underline not-italic" onClick={(e) => { e.preventDefault(); showLicence() }}>персональных данных</em>
+            Consiento el tratamiento de mis&nbsp;
+            <em className="text-black underline not-italic" onClick={(e) => { e.preventDefault(); showLicence() }}>datos personales</em>
         </label>
         <p className="text-red-500">{errorText}</p>
     </div>;

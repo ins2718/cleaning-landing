@@ -6,7 +6,7 @@ const options = {
     description: "Limpieza de muebles profesional: sofás, colchones, sillas y alfombras. Eliminamos ácaros, manchas, olores y suciedad. Productos seguros, bajo olor. ¡Presupuesto gratuito y desplazamiento del especialista sin costo!",
 
     phone: "+34637247740",
-    email: "x@xx.xxx",
+    email: "nadim200763@gmail.com",
     whatsAppPlaceholder: "Hola, estoy interesado en la limpieza de muebles.",
     whatsAppText: "Pedir cotización por WhatsApp",
     workingHoursText: "Horario de trabajo",
@@ -301,12 +301,12 @@ El sofá, el sillón y las alfombras están tan limpias como si fueran nuevas`,
         title: "Ordenar limpieza",
         sendedOrderTitle: "¡Gracias por realizar tu pedido!",
         subTitle: "No dudes en contactarnos. Rellena el formulario y nuestro especialista se pondrá en contacto contigo a través de WhatsApp en breve para responder a tus preguntas.¡Esperamos tu consulta!",
-        sendedOrderSubTitle: "Мы получили ваш заказ и наши операторы свяжутся с вами в самое ближайшее время! Спасибо за внимание и всего хорошего!",
+        sendedOrderSubTitle: "¡Hemos recibido tu pedido y nuestros operadores se pondrán en contacto contigo a la mayor brevedad posible a través del chat de WhatsApp! ¡Gracias por tu atención y que tengas un buen día!",
         phonePlaceholder: "Número de telf",
         namePlaceholder: "Nombre",
         zipPlaceholder: "Zip",
         buttonText: "Ordenar limpieza",
-        sendedOrderButtonText: "Изменить данные",
+        sendedOrderButtonText: "Modificar datos",
         // @see "../components/overlay/order-form-dialog/agree-checkbox.tsx"
         // @see "../components/overlay/order-form-dialog/licence-dialog.tsx"
     },
