@@ -5,6 +5,9 @@ const options = {
     title: "Limpiamos sofás, colchones, sillas, sillones y alfombras",
     description: "Limpieza de muebles profesional: sofás, colchones, sillas y alfombras. Eliminamos ácaros, manchas, olores y suciedad. Productos seguros, bajo olor. ¡Presupuesto gratuito y desplazamiento del especialista sin costo!",
 
+    facebookPixelId: "347504069641224",
+    yandexMetricaIds: [94032685],
+
     phone: "+34637247740",
     email: "nadim200763@gmail.com",
     whatsAppPlaceholder: "Hola, estoy interesado en la limpieza de muebles.",

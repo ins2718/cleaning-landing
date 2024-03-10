@@ -6,7 +6,7 @@ export const headerReducer = createSlice({
         isMobileMenuVisible: false,
         isOrderFormVisible: false,
         isOrderFormAgreed: false,
-        isCookieConfirmed: typeof window === "undefined" ? false : Boolean((window.localStorage.getItem("cookie"))),
+        isCookieConfirmed: true,
         videoGalleryVideo: false as number | false,
     },
     reducers: {
@@ -35,11 +35,14 @@ export const headerReducer = createSlice({
             window.localStorage.setItem("cookie", "1");
             state.isCookieConfirmed = true;
         },
+        setIsCookieConfirmed: (state, action) => {
+            state.isCookieConfirmed = action.payload;
+        },
     },
 });
 
 export const { showMobileMenu, hideMobileMenu, hideOrderForm,
     showOrderForm, toggleOrderFormAgreement, openVideoGallery,
-    closeVideoGallery, confirmCookie } = headerReducer.actions;
+    closeVideoGallery, confirmCookie, setIsCookieConfirmed } = headerReducer.actions;
 
 export default headerReducer.reducer;
