@@ -6,7 +6,8 @@ function Counters() {
     const { facebookPixelId, yandexMetricaIds } = options;
     ReactPixel.init(facebookPixelId);
     ReactPixel.pageView();
-    return <YMInitializer accounts={yandexMetricaIds} options={{ webvisor: true, defer: true }} version="2" />;
+    const metricaOptions = { webvisor: true, clickmap: true, trackLinks: true, accurateTrackBounce: true };
+    return <YMInitializer accounts={yandexMetricaIds} options={metricaOptions} version="2" />;
 }
 
 export default Counters;
