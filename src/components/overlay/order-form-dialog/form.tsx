@@ -15,6 +15,7 @@ import ZipField from "./zip-field";
 import CitiesService from "@/services/cities-service";
 import { useState } from "react";
 import dynamic from "next/dynamic";
+import ym from "react-yandex-metrika";
 const PrivatePolicy = dynamic(() => import("../cookie-dialog/private-policy"), { ssr: false });
 
 function Form() {
@@ -50,7 +51,10 @@ function Form() {
         }
     };
     const [isPrivatePolicyVisible, setIsPrivatePolicyVisible] = useState(false);
-    return <form onSubmit={handleSubmit((data) => sendForm(updateData(data as SendOrderForm)))}>
+    return <form onSubmit={handleSubmit((data) => {
+        ym("reachGoal", "sendForm");
+        sendForm(updateData(data as SendOrderForm));
+    })}>
         <div className="overflow-y-auto overflow-x-hidden top-[3vh] max-h-[94vh] bg-white shadow-[0px_15px_10px_rgba(0,0,0,0.03)] absolute left-0 right-0 mx-auto my-0 p-[46px_58px_48px_59px] max-w-[426px] w-full">
             <div onClick={hideForm} className="cursor-pointer absolute top-[32px] right-[24px] size-[20px] z-[3]
 before:bg-[#91a5be] before:content-[''] before:rotate-45 before:left-0 before:h-[2px] before:mt-px before:bottom-1/2 before:w-full before:absolute before:hover:bg-black before:hover:duration-200 before:hover:transition-colors
