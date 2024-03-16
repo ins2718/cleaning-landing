@@ -1,9 +1,8 @@
-import { useAppDispatch, useAppSelector } from "@/hooks";
+import { useAppSelector } from "@/hooks";
 import Menu from "./menu";
 import Headers from "./headers";
 
 function MobileMenu() {
-    const dispatch = useAppDispatch();
     const { isMobileMenuVisible } = useAppSelector(state => state.header);
     return <div
         style={{ right: isMobileMenuVisible ? "0" : "-100%", }}
