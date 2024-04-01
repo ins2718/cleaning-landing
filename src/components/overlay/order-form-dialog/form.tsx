@@ -41,6 +41,8 @@ function Form() {
         if (data.zip) {
             data.city = CitiesService.getCityByZip(data.zip).toLowerCase();
         }
+        const match = typeof window === "undefined" ? null : document.cookie.match(new RegExp('(^| )_fbp=([^;]+)'));
+        data.fbp = match ? match[2] : '';
         return data;
     };
     const { sendedOrderButtonText, buttonText, title, sendedOrderTitle, subTitle, sendedOrderSubTitle } = options.orderFormDialog;

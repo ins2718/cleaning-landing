@@ -7,8 +7,10 @@ export default class WhatsAppService {
         const url = `https://wa.me/${new PhoneService(phone).getPhoneNumberWithoutPlus()}?text=${encodeURIComponent(whatsAppPlaceholder)}`;
         const params = new URLSearchParams(typeof window === "undefined" ? "localhost" : window.location.search);
         const fbclid = params.get("fbclid") ?? '';
+        const match = typeof window === "undefined" ? null : document.cookie.match(new RegExp('(^| )_fbp=([^;]+)'));
+        const fbp = match ? match[2] : '';
         const utm: string[] = [];
         params.forEach((value, key) => key.substring(0, 3) === "utm" && utm.push(`${key}: ${value}`));
-        return `//pro-chistka-mebeli.ru/landing-redirect.php?url=${encodeURIComponent(url)}&fbclid=${fbclid}&utm=${encodeURIComponent(utm.join(', '))}`;
+        return `//pro-chistka-mebeli.ru/landing-redirect.php?url=${encodeURIComponent(url)}&fbclid=${fbclid}&fbp=${fbp}&utm=${encodeURIComponent(utm.join(', '))}`;
     }
 }

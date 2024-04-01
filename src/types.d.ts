@@ -24,6 +24,7 @@ type SendOrderForm = {
     city?: string;
     ip?: string;
     zip?: string;
+    fbp?: string;
 }
 
 type SendOrderFormResponse = {
