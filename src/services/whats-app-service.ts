@@ -11,6 +11,6 @@ export default class WhatsAppService {
         const fbp = match ? match[2] : '';
         const utm: string[] = [];
         params.forEach((value, key) => key.substring(0, 3) === "utm" && utm.push(`${key}: ${value}`));
-        return `//pro-chistka-mebeli.ru/landing-redirect.php?url=${encodeURIComponent(url)}&fbclid=${fbclid}&fbp=${fbp}&utm=${encodeURIComponent(utm.join(', '))}`;
+        return `//dima.limpiarmuebles.pro/landing-redirect.php?url=${encodeURIComponent(url)}&fbclid=${fbclid}&fbp=${fbp}&utm=${encodeURIComponent(utm.join(', '))}`;
     }
 }
