@@ -5,7 +5,7 @@ const WhyUsSection = dynamic(() => import("./why-us-section"), { ssr: false });
 const WhatWeCleanSection = dynamic(() => import("./what-we-clean-section"), { ssr: false });
 const HowToOrderEasySection = dynamic(() => import("./how-to-order-easy-section"), { ssr: false });
 const OurWorksSection = dynamic(() => import("./our-works-section"), { ssr: false });
-const VideoSection = dynamic(() => import("./video-section"), { ssr: false });
+// const VideoSection = dynamic(() => import("./video-section"), { ssr: false });
 const FaqSection = dynamic(() => import("./faq-section"), { ssr: false });
 const ChooseFurnitureSection = dynamic(() => import("./choose-furnitute-section"), { ssr: false });
 const TestimonialsSection = dynamic(() => import("./testimonials-section"), { ssr: false });
@@ -28,9 +28,9 @@ function Main() {
         <RenderOnViewportEntry className="min-h-[830px]" id="our-works-section">
             <OurWorksSection />
         </RenderOnViewportEntry>
-        <RenderOnViewportEntry className="min-h-[1459px] min-[720px]:min-h-[1030px]" id="video-section">
+        {/* <RenderOnViewportEntry className="min-h-[1459px] min-[720px]:min-h-[1030px]" id="video-section">
             <VideoSection />
-        </RenderOnViewportEntry>
+        </RenderOnViewportEntry> */}
         <RenderOnViewportEntry className="min-h-[456px]" id="testimonials-section">
             <TestimonialsSection />
         </RenderOnViewportEntry>

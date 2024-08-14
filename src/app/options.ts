@@ -25,12 +25,12 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza profesional de muebles a domicilio.",
+        title: "Servicio de limpieza de toldos a domicilio",
     },
 
     chooseFurnitureSection: {
-        title: "Calcula el precio de la limpieza de tu sofá en minutos",
-        subtitle: "¿Cuál se parece al tuyo?",
+        title: "Consigue una cotización rápida para la limpieza de tu toldo",
+        subtitle: "",
         // @see "../components/main/choose-furnitute-section/right-side.tsx"
     },
 
@@ -41,13 +41,12 @@ const options = {
             {
                 title: "Expertos en limpieza:",
                 text: `
-                Contamos con un equipo de técnicos altamente cualificados y experimentados en la limpieza de todo tipo de muebles, colchones y alfombras.
-                Más de 5000 clientes satisfechos avalan nuestro trabajo.`,
+                Nuestro equipo de expertos ofrece un servicio profesional de limpieza de toldos, eliminando manchas y suciedad. Más de 5000 clientes satisfechos avalan nuestro trabajo eficiente y de calidad.`,
                 image: "three-people.png",
             }, {
                 title: "Limpieza segura y eficaz:",
                 text: `
-                Utilizamos equipos profesionales Karcher y productos de limpieza profesionales de fabricación alemana y suiza, hipoalergénicos, inofensivos para personas y animales, con un ligero aroma que desaparece a los 20 minutos.`,
+                Empleamos tecnología avanzada y productos especializados de Alemania y Suiza para la limpieza de toldos. Nuestros materiales son seguros para personas y mascotas, garantizando un entorno limpio y saludable.`,
                 image: "hand.png",
             }, {
                 title: "Limpieza honesta:",
@@ -62,13 +61,13 @@ const options = {
         root: "/images/what-we-clean/",
         cards: [
             {
-                title: "Limpieza de sofás desde 60€ por sofá de dos plazas",
+                title: "Precio desde 10€ a 15€/m² según tamaño, tipo y suciedad.",
                 image: "sofa.jpg"
             }, {
-                title: "Limpieza de colchones desde 25€",
+                title: "Precio desde 8€ a 12€/m² según tamaño, tipo y suciedad.",
                 image: "mattress.jpg"
             }, {
-                title: "Limpieza de alfombras desde 8€/m²",
+                title: "Precio desde 10€ a 12€/m² según tamaño, tipo y suciedad.",
                 image: "carpet.jpg"
             }, {
                 title: "Limpieza de sillones y sillas desde 10€",
@@ -78,23 +77,20 @@ const options = {
     },
 
     howToOrderEasySection: {
-        title: "¡Cómo hacer un pedido fácilmente!",
+        title: "Solicitar la limpieza de toldo es fácil.",
         root: "/images/how-to-order-easy/",
         cards: [
             {
-                title: "1. Envíanos fotos y tu dirección:",
-                text: `Haz clic en el botón de WhatsApp para enviar fotos de tu sofá, colchón, alfombra, silla, sillón.
-                IndIndica tu código postal.`,
+                title: "1. Envíanos fotos del toldo y tu dirección:",
+                text: `Haz clic en el botón de WhatsApp para enviar fotos de tu toldo y su tamaño. Indica también tu código postal.`,
                 image: "whats-app.png",
             }, {
                 title: "2. Cálculo del precio:",
-                text: `Te haremos algunas preguntas para calcular el precio exacto de la limpieza.
-                El precio no cambiará durante el proceso.`,
+                text: `Evaluaremos el costo de la limpieza en función de las fotos y las dimensiones del toldo, así como tu código postal.`,
                 image: "calculator.png",
             }, {
                 title: "3. Confirmación del pedido:",
-                text: `	Si te parece bien el precio, acordaremos una fecha y hora convenientes para la limpieza.
-                Confirmaremos tu dirección.`,
+                text: `	Una vez que apruebes el precio, fijaremos una fecha y hora convenientes para la limpieza. Confirmaremos tu dirección y el horario.`,
                 image: "checked.png",
             },
         ],
@@ -151,27 +147,21 @@ const options = {
     },
 
     faqSection: {
-        title: "PREGUNTAS FRECUENTES Y SUS RESPUESTAS",
+        title: "Preguntas Frecuentes sobre la Limpieza de Toldos",
         questions: [
             {
-                question: "¿Qué método utilizamos?",
-                answer: `LA LIMPIEZA DE MUEBLES SE REALIZA EN VARIAS ETAPAS:
+                question: "¿Qué es un toldo y por qué necesita limpieza?",
+                answer: `Un toldo es una estructura de tela o material sintético que se usa para proporcionar sombra y protección contra el sol y la lluvia. 
             <ol style="list-style: inside decimal">
-            <li>Si es necesario, aspiramos tus muebles</li>
-            <li>Se aplica el primer componente del producto de limpieza, la solución.</li>
-            <li>Se aplica el segundo componente del producto de limpieza, la espuma.</li>
-            <li>La limpieza con cepillos eléctricos y manuales.</li>
-            <li>Con un aparato especial con otro producto, lavamos toda la suciedad disuelta.</li>
-            <li>Se elimina manchas u olores específicos</li>
-            <li>Lavamos los muebles y eliminamos todos los residuos químicos</li>
+             Con el tiempo, los toldos acumulan polvo, manchas y manchas de moho que pueden afectar su apariencia y funcionalidad. La limpieza regular ayuda a mantener su aspecto y prolonga su vida útil.</li>
+            
             </ol>`,
                 answerInHtml: true,
             }, {
-                question: "¿Es seguro para la salud?",
-                answer: `¡INDUDABLEMENTE!
-            Para el trabajo, utilizamos solo productos especializados, son hipoalergénicos y sin peligro para los niños y animales. Tenemos todos los certificados.
+                question: "¿Con qué frecuencia debo limpiar mi toldo?",
+                answer: `¡Se recomienda limpiar el toldo al menos una vez al año. Sin embargo, si vives en una zona con mucho polvo o humedad, o si el toldo se ensucia rápidamente, es posible que necesite limpiezas más frecuentes.
             
-            Además, somos una de las pocas empresas en las que los expertos lavan los muebles con un acondicionador especial que neutraliza los residuos de detergente.`,
+            `,
             }, {
                 question: "Que está incluido en el precio?",
                 answer: `TODAS LAS ETAPAS DE LIMPIEZA REQUERIDAS
@@ -181,19 +171,12 @@ const options = {
             
             Nuestro experto llega a la hora acordada, limpia y solo después del trabajo se paga el servicio.`,
             }, {
-                question: "¿Se irán todas las manchas?",
-                answer: `HACEMOS TODO LO POSIBLE
-            Muchas empresas dan garantía de que limpiarán todas las manchas y el sofá "quedará como nuevo". Esto es deshonesto. Las manchas son diferentes en origen y edad. Algunas manchas no se pueden quitar. Por ejemplo, puede haber problemas con sangre vieja (a partir de los 2 años).
-            
-            Mucho también depende del material del sofá. Por ejemplo, algunas telas no se pueden limpiar con agua en absoluto. Sin embargo, algunos contaminantes no se pueden eliminar sin agua.
-            
-            Y otro factor es la autolimpieza. Algunas manchas y suciedad de los productos del hogar "enlatados" en la tapicería también pueden causar muchos problemas.
-            Pero, hacemos nuestro mejor esfuerzo para librar a sus muebles de toda contaminación. Y en casos severos, definitivamente advertiremos que el resultado puede no ser el ideal.`,
+                question: "¿Qué tipo de limpieza utilizan para los toldos?",
+                answer: `Utilizamos equipos de limpieza profesionales y productos específicos para toldos que son seguros y eficaces.
+            Nuestros métodos incluyen el uso de detergentes especializados y técnicas de limpieza a presión o a mano, dependiendo del tipo de material del toldo.`,
             }, {
-                question: "¿Elimina los malos olores?",
-                answer: `¡SI, OBVIAMENTE!
-            Sí, tenemos métodos especiales.
-            En el asunto de eliminar el olor, lo más importante no es solo enmascararlo, sino eliminar la fuente. Le ayudaremos con esto.`,
+                question: "¿Los productos de limpieza son seguros para el toldo?",
+                answer: `Sí, utilizamos productos de limpieza diseñados específicamente para toldos que son suaves y seguros para los materiales. Estos productos eliminan la suciedad y las manchas sin dañar el tejido del toldo.`,
             }, {
                 question: "¿Trabajan con personas jurídicas?",
                 answer: `Sí, trabajamos con personas jurídicas`,
@@ -202,27 +185,31 @@ const options = {
                 answer: `TRABAJAMOS PARA USTED
             Sí. Dígale a nuestros operadores la localidad y ellos calcularán el costo de la salida para usted.`,
             }, {
-                question: "¿Cuánto tiempo se secan los muebles después de limpiarlos?",
-                answer: `TODO ES DIFERENTE
-
-            En promedio, los muebles se secan en 6 a 12 horas, depende del material, el grado de contaminación, la temperatura del aire y su circulación en la habitación.
-            
-            Si tiene un calentador o un ventilador en su casa, esto ayudará a acelerar el proceso de secado.`,
+                question: "¿Puedo limpiar el toldo yo mismo?",
+                answer: `Aunque es posible realizar una limpieza básica en casa, recomendamos confiar en profesionales para una limpieza profunda. Los especialistas tienen el equipo adecuado y la experiencia para limpiar eficazmente sin dañar el toldo.`,
             }, {
-                question: "¿Cuánto dura la limpieza?",
-                answer: `VARIOS FACTORES SON RESPONSABLES DE ESTO:
-            La duración del trabajo depende del tipo de mueble, material, grado de contaminación.
-            
-            Por ejemplo, limpiar un pequeño sofá rinconero lleva de media a una hora y media.`,
-            }, {
+                question: "¿Cuánto tiempo dura el proceso de limpieza?",
+                answer: `El tiempo de limpieza puede variar según el tamaño del toldo y el grado de suciedad. Generalmente, el proceso dura entre 1 y 3 horas. Nosotros te proporcionaremos un estimado del tiempo necesario cuando programemos la limpieza.`,
+            },  {
+                question: "¿Es necesario retirar el toldo antes de la limpieza?",
+                answer: `No, en la mayoría de los casos, la limpieza se realiza sin necesidad de retirar el toldo. Nuestros técnicos tienen el equipo adecuado para limpiar el toldo en su lugar.`,
+            },{
+                question: "¿Cómo puedo preparar mi toldo para la limpieza?",
+                answer: `Antes de la limpieza, asegúrate de que el toldo esté completamente extendido y libre de objetos. Si es posible, retira cualquier mueble o decoración cerca del toldo para facilitar el acceso.`,
+            },{
+                question: "¿Qué pasa si mi toldo tiene manchas difíciles?",
+                answer: `Nuestros expertos están capacitados para manejar una variedad de manchas difíciles. Si las manchas persisten después de la limpieza, ofrecemos servicios adicionales para tratar manchas específicas.`,
+            },{
+                question: "¿Cómo puedo programar una limpieza?",
+                answer: `Puedes contactarnos a través de nuestro número de teléfono o enviarnos un mensaje por WhatsApp con fotos de tu toldo y su tamaño. Indica tu código postal y nuestro equipo te proporcionará una cotización y coordinará una fecha para la limpieza.`,
+            },{
+                question: "¿Cuál es el costo de la limpieza de toldos?",
+                answer: `El costo de la limpieza varía según el tamaño del toldo y el grado de suciedad. Te proporcionaremos una cotización precisa después de recibir fotos y detalles de tu toldo.`,
+            },{
                 question: "HORARIO DIARIO",
                 answer: `Trabajamos a diario.
             Siete días a la semana.
             La salida nocturna también es posible.`,
-            }, {
-                question: "¿Con qué frecuencia debo lavar en seco?",
-                answer: `RECOMENDACIÓN:
-            Recomendamos limpiar sus muebles al menos una vez al año.`,
             },
         ],
     },
@@ -233,68 +220,64 @@ const options = {
         imagesPath: '/images/testimonials/',
         testimonials: [
             {
-                name: "Adriana González",
-                text: "Gracias por el excelente y buen coordinado trabajo. Fue muy cómodo comunicarse con el operador: me explicó todo de manera clara y sencilla, sin apresurarse con la tecnología y, al mismo tiempo, sin retrasar el proceso. El precio fue muy razonable en mi opinión. El de otras empresas es mucho más alto. Gracias por la calidad y por ser como sois. Definitivamente os recomendaré a mis amigos y familiares.",
+                name: "Lucía",
+                text: "La limpieza del toldo fue perfecta. Los técnicos fueron puntuales y dejaron todo muy limpio. Estoy muy satisfecha.",
                 image: "adriana-gonzalez.png"
             },
             {
-                name: "Alba Lago",
-                text: "Gracias, estamos muy contentos con el resultado. ¡Ahora todos las sillas y el sofá se ven preciosos! Están limpios y da placer sentarse en ellos.",
+                name: "Sofía",
+                text: "Qué buena onda los chicos de la limpieza! Hicieron un trabajo increíble con mi toldo. Definitivamente los volveré a llamar.",
                 image: "alba-lago.png"
             },
             {
-                name: "Ana Navarro Ramos",
-                text: "¡El resultado superó todas las expectativas! Los chicos llegaron puntualmente. ¡Todo fue rápido, de buena fe y excelente! Lo recomiendo. No se apresure a tirar los sofás viejos, ¡confíelos a los profesionales! :)",
+                name: "Elena",
+                text: "Mi toldo tenía manchas difíciles de quitar, pero los profesionales lo dejaron como nuevo. Un servicio muy profesional y amable. :)",
                 image: "ana-navarro-ramos.jpg"
             },
             {
-                name: "Christian Gálvez",
-                text: "¡¡Estoy muy agradecida con los chicos por el trabajo!! ¡Todo fue rápido, claro y profesional! Gracias a Manuel, por responder, venir y transformar mi sofá favorito. ¡El resultado es una maravilla! La diferencia entre el antes y el después es muy obvia. ¡Éxitos y prosperidad para vuestra empresa!",
+                name: "Luis Hernández",
+                text: "Muy buen trabajo, superó mis expectativas. La limpieza del toldo fue rápida y efectiva. Me quedé sorprendido de cómo mejoró el aspecto de mi casa.",
                 image: "christian-galvez.png"
             },
             {
-                name: "Diana Martínez",
-                text: "Pedimos la limpieza del sofá, sinceramente, no creíamos mucho en el resultado ¡Pero superaron todas las expectativas! ¡Estamos muy satisfechos! Queríamos tirar el sofá, ¡pero quedó como nuevo! ¡Muchas gracias, sois unos auténticos profesionales!",
+                name: "Ana",
+                text: "¡Increíble! El toldo estaba muy sucio, y ahora parece nuevo. El servicio fue rápido y sin complicaciones.",
                 image: "diana-martinez.jpg"
             },
             {
-                name: "Paz Juárez Olmos",
-                text: "¡Gracias por la gran limpieza del sofá! Estamos muy contentos con el resultado. ¡Les recomendaremos a nuestros amigos y familiares!",
+                name: "Marta Gómez",
+                text: "Increíble servicio! Mi toldo quedó como nuevo y se nota la calidad de los productos que usan. Los recomendaré a todos mis amigos. Gracias por la amabilidad del equipo.",
                 image: "paz-juarez-olmos.png"
             },
             {
-                name: "Pilar Fernández-Palma",
-                text: "Hoy me limpiaron un par de sillas grandes. Manuel lo hizo maravillosamente rápido, precisa y eficientemente. Prácticamente sin olor. Agradezco al equipo por el servicio profesional y por ser muy amable con nosotros. Y nuestros tres gatos, en mi opinión, ni siquiera sintieron nada.",
+                name: "Laura Pérez",
+                text: "Perfecto! Me encantó el servicio. El personal fue muy atento y profesional. Mi toldo luce impecable y me siento mucho más cómoda en mi terraza.",
                 image: "pilar-fernandez-palma.png"
             },
             {
-                name: "esperanza Calviño",
-                text: "¡Gracias por su rapidez, cortesía y trabajo de calidad! El sofá está como nuevo",
+                name: "Ana López",
+                text: "Tenía dudas, pero el resultado fue sorprendente. Mi toldo estaba bastante sucio y ahora está impecable. Gracias por un trabajo tan bien hecho!",
                 image: "esperanza-calvino.jpg"
             },
             {
-                name: "Judith Arnal Martínez",
-                text: "Gracias al especialista Alex, llegó puntualmente, hizo el trabajo muy delicadamente y con calidad. ¡Ojalá hubiese más como ustedes!",
+                name: "Patricia Moreno",
+                text: "Nunca había visto mi toldo tan limpio. Me encantó la rapidez y eficiencia del servicio. Definitivamente volveré a utilizar sus servicios en el futuro.",
                 image: "judith-arnal-martinez.jpg"
             },
             {
-                name: "Cristina Yeste",
-                text: `Buenas tardes. ¡Quiero agradecerles por el trabajo de calidad!
-El sofá está casi como si fuera nuevo.😊
-¡Y gracias al maestro por esperarme!`,
+                name: "Carmen Ruiz",
+                text: `El toldo de mi balcón estaba en muy mal estado, pero después de la limpieza quedó perfecto. ¡Muy agradecida con el servicio y la atención recibida!😊
+`,
                 image: "cristina-yeste.jpg"
             },
             {
-                name: "Hermosa Aguirre",
-                text: `Buenas tardes.
-¡Muchas gracias a Miguel!
-Estoy muy contenta con su trabajo.
-El sofá, el sillón y las alfombras están tan limpias como si fueran nuevas`,
+                name: "Raquel Fernández",
+                text: `Un servicio de calidad, realmente cumplió con mis expectativas. El toldo quedó como nuevo. Además, el personal fue muy amable y puntual.`,
                 image: "hermosa-aguirre.jpg"
             },
             {
-                name: "Irene Junquera",
-                text: `¡Muchas gracias al equipo de Limpiarmuebles.pro! ¡Las alfombras están divinamente limpias! ¡El maestro Alex es incomparable! ¡Definitivamente os contactaré de nuevo!`,
+                name: "Isabel Sánchez",
+                text: `La mejor decisión que pude tomar. Mi toldo estaba lleno de manchas y ahora parece nuevo. Los profesionales que vinieron fueron amables y muy eficientes.`,
                 image: "irene-junquera.png"
             },
         ],
