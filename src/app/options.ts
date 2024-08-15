@@ -70,7 +70,7 @@ const options = {
                 title: "Precio desde 10€ a 12€/m² según tamaño, tipo y suciedad.",
                 image: "carpet.jpg"
             }, {
-                title: "Limpieza de sillones y sillas desde 10€",
+                title: "Precio desde 10€ a 15€/m² según tamaño, tipo y suciedad.",
                 image: "chair.jpg"
             },
         ]
