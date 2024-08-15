@@ -2,7 +2,7 @@ const options = {
     cloudImages: false || process.env.NODE_ENV === "production",
     logoHeight: 52,
 
-    title: "Limpiamos sofás, colchones, sillas, sillones y alfombras",
+    title: "Limpieza Profesional de Toldos | Servicios de Toldo",
     description: "Limpieza de muebles profesional: sofás, colchones, sillas y alfombras. Eliminamos ácaros, manchas, olores y suciedad. Productos seguros, bajo olor. ¡Presupuesto gratuito y desplazamiento del especialista sin costo!",
 
     facebookPixelId: "347504069641224",
