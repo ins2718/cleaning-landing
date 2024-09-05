@@ -41,13 +41,19 @@ const options = {
             {
                 title: "Expertos en limpieza:",
                 text: `
-                Contamos con un equipo de técnicos altamente cualificados y experimentados en la limpieza de todo tipo de muebles, colchones y alfombras.
-                Más de 5000 clientes satisfechos avalan nuestro trabajo.`,
+                Contamos con un equipo de técnicos altamente cualificados y experimentados en la limpieza de todo tipo de muebles, colchones, alfombras y tapizados. Nuestro servicio de limpieza de tapizados es confiable y efectivo. Más de 5000 clientes satisfechos avalan nuestro trabajo. Más de 5000 sofás, colchones, sillas y alfombras han quedado como nuevos.`,
                 image: "three-people.png",
             }, {
                 title: "Limpieza segura y eficaz:",
                 text: `
-                Utilizamos equipos profesionales Karcher y productos de limpieza profesionales de fabricación alemana y suiza, hipoalergénicos, inofensivos para personas y animales, con un ligero aroma que desaparece a los 20 minutos.`,
+                Utilizamos equipos profesionales Karcher y productos de limpieza alemanes y suizos que desinfectan la tapicería, eliminan ácaros y alérgenos, son hipoalergénicos y seguros para personas y animales, con un aroma ligero que desaparece en 20 minutos.
+
+
+
+
+
+
+`,
                 image: "hand.png",
             }, {
                 title: "Limpieza honesta:",
@@ -59,14 +65,14 @@ const options = {
 
     whatWeCleanSection: {
         title: "Nuestros servicios:",
-        subtitle: "",
+        subtitle: "Entendemos que cada mueble es único, por lo que no podemos ofrecer un precio exacto para la limpieza de tapizados sin ver fotos de tu mobiliario. Para garantizar un servicio de calidad y un precio justo, te invitamos a enviarnos imágenes de tus sofás, sillones, colchones u otros muebles. Así podremos proporcionarte una cotización precisa y adaptada a tus necesidades específicas.",
         root: "/images/what-we-clean/",
         cards: [
             {
                 title: "Limpieza de sofás desde 60€ por sofá de dos plazas",
                 image: "sofa.jpg"
             }, {
-                title: "Limpieza de colchones desde 25€",
+                title: "Limpieza de colchones desde 40€",
                 image: "mattress.jpg"
             }, {
                 title: "Limpieza de alfombras desde 8€/m²",
