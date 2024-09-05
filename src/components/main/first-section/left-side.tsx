@@ -11,8 +11,9 @@ function LeftSide() {
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
             <strong className="">¿Tus muebles, colchón o alfombra necesitan una limpieza profunda?</strong>
             <br />
-            En limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de tapizados a domicilio. Recupera la frescura y prolonga la vida de tus muebles sin necesidad de reemplazarlos. 
-            <br />¡Confía en nuestros expertos para resultados impecables!
+            En limpiarmuebles.pro, ofrecemos servicios de lavado de muebles a domicilio con resultados profesionales. Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, para renovar tus muebles, colchones y alfombras. 
+            <br />¡Eliminamos manchas, olores y bacterias, devolviéndoles su frescura original!
+            <br />
             </p>
         <div className="flex mt-[60px] items-center justify-center">
             {/* <Button content="калькулятор стоимости" className="border-[#e23936] bg-[#e23936] hover:shadow-[0_10px_15px_rgba(226,57,54,0.22)]" /> */}
