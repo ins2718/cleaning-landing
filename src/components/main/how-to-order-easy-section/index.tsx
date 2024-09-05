@@ -5,9 +5,10 @@ import ButtonWhatsApp from "@/components/buttons/button-whats-app";
 import Section from "@/components/section";
 
 function WhyUsSection() {
-    const { title, root, cards } = options.howToOrderEasySection;
+    const { title, subtitle, root, cards } = options.howToOrderEasySection;
     return <Section
         header={title}
+        subHeader={subtitle}
         footer={<>
             <ButtonOrder />
             <ButtonWhatsApp />

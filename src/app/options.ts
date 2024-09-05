@@ -59,6 +59,7 @@ const options = {
 
     whatWeCleanSection: {
         title: "Nuestros servicios:",
+        subtitle: "",
         root: "/images/what-we-clean/",
         cards: [
             {
@@ -79,6 +80,7 @@ const options = {
 
     howToOrderEasySection: {
         title: "¡Cómo hacer un pedido fácilmente!",
+        subtitle: "",
         root: "/images/how-to-order-easy/",
         cards: [
             {
@@ -102,6 +104,7 @@ const options = {
 
     ourWorksSection: {
         title: "Aquí tenemos ejemplos de nuestro trabajo",
+        subtitle: "",
         compareImages: {
             root: '/images/our-works/compare/',
             images: [
@@ -136,6 +139,7 @@ const options = {
 
     videoSection: {
         title: "Un vídeo que dice más que mil palabras...",
+        subtitle: "",
         videos: [
             {
                 original: "9X9FFHy6hZg",

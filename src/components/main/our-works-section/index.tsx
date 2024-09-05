@@ -6,10 +6,11 @@ import Section from "@/components/section";
 import Image from "@/components/Image";
 
 function OurWorksSection() {
-    const { title } = options.ourWorksSection;
+    const { title, subtitle } = options.ourWorksSection;
     return <Section
         decorators={<Image className="absolute right-0 bottom-[150px]" src="/images/our-works/page-decoration-leaf.svg" alt="page decoration leaf" />}
         header={title}
+        subHeader={subtitle}
         footer={<>
             <ButtonOrder />
             <ButtonWhatsApp />

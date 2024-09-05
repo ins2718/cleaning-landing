@@ -7,10 +7,11 @@ import sofaImage from "/public/images/what-we-clean/sofa_background.jpg";
 import Image from "@/components/Image";
 
 function WhatWeCleanSection() {
-    const { title, root, cards } = options.whatWeCleanSection;
+    const { title, subtitle, root, cards } = options.whatWeCleanSection;
     return <Section
         decorators={<Image img={sofaImage} className="absolute right-0 bottom-[50px] max-h-[400px] hidden min-[968px]:block" alt="sofá background" />}
         header={title}
+        subHeader={subtitle}
         footer={<>
             <ButtonOrder />
             <ButtonWhatsApp />

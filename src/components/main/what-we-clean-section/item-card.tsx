@@ -10,7 +10,7 @@ function ItemCard({ imageUrl, title }: ItemCardProps) {
         <div className="flex items-center justify-center text-[0] h-[158px] w-[189px] mx-auto mt-0 mb-[4px] max-w-full">
             <Image src={imageUrl} alt={title} dpr={1} />
         </div>
-        <div className="font-bold text-[16px] text-center text-black">{title}</div>
+        <div className="font-bold text-[16px] text-left text-black">{title}</div>
     </div>;
 }
 

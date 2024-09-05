@@ -5,9 +5,10 @@ import options from "@/app/options";
 import Section from "@/components/section";
 
 function VideoSection() {
-    const { videos, title } = options.videoSection;
+    const { videos, title, subtitle } = options.videoSection;
     return <Section
         header={title}
+        subHeader={subtitle}
         footer={<>
             <ButtonOrder />
             <ButtonWhatsApp />
