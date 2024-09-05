@@ -13,7 +13,7 @@ function LeftSide() {
             <br />
             ¡No los tires!<br />En limpiarmuebles.pro ofrecemos un servicio profesional de limpieza de muebles a domicilio que les dará una nueva vida.
         </p>
-        <div className="flex mt-[60px] items-center justify-center">
+        <div className="flex mt-[90px] items-center justify-center">
             {/* <Button content="калькулятор стоимости" className="border-[#e23936] bg-[#e23936] hover:shadow-[0_10px_15px_rgba(226,57,54,0.22)]" /> */}
             <ButtonOrder />
         </div>
