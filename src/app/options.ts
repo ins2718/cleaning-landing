@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza de Tapizados Profesional: Sofás, Sillones y Colchones en Madrid",
+        title: "Limpieza Profesional de Tapizados en Madrid - Consulta Nuestros Precios",
     },
 
     chooseFurnitureSection: {
