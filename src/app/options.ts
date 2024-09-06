@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpio Muebles: Servicios Profesionales de Limpieza de Tapicerías en Madrid",
+        title: "Servicios de Limpieza de Muebles Ikea en Madrid",
     },
 
     chooseFurnitureSection: {
