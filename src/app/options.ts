@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Servicios de Limpieza de Muebles Ikea en Madrid",
+        title: "Servicios Profesionales para Lavar los Muebles en Madrid - Limpieza Eficaz y Cuidado Especial",
     },
 
     chooseFurnitureSection: {
