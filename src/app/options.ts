@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Servicios Profesionales para Lavar los Muebles en Madrid - Limpieza Eficaz y Cuidado Especial",
+        title: "Elimina Manchas de Humo en Muebles en Madrid - Servicio Profesional de Limpieza",
     },
 
     chooseFurnitureSection: {
