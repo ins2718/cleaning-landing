@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza de Tapicerías en Madrid: Servicios Profesionales a Domicilio",
+        title: "Limpio Muebles: Servicios Profesionales de Limpieza de Tapicerías en Madrid",
     },
 
     chooseFurnitureSection: {
