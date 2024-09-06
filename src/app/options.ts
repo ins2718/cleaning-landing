@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Servicios de Lavado Profesional de Muebles a Domicilio",
+        title: "Limpieza de Tapiz de Muebles en Madrid a Domicilio",
     },
 
     chooseFurnitureSection: {
