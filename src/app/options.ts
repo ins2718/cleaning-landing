@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza Profesional de Tapizados en Madrid - Consulta Nuestros Precios",
+        title: "Limpieza de Tapicería en Madrid - Consulta Nuestros Precios Atractivos",
     },
 
     chooseFurnitureSection: {
