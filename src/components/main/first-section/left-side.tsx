@@ -11,7 +11,7 @@ function LeftSide() {
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
             <strong className=""></strong>
             <br />
-            En limpiarmuebles.pro ofrecemos servicios de limpieza de sofás de piel en domicilio con resultados excelentes.<br />Eliminamos manchas y olores, devolviendo a tu sofá de piel blanca su apariencia original.
+            En limpiarmuebles.pro, ofrecemos servicios de limpieza a domicilio para sofás de polipiel.<br />Usamos métodos especializados para eliminar manchas y olores, restaurando el aspecto y la comodidad de tu sofá de polipiel.
         </p>
         <div className="flex mt-[90px] items-center justify-center">
             {/* <Button content="калькулятор стоимости" className="border-[#e23936] bg-[#e23936] hover:shadow-[0_10px_15px_rgba(226,57,54,0.22)]" /> */}
