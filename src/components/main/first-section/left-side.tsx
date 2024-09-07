@@ -9,9 +9,11 @@ function LeftSide() {
             {title}
         </h1>
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
-            <strong className="">En limpiarmuebles.pro, ofrecemos servicios especializados en la limpieza de sofás de piel blanca a domicilio, con resultados excepcionales.</strong>
+            <strong className="">En limpiarmuebles.pro, ofrecemos servicios especializados en la limpieza de sofás de piel a domicilio, garantizando resultados excepcionales.</strong>
             <br />
-            Utilizamos técnicas avanzadas, incluyendo limpieza a vapor si es necesario, para restaurar tus sofás de piel blanca a su estado impecable.<br />Nuestro proceso elimina manchas, olores, bacterias, ácaros del polvo y alérgenos, asegurando que tu sofá de piel blanca no solo luzca renovado, sino que también sea un ambiente más limpio y saludable.
+            Utilizamos métodos modernos para restaurar tus sofás de piel a su estado impecable.<br />Nuestro proceso elimina manchas, olores, bacterias, ácaros del polvo y alérgenos, asegurando que tu sofá de piel no solo luzca renovado, sino que también sea un ambiente más limpio y saludable.<br />Advertencia: No utilices amoníaco para limpiar tu sofá de piel, ya que puede dañar el material y alterar su apariencia.
+
+
         </p>
         <div className="flex mt-[90px] items-center justify-center">
             {/* <Button content="калькулятор стоимости" className="border-[#e23936] bg-[#e23936] hover:shadow-[0_10px_15px_rgba(226,57,54,0.22)]" /> */}
