@@ -9,9 +9,9 @@ function LeftSide() {
             {title}
         </h1>
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
-            <strong className="">¿Tus muebles, colchón o alfombra necesitan una limpieza profunda?</strong>
+            <strong className="">En limpiarmuebles.pro, ofrecemos servicios especializados en la limpieza de sofás de piel blanca a domicilio, con resultados excepcionales.</strong>
             <br />
-            ¡Dales una nueva vida!<br />En limpiarmuebles.pro, ofrecemos servicios de lavado de muebles a domicilio con resultados profesionales.<br /> Utilizamos técnicas avanzadas, incluyendo limpieza de mobiliario con vapor si es necesario, para renovar tus muebles, colchones y alfombras.<br />Eliminamos manchas, olores, bacterias, ácaros de polvo y alergénicos, devolviéndoles su frescura original.
+            Utilizamos técnicas avanzadas, incluyendo limpieza a vapor si es necesario, para restaurar tus sofás de piel blanca a su estado impecable.<br />Nuestro proceso elimina manchas, olores, bacterias, ácaros del polvo y alérgenos, asegurando que tu sofá de piel blanca no solo luzca renovado, sino que también sea un ambiente más limpio y saludable.
         </p>
         <div className="flex mt-[90px] items-center justify-center">
             {/* <Button content="калькулятор стоимости" className="border-[#e23936] bg-[#e23936] hover:shadow-[0_10px_15px_rgba(226,57,54,0.22)]" /> */}

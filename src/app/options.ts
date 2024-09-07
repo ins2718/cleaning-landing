@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Elimina Manchas de Humo en Muebles en Madrid - Servicio Profesional de Limpieza",
+        title: "Limpieza y Mantenimiento de Sofás de Piel Blanca en Madrid – Servicio Especializado",
     },
 
     chooseFurnitureSection: {
