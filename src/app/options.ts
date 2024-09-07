@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza de Sofás de Piel a Domicilio en Madrid.",
+        title: "Limpieza de Sofás de Piel a Domicilio en Madrid. 10 Años de Experiencia con Productos Natuzzi",
     },
 
     chooseFurnitureSection: {
