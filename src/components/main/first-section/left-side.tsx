@@ -11,7 +11,7 @@ function LeftSide() {
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
             <strong className=""></strong>
             <br />
-            En limpiarmuebles.pro, ofrecemos servicios de limpieza a domicilio para sofás de polipiel.<br />Usamos métodos especializados para eliminar manchas y olores, restaurando el aspecto y la comodidad de tu sofá de polipiel.
+            En limpiarmuebles.pro, ofrecemos servicios especializados en la limpieza de sofás de cuero a domicilio con resultados profesionales. <br />Utilizamos técnicas avanzadas para que tus sofás de cuero queden impecables y frescos.<br />Nos encargamos de eliminar manchas y olores, devolviéndole a tu tapicería de cuero su aspecto original.
         </p>
         <div className="flex mt-[90px] items-center justify-center">
             {/* <Button content="калькулятор стоимости" className="border-[#e23936] bg-[#e23936] hover:shadow-[0_10px_15px_rgba(226,57,54,0.22)]" /> */}
