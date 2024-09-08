@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza de Tapizados Profesional: Sofás, Sillones y Colchones en Madrid",
+        title: "Limpieza Integral de Tapizados en Madrid - Sofás, Sillas y Colchones",
     },
 
     chooseFurnitureSection: {
