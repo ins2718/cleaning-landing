@@ -9,10 +9,10 @@ function LeftSide() {
             {title}
         </h1>
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
-            <strong className="">¿Tus muebles, colchón o alfombra necesitan una limpieza profunda?</strong>
+            <strong className="">¿Tu colchón necesita una limpieza profunda para mejorar tu salud y bienestar?</strong>
             <br />
-            En limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de tapizados a domicilio. Recupera la frescura y prolonga la vida de tus muebles sin necesidad de reemplazarlos. 
-            <br />¡Confía en nuestros expertos para resultados impecables!
+            EEn limpiarmuebles.pro, ofrecemos servicios profesionales de lavado de colchones a domicilio, enfocados en la eliminación de ácaros, bacterias y alérgenos. <br />Recupera la frescura de tu colchón y disfruta de un entorno más limpio y saludable para descansar. 
+            
             </p>
         <div className="flex mt-[60px] items-center justify-center">
             {/* <Button content="калькулятор стоимости" className="border-[#e23936] bg-[#e23936] hover:shadow-[0_10px_15px_rgba(226,57,54,0.22)]" /> */}
