@@ -9,9 +9,9 @@ function LeftSide() {
             {title}
         </h1>
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
-            <strong className="">¿Sabías que un colchón limpio es esencial para tu salud y bienestar?</strong>
+            <strong className="">En limpiarmuebles.pro, contamos con más de 10 años de experiencia en la limpieza profesional de sommiers. </strong>
             <br />
-            En limpiarmuebles.pro, contamos con más de 10 años de experiencia en la limpieza profesional de colchones.<br />Nos especializamos en la desinfección profunda y la eliminación de ácaros, bacterias y alérgenos, garantizando un entorno más saludable para descansar.<br />Intentar limpiar un colchón por ti mismo puede no solo ser ineficaz, sino que también puede empeorar la situación: es común que aparezcan manchas adicionales y restos de productos que dejen molestos cercos.<br />Nuestro equipo utiliza técnicas especializadas para evitar estos problemas y asegurar que tu colchón quede impecable.
+            Nos especializamos en la desinfección profunda y en la eliminación eficaz de ácaros, bacterias y alérgenos, proporcionando un entorno más limpio y saludable para descansar.<br />Ofrecemos servicios profesionales de limpieza de sommiers a domicilio, utilizando técnicas y equipos especializados que garantizan una limpieza profunda y segura.<br />Recupera la frescura de tu sommier y disfruta de un descanso más saludable.
             
             </p>
         <div className="flex mt-[60px] items-center justify-center">

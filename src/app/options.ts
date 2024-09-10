@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza de Colchones en Madrid: Servicio Profesional para Colchones, Sofás y Sillones",
+        title: "Limpieza de Sommiers en Madrid: Servicio Profesional para Sommiers, Sofás y Sillones",
     },
 
     chooseFurnitureSection: {
