@@ -9,9 +9,9 @@ function LeftSide() {
             {title}
         </h1>
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
-            <strong className="">¿Tu colchón necesita una limpieza profunda y eliminación de manchas?</strong>
-            <br />
-            Con más de 10 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de colchones a domicilio, especializados en la eliminación de manchas, ácaros, bacterias y alérgenos.
+            <strong className="">¿Tu colchón necesita una limpieza profunda y eliminación de manchas de orina?</strong>
+            <br />Con más de 10 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de colchones a domicilio, especializados en la eliminación de manchas de orina, ácaros, bacterias y alérgenos.
+            
             <br />Utilizamos productos y equipos de limpieza profesionales para obtener los mejores resultados.
             </p>
         <div className="flex mt-[60px] items-center justify-center">
