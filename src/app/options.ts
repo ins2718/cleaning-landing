@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza de Sommiers en Madrid: Servicio Profesional para Sommiers, Sofás y Sillones",
+        title: "Limpieza de Futones en Madrid: Servicio Profesional para Futones, Sofás y Sillones",
     },
 
     chooseFurnitureSection: {

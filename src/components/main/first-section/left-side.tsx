@@ -9,9 +9,13 @@ function LeftSide() {
             {title}
         </h1>
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
-            <strong className="">En limpiarmuebles.pro, contamos con más de 10 años de experiencia en la limpieza profesional de sommiers. </strong>
+            <strong className="">En limpiarmuebles.pro, contamos con más de 10 años de experiencia en la limpieza profesional de futones, sofás, sillones y alfombras. </strong>
             <br />
-            Nos especializamos en la desinfección profunda y en la eliminación eficaz de ácaros, bacterias y alérgenos, proporcionando un entorno más limpio y saludable para descansar.<br />Ofrecemos servicios profesionales de limpieza de sommiers a domicilio, utilizando técnicas y equipos especializados que garantizan una limpieza profunda y segura.<br />Recupera la frescura de tu sommier y disfruta de un descanso más saludable.
+            Nos especializamos en la desinfección profunda y en la eliminación eficaz de ácaros, bacterias y alérgenos, proporcionando un entorno más limpio y saludable para descansar.
+            <br />Intentar limpiar un futón con métodos caseros puede no solo ser ineficaz, sino que también puede empeorar la situación.
+            <br />Los productos inadecuados pueden dañar el material, dejando manchas, residuos o incluso generar nuevas marcas que serán difíciles de eliminar.
+            <br />Ofrecemos servicios profesionales de lavado a domicilio, utilizando técnicas y equipos especializados que garantizan una limpieza profunda y segura. 
+            <br />Recupera la frescura de tu futón y disfruta de un descanso más saludable.
             
             </p>
         <div className="flex mt-[60px] items-center justify-center">
