@@ -9,10 +9,10 @@ function LeftSide() {
             {title}
         </h1>
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
-            <strong className="">¿Tu colchón necesita una limpieza profunda para mejorar tu salud y bienestar?</strong>
+            <strong className="">¿Tu colchón necesita una limpieza profunda y eliminación de manchas?</strong>
             <br />
-            EEn limpiarmuebles.pro, ofrecemos servicios profesionales de lavado de colchones a domicilio, enfocados en la eliminación de ácaros, bacterias y alérgenos. <br />Recupera la frescura de tu colchón y disfruta de un entorno más limpio y saludable para descansar. 
-            
+            Con más de 10 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de colchones a domicilio, especializados en la eliminación de manchas, ácaros, bacterias y alérgenos.
+            <br />Utilizamos productos y equipos de limpieza profesionales para obtener los mejores resultados.
             </p>
         <div className="flex mt-[60px] items-center justify-center">
             {/* <Button content="калькулятор стоимости" className="border-[#e23936] bg-[#e23936] hover:shadow-[0_10px_15px_rgba(226,57,54,0.22)]" /> */}
