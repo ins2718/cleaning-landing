@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "¿Buscas limpieza profesional de sofás en Madrid? 10 años de experiencia para resultados máximos con tecnologías avanzadas",
+        title: "Limpieza de Sofás de Terciopelo en Madrid: 15 Años de Experiencia para Resultados Máximos",
     },
 
     chooseFurnitureSection: {
