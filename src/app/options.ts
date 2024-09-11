@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza de Tapizados Profesional: Sofás, Sillones y Colchones en Madrid",
+        title: "Limpieza de sofás en Madrid: Tecnologías modernas de cuidado con vapor y agua a 95 grados",
     },
 
     chooseFurnitureSection: {
