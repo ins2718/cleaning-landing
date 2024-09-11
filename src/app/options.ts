@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza Profesional de Sofás en Madrid: Consulta Nuestros Precios para Limpieza de Sofás",
+        title: "Limpieza Profesional de Tapizados en Madrid - Consulta Nuestros Precios",
     },
 
     chooseFurnitureSection: {
