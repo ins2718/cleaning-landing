@@ -9,12 +9,11 @@ function LeftSide() {
             {title}
         </h1>
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
-            <strong className="">¿Tus sofás, colchón o alfombra necesitan una limpieza profunda?</strong>
+            <strong className="">En limpiarmuebles.pro, contamos con 15 años de experiencia en la limpieza a domicilio de sofás, incluyendo los delicados sofás de terciopelo.</strong>
             <br />
-            En limpiarmuebles.pro, ofrecemos servicios de limpieza de sofás a domicilio con resultados profesionales.
-            <br /> Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados si es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros, devolviéndoles su frescura original.
-            <br />¡Eliminamos manchas, olores, bacterias y ácaros, devolviéndoles su frescura original!
-            <br />
+            Aplicamos técnicas avanzadas, como limpieza con vapor o agua a 95 grados, para eliminar eficazmente polvo, manchas, olores, bacterias y ácaros.
+            <br /> Confía en nuestros expertos para restaurar la frescura y el aspecto original de tus sofás de terciopelo.
+            
             </p>
         <div className="flex mt-[60px] items-center justify-center">
             {/* <Button content="калькулятор стоимости" className="border-[#e23936] bg-[#e23936] hover:shadow-[0_10px_15px_rgba(226,57,54,0.22)]" /> */}
