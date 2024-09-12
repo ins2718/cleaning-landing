@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza de Sofás en Madrid: Elimina Manchas de Aceite y Más - Servicio Profesional para Colchones, Sofás y Sillones",
+        title: "Limpieza de Sofás, Colchones y Sillones en Madrid: Servicio Profesional para Eliminar Polvo y Manchas",
     },
 
     chooseFurnitureSection: {
