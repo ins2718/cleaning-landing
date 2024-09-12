@@ -82,8 +82,7 @@ const options = {
         cards: [
             {
                 title: "1. Envíanos fotos y tu dirección:",
-                text: `Haz clic en el botón de WhatsApp para enviar fotos de tu sofá, colchón, alfombra, silla, sillón.
-                IndIndica tu código postal.`,
+                text: `Haz clic en el botón de WhatsApp para enviar fotos de tu alfombra, sofá, colchón, silla o sillón. Indica tu código postal.`,
                 image: "whats-app.png",
             }, {
                 title: "2. Cálculo del precio:",
