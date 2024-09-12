@@ -41,7 +41,7 @@ const options = {
             {
                 title: "Expertos en limpieza:",
                 text: `
-                Contamos con un equipo de técnicos altamente cualificados y experimentados en la limpieza de todo tipo de muebles, colchones, alfombras y tapizados. Nuestro servicio de limpieza de tapizados es confiable y efectivo. Más de 5000 clientes satisfechos avalan nuestro trabajo. Más de 5000 sofás, colchones, sillas y alfombras han quedado como nuevos.`,
+                Contamos con un equipo de técnicos altamente cualificados y experimentados en la limpieza de alfombras, colchones, sofás y tapizados. Nuestro servicio de lavado de alfombras es confiable y efectivo. Más de 5000 clientes satisfechos avalan nuestro trabajo. Más de 5000 alfombras, sofás, colchones y sillas han quedado como nuevos.`,
                 image: "three-people.png",
             }, {
                 title: "Limpieza segura y eficaz:",
