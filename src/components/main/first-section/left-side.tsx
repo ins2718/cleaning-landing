@@ -12,8 +12,8 @@ function LeftSide() {
             <strong className="">¿Tu alfombra o sofá necesitan una limpieza profunda y eliminación de polvo y suciedad?</strong>
             <br />
             Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras y sofás a domicilio. 
-            <br />Nos especializamos en la eliminación de polvo, suciedad, ácaros y bacterias de tus alfombras, garantizando una desinfección completa y un ambiente más saludable en tu hogar.
-            <br />Utilizamos productos y equipos de limpieza de alta calidad para que tus alfombras queden como nuevas, libres de alérgenos y suciedad.
+            <br />Nos especializamos en la eliminación de polvo, suciedad, ácaros y bacterias de tus alfombras, utilizando técnicas avanzadas como la limpieza con vapor y agua caliente a 95 grados, garantizando una desinfección completa y un ambiente más saludable en tu hogar.
+            <br />Utilizamos productos y equipos de alta calidad para que tus alfombras queden como nuevas, libres de alérgenos y suciedad.
             <br />¡Confía en nosotros para un hogar más limpio y fresco!
             </p>
         <div className="flex mt-[60px] items-center justify-center">
