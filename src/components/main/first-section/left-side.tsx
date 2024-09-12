@@ -9,11 +9,12 @@ function LeftSide() {
             {title}
         </h1>
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
-            <strong className="">¿Tu alfombra o sofá necesitan una limpieza profunda y eliminación de polvo y suciedad?</strong>
+            <strong className="">¿Tu alfombra de lana necesita una limpieza profunda y eliminación de polvo y suciedad?</strong>
             <br />
-            Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras y sofás a domicilio. 
-            <br />Nos especializamos en la eliminación de polvo, suciedad, ácaros y bacterias de tus alfombras, utilizando técnicas avanzadas como la limpieza con vapor y agua caliente a 95 grados, garantizando una desinfección completa y un ambiente más saludable en tu hogar.
-            <br />Utilizamos productos y equipos de alta calidad para que tus alfombras queden como nuevas, libres de alérgenos y suciedad.
+            Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras de lana a domicilio. 
+            <br />Nos especializamos en la eliminación de polvo, suciedad, ácaros y bacterias de tus alfombras de lana, garantizando una desinfección completa y un ambiente más saludable en tu hogar. 
+            <br />Se puede lavar una alfombra de lana con nuestros profesionales limpiadores y equipos de alta calidad.
+            <br />Utilizamos productos y equipos de limpieza de alta calidad para que tu alfombra de lana quede como nueva, libre de alérgenos y suciedad.
             <br />¡Confía en nosotros para un hogar más limpio y fresco!
             </p>
         <div className="flex mt-[60px] items-center justify-center">

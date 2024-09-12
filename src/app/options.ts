@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza de Alfombras, Colchones, Sofás y Sillones en Madrid: Servicio Profesional de Lavado y Eliminación de Suciedad",
+        title: "Limpieza de Alfombras de Lana, Colchones, Sofás y Sillones en Madrid: Servicio Profesional de Lavado y Eliminación de Suciedad",
     },
 
     chooseFurnitureSection: {
