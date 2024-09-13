@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza Profunda de Alfombras en Madrid: Servicio Profesional de Lavado y Eliminación de Suciedad",
+        title: "Limpieza de Alfombras de Polipropileno en Madrid: Servicio Especializado en Eliminación de Suciedad y Manchas",
     },
 
     chooseFurnitureSection: {
