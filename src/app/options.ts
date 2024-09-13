@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza de Sillones en Madrid: Tecnologías Modernas de Cuidado con Vapor y Agua a 95 Grados",
+        title: "Limpieza Profesional de Sillones de Chenille en Madrid: Servicios Especializados y Efectivos",
     },
 
     chooseFurnitureSection: {
