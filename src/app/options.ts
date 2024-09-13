@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza de Alfombras de Pelo Largo en Madrid: Servicio Profesional y Precios",
+        title: "Precio de Limpieza de Alfombras por Metro Cuadrado en Madrid: Servicio Profesional y Eficiente",
     },
 
     chooseFurnitureSection: {

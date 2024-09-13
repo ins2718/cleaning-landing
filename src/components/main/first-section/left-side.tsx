@@ -9,12 +9,13 @@ function LeftSide() {
             {title}
         </h1>
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
-            <strong className="">¿Tu alfombra de pelo largo necesita una limpieza profunda y profesional?</strong>
+            <strong className="">¿Estás buscando el precio para la limpieza de alfombras por metro cuadrado?</strong>
             <br />
-            Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios especializados en limpieza de alfombras de pelo largo a domicilio.
-            <br />Nos enfocamos en la eliminación de manchas, polvo, suciedad y alérgenos, asegurando una desinfección completa y un ambiente más saludable en tu hogar.
-            <br />Consulta nuestros precios para la limpieza de alfombras de pelo largo y descubre cómo podemos devolverle a tu alfombra su aspecto como nuevo. Utilizamos productos y equipos de alta calidad para lograr los mejores resultados.
-            <br />¡Confía en nosotros para mantener tu hogar limpio y fresco!
+            En limpiarmuebles.pro, con más de 15 años de experiencia, ofrecemos servicios profesionales de limpieza de alfombras a domicilio.
+            <br />Nos especializamos en la limpieza de alfombras de todos los tamaños, con tarifas transparentes basadas en el precio por metro cuadrado.
+            <br />Nuestro servicio incluye la eliminación de manchas, polvo, suciedad y alérgenos, garantizando una desinfección completa y un ambiente más saludable en tu hogar.
+            <br />Utilizamos productos y equipos de alta calidad para asegurar que tu alfombra quede como nueva.
+            <br /> Consulta nuestros precios por metro cuadrado y descubre cómo podemos ayudarte a mantener tus alfombras en perfecto estado.
             </p>
         <div className="flex mt-[60px] items-center justify-center">
             {/* <Button content="калькулятор стоимости" className="border-[#e23936] bg-[#e23936] hover:shadow-[0_10px_15px_rgba(226,57,54,0.22)]" /> */}
