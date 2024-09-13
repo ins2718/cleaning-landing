@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza de Alfombras en Madrid: Servicio Profesional de Lavado y Eliminación de Manchas",
+        title: "Limpieza Profunda de Alfombras en Madrid: Servicio Profesional de Lavado y Eliminación de Suciedad",
     },
 
     chooseFurnitureSection: {
