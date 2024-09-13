@@ -9,12 +9,12 @@ function LeftSide() {
             {title}
         </h1>
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
-            <strong className="">¿Tu alfombra de polipropileno necesita una limpieza profunda y eliminación de manchas y suciedad?</strong>
+            <strong className="">¿Tu alfombra de pelo largo necesita una limpieza profunda y profesional?</strong>
             <br />
-            Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras de polipropileno a domicilio. 
-            <br />Nos especializamos en la eliminación de manchas, polvo, suciedad, ácaros y alérgenos, garantizando una desinfección completa y un ambiente más saludable en tu hogar.
-            <br />Utilizamos productos y equipos de limpieza de alta calidad, diseñados específicamente para alfombras de polipropileno, para que tus alfombras queden como nuevas.
-            <br />¡Confía en nosotros para un hogar más limpio y fresco!
+            Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios especializados en limpieza de alfombras de pelo largo a domicilio.
+            <br />Nos enfocamos en la eliminación de manchas, polvo, suciedad y alérgenos, asegurando una desinfección completa y un ambiente más saludable en tu hogar.
+            <br />Consulta nuestros precios para la limpieza de alfombras de pelo largo y descubre cómo podemos devolverle a tu alfombra su aspecto como nuevo. Utilizamos productos y equipos de alta calidad para lograr los mejores resultados.
+            <br />¡Confía en nosotros para mantener tu hogar limpio y fresco!
             </p>
         <div className="flex mt-[60px] items-center justify-center">
             {/* <Button content="калькулятор стоимости" className="border-[#e23936] bg-[#e23936] hover:shadow-[0_10px_15px_rgba(226,57,54,0.22)]" /> */}

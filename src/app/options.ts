@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza de Alfombras de Polipropileno en Madrid: Servicio Especializado en Eliminación de Suciedad y Manchas",
+        title: "Limpieza de Alfombras de Pelo Largo en Madrid: Servicio Profesional y Precios",
     },
 
     chooseFurnitureSection: {
