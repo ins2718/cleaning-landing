@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "¿Buscas limpieza profesional de sofás en Madrid? 10 años de experiencia para resultados máximos con tecnologías avanzadas",
+        title: "impieza Profesional de Sillones Tapizados en Tela en Madrid: Servicios Especializados y Efectivos",
     },
 
     chooseFurnitureSection: {
