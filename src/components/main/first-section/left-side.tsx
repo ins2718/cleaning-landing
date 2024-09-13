@@ -9,11 +9,11 @@ function LeftSide() {
             {title}
         </h1>
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
-            <strong className="">¿Tus sillones necesitan una limpieza profunda?</strong>
-            <br />En limpiarmuebles.pro, ofrecemos servicios especializados para limpiar los sillones a domicilio con resultados profesionales.
+            <strong className="">¿Tus sillas necesitan una limpieza profunda?</strong>
+            <br />En limpiarmuebles.pro, ofrecemos servicios especializados para limpiar sillas a domicilio con resultados profesionales.
             <br />Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados si es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros, devolviéndoles su frescura original.
 
-            <br />¡Eliminamos manchas, olores, bacterias y ácaros de tus sillones, devolviéndoles su frescura original!
+            <br />¡Eliminamos manchas, olores, bacterias y ácaros de tus sillas, devolviéndoles su frescura original!
             </p>
         <div className="flex mt-[60px] items-center justify-center">
             {/* <Button content="калькулятор стоимости" className="border-[#e23936] bg-[#e23936] hover:shadow-[0_10px_15px_rgba(226,57,54,0.22)]" /> */}
