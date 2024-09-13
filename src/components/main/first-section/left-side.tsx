@@ -9,11 +9,11 @@ function LeftSide() {
             {title}
         </h1>
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
-            <strong className="">¿Tus sofás, colchón o alfombra necesitan una limpieza profunda?</strong>
+            <strong className="">¿Tus sillones, sofás, colchón o alfombra necesitan una limpieza profunda?</strong>
             <br />
-            En limpiarmuebles.pro, ofrecemos servicios de limpieza de sofás a domicilio con resultados profesionales.
+            En limpiarmuebles.pro, ofrecemos servicios de limpieza de sillones a domicilio con resultados profesionales.
             <br /> Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros, devolviéndoles su frescura original.
-            <br />¡Eliminamos manchas, olores, bacterias y ácaros, devolviéndoles su frescura original!
+            <br />¡Eliminamos manchas, olores, bacterias y ácaros en sillones, sofás, colchones y alfombras, devolviéndoles su frescura original!
             <br />
             </p>
         <div className="flex mt-[60px] items-center justify-center">
