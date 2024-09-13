@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza Profesional de Sillones Tapizados en Tela en Madrid: Servicios Especializados y Efectivos",
+        title: "Limpieza Profesional de Sillones en Madrid: Servicios Efectivos para Lavar tus Sillones",
     },
 
     chooseFurnitureSection: {
