@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "impieza Profesional de Sillones Tapizados en Tela en Madrid: Servicios Especializados y Efectivos",
+        title: "Limpieza Profesional de Sofás en Madrid: Eliminación de Manchas, Olores y Bacterias con Técnicas Avanzadas",
     },
 
     chooseFurnitureSection: {
