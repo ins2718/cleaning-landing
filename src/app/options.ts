@@ -26,6 +26,8 @@ const options = {
 
     firstSection: {
         title: "Limpio Muebles: Servicios Profesionales de Limpieza de Tapicerías en Madrid",
+        showTitlePickture: false,
+        showLogoTitle: false,
     },
 
     chooseFurnitureSection: {
