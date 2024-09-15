@@ -26,6 +26,8 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Tapicerías de Cuero a Domicilio en Madrid – 10 Años de Experiencia",
+        showTitlePickture: false,
+        showLogoTitle: false,
     },
 
     chooseFurnitureSection: {
