@@ -26,6 +26,8 @@ const options = {
 
     firstSection: {
         title: "Sanitización de Colchones en Madrid: Servicio para Colchones, Sofás y Sillones - Desinfección Profesional",
+        showTitlePickture: false,
+        showLogoTitle: false,
     },
 
     chooseFurnitureSection: {
