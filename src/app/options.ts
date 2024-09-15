@@ -26,6 +26,8 @@ const options = {
 
     firstSection: {
         title: "Limpieza Profesional de Sillones en Madrid: Servicios Efectivos para Limpiar los Sillones",
+        showTitlePickture: false,
+        showLogoTitle: false,
     },
 
     chooseFurnitureSection: {
