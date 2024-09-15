@@ -26,6 +26,8 @@ const options = {
 
     firstSection: {
         title: "Limpieza Profesional de Sofás en Madrid: Consulta Nuestros Precios para Limpieza de Sofás",
+        showTitlePickture: false,
+        showLogoTitle: false,
     },
 
     chooseFurnitureSection: {
