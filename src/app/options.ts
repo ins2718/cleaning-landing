@@ -28,7 +28,15 @@ const options = {
         title: "Limpieza de Alfombras de Pelo Largo en Madrid: Servicio Profesional y Precios",
         showTitlePicture: false,
         showLogoTitle: false,
-        showGallery: true,
+        showGallery: false,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b]¿Tu alfombra de pelo largo necesita una limpieza profunda y profesional?[/b]
+Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios especializados en limpieza de alfombras de pelo largo a domicilio.
+Nos enfocamos en la eliminación de manchas, polvo, suciedad y alérgenos, asegurando una desinfección completa y un ambiente más saludable en tu hogar.
+Consulta nuestros precios para la limpieza de alfombras de pelo largo y descubre cómo podemos devolverle a tu alfombra su aspecto como nuevo. Utilizamos productos y equipos de alta calidad para lograr los mejores resultados.
+¡Confía en nosotros para mantener tu hogar limpio y fresco!`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
