@@ -29,6 +29,14 @@ const options = {
         showTitlePicture: false,
         showLogoTitle: false,
         showGallery: false,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b][/b]
+¿Necesitas un lavado profundo de colchón, muebles o alfombra?
+En limpiarmuebles.pro, ofrecemos servicios de lavado a domicilio con resultados profesionales.
+Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, para renovar tus colchones, muebles y alfombras.
+Eliminamos manchas, olores, bacterias, ácaros del polvo y alérgenos, devolviéndoles su frescura original.`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
