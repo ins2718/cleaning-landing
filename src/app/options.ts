@@ -26,6 +26,8 @@ const options = {
 
     firstSection: {
         title: "¿Buscas limpieza profesional de sofás de microfibra en Madrid? 10 años de experiencia para resultados máximos con tecnologías avanzadas",
+        showTitlePickture: false,
+        showLogoTitle: false,
     },
 
     chooseFurnitureSection: {
