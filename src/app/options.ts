@@ -26,6 +26,8 @@ const options = {
 
     firstSection: {
         title: "Limpieza Industrial de Alfombras en Madrid: Servicio Profesional de Lavado y Eliminación de Suciedad",
+        showTitlePickture: false,
+        showLogoTitle: false,
     },
 
     chooseFurnitureSection: {
