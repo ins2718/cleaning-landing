@@ -26,6 +26,8 @@ const options = {
 
     firstSection: {
         title: "Limpieza profesional de muebles a domicilio.",
+        showTitlePickture: true,
+        showLogoTitle: false,
     },
 
     chooseFurnitureSection: {
