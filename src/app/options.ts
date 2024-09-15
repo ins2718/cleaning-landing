@@ -26,6 +26,8 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Sofás de Terciopelo en Madrid: 15 Años de Experiencia para Resultados Máximos",
+        showTitlePickture: false,
+        showLogoTitle: false,
     },
 
     chooseFurnitureSection: {
