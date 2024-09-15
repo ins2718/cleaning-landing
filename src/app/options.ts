@@ -31,7 +31,15 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza Eficaz de Sofás de Piel Blanca en Madrid",
+        title: "Limpieza profesional de muebles a domicilio.",
+        showTitlePickture: false,
+        showLogoTitle: true,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b]¿Tus muebles, colchón o alfombra están sucios, huelen mal o simplemente necesitan una limpieza a fondo?[/b]
+¡No los tires!
+En limpiarmuebles.pro ofrecemos un servicio profesional de limpieza de muebles a domicilio que les dará una nueva vida.`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
