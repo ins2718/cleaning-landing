@@ -29,6 +29,13 @@ const options = {
         showTitlePicture: false,
         showLogoTitle: false,
         showGallery: false,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b]En limpiarmuebles.pro, ofrecemos servicios especializados en la limpieza de sofás de piel a domicilio, garantizando resultados excepcionales.[/b]
+Utilizamos métodos modernos para restaurar tus sofás de piel a su estado impecable.
+Nuestro proceso elimina manchas, olores, bacterias, ácaros del polvo y alérgenos, asegurando que tu sofá de piel no solo luzca renovado, sino que también sea un ambiente más limpio y saludable.
+Advertencia: No utilices amoníaco para limpiar tu sofá de piel, ya que puede dañar el material y alterar su apariencia.`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
