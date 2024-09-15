@@ -26,6 +26,8 @@ const options = {
 
     firstSection: {
         title: "Limpieza Profesional de Colchones y Muebles a Domicilio con Vapor",
+        showTitlePickture: false,
+        showLogoTitle: false,
     },
 
     chooseFurnitureSection: {
