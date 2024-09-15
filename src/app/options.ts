@@ -26,6 +26,8 @@ const options = {
 
     firstSection: {
         title: "Servicio Profesional de Limpieza y Lavado de Colchones, Sofás y Sillones en Madrid",
+        showTitlePickture: false,
+        showLogoTitle: false,
     },
 
     chooseFurnitureSection: {
