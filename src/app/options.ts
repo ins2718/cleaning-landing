@@ -29,6 +29,13 @@ const options = {
         showTitlePicture: false,
         showLogoTitle: false,
         showGallery: false,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b]¿Tu sofá necesita una limpieza profunda y eliminación de manchas?[/b]
+Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de sofás y colchones a domicilio. 
+Nos especializamos en la eliminación de manchas, así como en la eliminación de ácaros, bacterias y alérgenos.
+Utilizamos productos y equipos de limpieza profesionales para obtener el máximo resultado, asegurando que tu sofá y colchón queden como nuevos.`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
