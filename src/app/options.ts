@@ -26,6 +26,8 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Sofás, Colchones y Sillones en Madrid: Servicio Profesional para Eliminar Polvo y Manchas",
+        showTitlePickture: false,
+        showLogoTitle: false,
     },
 
     chooseFurnitureSection: {
