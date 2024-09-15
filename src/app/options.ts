@@ -26,6 +26,8 @@ const options = {
 
     firstSection: {
         title: "Limpieza Profesional de Sofás de Piel en Madrid – Cuidado Especializado",
+        showTitlePickture: false,
+        showLogoTitle: false,
     },
 
     chooseFurnitureSection: {
