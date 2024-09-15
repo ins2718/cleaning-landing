@@ -1,6 +1,7 @@
 import options from "@/app/options";
 import LeftSide from "./left-side";
 import RightSide from "./right-side";
+import { CSSProperties } from "react";
 
 function FirstSection() {
     const { topMargin, bottomMargin, showTitlePicture, showGallery } = options.firstSection;
