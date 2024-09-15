@@ -26,6 +26,8 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Alfombras de Polipropileno en Madrid: Servicio Especializado en Eliminación de Suciedad y Manchas",
+        showTitlePickture: false,
+        showLogoTitle: false,
     },
 
     chooseFurnitureSection: {
