@@ -26,6 +26,8 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Sofás de Polipiel a Domicilio en Madrid",
+        showTitlePickture: false,
+        showLogoTitle: false,
     },
 
     chooseFurnitureSection: {
