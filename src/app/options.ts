@@ -29,6 +29,13 @@ const options = {
         showTitlePicture: false,
         showLogoTitle: false,
         showGallery: false,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b]¿Tus sillones necesitan una limpieza profunda?[/b]
+En limpiarmuebles.pro, ofrecemos servicios especializados para lavar sillones con resultados profesionales.
+Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados si es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros, devolviéndoles su frescura original.
+¡Eliminamos manchas, olores, bacterias y ácaros de tus sillones, devolviéndoles su frescura y confort originales!`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
