@@ -29,6 +29,12 @@ const options = {
         showTitlePicture: false,
         showLogoTitle: false,
         showGallery: false,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b]¿Tu colchón necesita una limpieza profunda y eliminación de manchas?[/b]
+Con más de 10 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de colchones a domicilio, especializados en la eliminación de manchas, ácaros, bacterias y alérgenos.
+Utilizamos productos y equipos de limpieza profesionales para obtener los mejores resultados.`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
