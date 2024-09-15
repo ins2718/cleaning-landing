@@ -26,6 +26,8 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Alfombras, Colchones, Sofás y Sillones en Madrid: Servicio Profesional de Lavado y Eliminación de Suciedad con Vaporeta",
+        showTitlePickture: false,
+        showLogoTitle: false,
     },
 
     chooseFurnitureSection: {
