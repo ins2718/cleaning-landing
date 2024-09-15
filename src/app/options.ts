@@ -29,6 +29,11 @@ const options = {
         showTitlePicture: false,
         showLogoTitle: false,
         showGallery: false,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b]En limpiarmuebles.pro ofrecemos servicios de limpieza de sofás de piel en domicilio con garantía de resultados excelentes.[/b]
+Eliminamos manchas y olores, devolviendo a tu sofá de piel blanca su apariencia original.`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
