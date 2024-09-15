@@ -29,6 +29,13 @@ const options = {
         showTitlePicture: false,
         showLogoTitle: false,
         showGallery: false,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b]En limpiarmuebles.pro, contamos con más de 10 años de experiencia en la limpieza profesional de sommiers.[/b]
+Nos especializamos en la desinfección profunda y en la eliminación eficaz de ácaros, bacterias y alérgenos, proporcionando un entorno más limpio y saludable para descansar.
+Ofrecemos servicios profesionales de limpieza de sommiers a domicilio, utilizando técnicas y equipos especializados que garantizan una limpieza profunda y segura.
+Recupera la frescura de tu sommier y disfruta de un descanso más saludable.`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
