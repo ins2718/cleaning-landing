@@ -3,7 +3,7 @@ import IconWhatsApp from "../icons/icon-whats-app";
 import ym from "react-yandex-metrika";
 
 function ButtonWhatsAppCircle() {
-    return <div className="fixed top-[100px] sm:top-[unset] sm:bottom-10 right-10 z-50">
+    return <div className="fixed top-[40px] sm:top-[unset] sm:bottom-10 right-10 z-50">
         <div className="absolute size-[60px] border-[3px] rounded-full border-[--whats-app-color] shadow-[0_0_20px_0_rgba(0,0,0,0.2)] animate-whatsAppButtonPulse"></div>
         <button onClick={() => {
             ym("reachGoal", "whatsapp");
