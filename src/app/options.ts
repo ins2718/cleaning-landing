@@ -29,6 +29,12 @@ const options = {
         showTitlePicture: false,
         showLogoTitle: false,
         showGallery: false,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b]Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras en oficinas, hoteles y restaurantes.[/b]
+Nos especializamos en la eliminación de polvo, suciedad y alérgenos de tus alfombras, garantizando desinfección y la máxima eliminación posible de manchas y suciedad. 
+Utilizamos productos de limpieza profesionales y equipos especializados.`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
