@@ -29,6 +29,14 @@ const options = {
         showTitlePicture: false,
         showLogoTitle: false,
         showGallery: false,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b]¿Tus sofás, colchón o alfombra necesitan una limpieza profunda?[/b]
+En limpiarmuebles.pro, ofrecemos servicios de limpieza de sofás a domicilio con 15 años de experiencia y resultados profesionales.
+Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados si es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros en sofás de tela antimanchas y todos los tipos de tapizados, devolviéndoles su frescura original.
+¡Eliminamos manchas, olores, bacterias y ácaros, devolviéndoles su frescura original!
+`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
