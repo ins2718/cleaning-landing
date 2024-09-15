@@ -29,6 +29,13 @@ const options = {
         showTitlePicture: false,
         showLogoTitle: false,
         showGallery: false,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b][/b]
+En limpiarmuebles.pro, ofrecemos servicios especializados para limpiar muebles de cuero a domicilio con resultados profesionales.
+Utilizamos técnicas avanzadas para que tus sofás y muebles de cuero queden impecables y frescos.
+Nos encargamos de eliminar manchas y olores, devolviendo a tu tapicería de cuero su aspecto original.`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
