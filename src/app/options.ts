@@ -29,6 +29,14 @@ const options = {
         showTitlePicture: false,
         showLogoTitle: false,
         showGallery: false,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b]¿Tus muebles, colchón o alfombra necesitan una limpieza profunda?[/b]
+En limpiarmuebles.pro, ofrecemos servicios de limpieza de mobiliario a domicilio con resultados profesionales.
+Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, para renovar tus muebles, colchones y alfombras.   
+¡Eliminamos manchas, olores y bacterias, devolviéndoles su frescura original!
+`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
