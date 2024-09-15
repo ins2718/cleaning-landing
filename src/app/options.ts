@@ -29,6 +29,13 @@ const options = {
         showTitlePicture: false,
         showLogoTitle: false,
         showGallery: false,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b][/b]
+En limpiarmuebles.pro, nos especializamos en la limpieza de sofás de cuero.
+Contamos con una amplia experiencia en sofás de gama alta, incluyendo los de la marca Natuzzi, y ofrecemos nuestros servicios a domicilio.
+Utilizamos métodos especializados que ayudan a renovar la apariencia y frescura de su sofá, preservando la calidad del material.`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
