@@ -29,6 +29,14 @@ const options = {
         showTitlePicture: false,
         showLogoTitle: false,
         showGallery: false,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b]¿Tus sillones de chenille necesitan una limpieza profunda?[/b]
+En limpiarmuebles.pro, ofrecemos servicios de limpieza de sillones de chenille a domicilio con resultados profesionales.
+Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros, devolviéndoles su frescura original.
+¡Eliminamos manchas, olores, bacterias y ácaros en sillones de chenille, devolviéndoles su frescura original!
+`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
