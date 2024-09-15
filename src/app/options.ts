@@ -26,6 +26,8 @@ const options = {
 
     firstSection: {
         title: "Limpieza Eficaz de Sofás de Piel Blanca en Madrid",
+        showTitlePickture: false,
+        showLogoTitle: false,
     },
 
     chooseFurnitureSection: {
