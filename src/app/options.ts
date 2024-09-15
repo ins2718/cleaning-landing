@@ -29,6 +29,13 @@ const options = {
         showTitlePicture: false,
         showLogoTitle: false,
         showGallery: false,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b]¿Tu alfombra de lana necesita una limpieza profunda y eliminación de polvo y suciedad?[/b]
+Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras de lana a domicilio. 
+Nos especializamos en la eliminación de polvo, suciedad, ácaros y bacterias de tus alfombras de lana, garantizando una desinfección completa y un ambiente más saludable en tu hogar. 
+¡Confía en nosotros para un hogar más limpio y fresco!`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
