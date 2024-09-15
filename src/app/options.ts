@@ -29,6 +29,12 @@ const options = {
         showTitlePicture: false,
         showLogoTitle: false,
         showGallery: false,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b]En limpiarmuebles.pro, contamos con 15 años de experiencia en la limpieza a domicilio de sofás, incluyendo los delicados sofás de terciopelo.[/b]
+Aplicamos técnicas avanzadas, como limpieza con vapor o agua a 95 grados, para eliminar eficazmente polvo, manchas, olores, bacterias y ácaros.
+Confía en nuestros expertos para restaurar la frescura y el aspecto original de tus sofás de terciopelo.`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
