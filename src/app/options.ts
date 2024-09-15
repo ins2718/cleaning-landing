@@ -29,6 +29,14 @@ const options = {
         showTitlePicture: false,
         showLogoTitle: false,
         showGallery: false,
+        topMargin: "130px",
+        bottomMargin: "170px",
+        leftSideText: `[b]¿Tu alfombra de polipropileno necesita una limpieza profunda y eliminación de manchas y suciedad?[/b]
+Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras de polipropileno a domicilio. 
+Nos especializamos en la eliminación de manchas, polvo, suciedad, ácaros y alérgenos, garantizando una desinfección completa y un ambiente más saludable en tu hogar.
+Utilizamos productos y equipos de limpieza de alta calidad, diseñados específicamente para alfombras de polipropileno, para que tus alfombras queden como nuevas.
+¡Confía en nosotros para un hogar más limpio y fresco!`,
+        leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
