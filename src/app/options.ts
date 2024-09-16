@@ -15,6 +15,12 @@ const options = {
     workingHoursText: "Horario de trabajo",
     workingHours: "Lun-Dom: 10.00 - 22.00",
 
+    buttonWhatsAppCircle: { // круглая кнопка whatsApp
+        mobileTop: "100px", // отступ сверху на мобильных
+        desktopBottom: "2.5rem", // отступ снизу на десктопах
+        right: "2.5rem", // отступ справа
+    },
+
     menuItems: [
         { title: "Inicio", href: "#first-section" },
         { title: "Calcula el precio", href: "#choose-furniture" },
