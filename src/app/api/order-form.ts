@@ -7,7 +7,7 @@ export const orderForm = api.injectEndpoints({
     }),
     sendOrderForm: builder.mutation<SendOrderFormResponse, SendOrderForm>({
       query: (chatInfo) => ({
-        url: "/landing-form",
+        url: process.env.NEXT_PUBLIC_HOST_API + '/landing-form.php',
         method: 'POST',
         body: chatInfo,
       }),
