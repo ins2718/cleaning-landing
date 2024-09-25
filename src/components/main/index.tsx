@@ -1,4 +1,4 @@
-import options from "@/app/options";
+import { useCsrfCookieQuery } from "@/app/api/order-form";
 import FirstSection from "./first-section";
 import dynamic from "next/dynamic";
 const RenderOnViewportEntry = dynamic(() => import("../render-on-viewport-entry"), { ssr: false });
@@ -12,7 +12,7 @@ const ChooseFurnitureSection = dynamic(() => import("./choose-furnitute-section"
 const TestimonialsSection = dynamic(() => import("./testimonials-section"), { ssr: false });
 
 function Main() {
-    const { showGallery } = options.firstSection;
+    useCsrfCookieQuery();
     return <main className="overflow-x-hidden">
         <FirstSection />
         <RenderOnViewportEntry className="min-h-[1183px] lg:min-h-[903px]" id="choose-furniture">
