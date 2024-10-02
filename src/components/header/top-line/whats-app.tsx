@@ -3,13 +3,15 @@ import PhoneService from "@/services/phone-service";
 import options from "@/app/options";
 import IconWhatsApp from "@/components/icons/icon-whats-app";
 import WhatsAppService from "@/services/whats-app-service";
+import { useState } from "react";
 
 function WhatsApp() {
     const { logoHeight, whatsAppText, phone } = options;
     const phoneNumber = new PhoneService(phone);
+    const [link] = useState(WhatsAppService.getLink());
     return <a
         className="text-green-500"
-        href={WhatsAppService.getLink()}>
+        href={link}>
         <RightSideItemTemplate
             topText={whatsAppText}
             bottomText={phoneNumber.getPrettyPhoneNumber()}
