@@ -8,7 +8,7 @@ const options = {
     facebookPixelId: "347504069641224",
     yandexMetricaIds: [96729923],
 
-    phone: "+34603423958",
+    phone: "+34603450377",
     email: "nadim200763@gmail.com",
     whatsAppPlaceholder: "Hola, estoy interesado en la limpieza.",
     whatsAppText: "Pedir cotización por WhatsApp",
