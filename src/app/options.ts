@@ -65,7 +65,7 @@ const options = {
                 title: "Limpieza de sofás desde 60€ por sofá de dos plazas",
                 image: "sofa.jpg"
             }, {
-                title: "Limpieza de colchones desde 25€",
+                title: "Limpieza de colchones de ancho entre 80 y 90 cm por 40€.",
                 image: "mattress.jpg"
             }, {
                 title: "Limpieza de alfombras desde 8€/m²",

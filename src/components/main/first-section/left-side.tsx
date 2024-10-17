@@ -10,8 +10,7 @@ function LeftSide() {
         </h1>
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
             <strong className="">¿Necesitas un lavado de muebles, colchón o alfombra profundo?</strong>
-            <br />
-            ¡No los tires!<br />En limpiarmuebles.pro, ofrecemos servicios de lavado de muebles a domicilio con resultados profesionales.<br /> Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, para renovar tus muebles, colchones y alfombras. <br />Eliminamos manchas, olores, bacterias, ácaros de polvo y alergénicos, devolviéndoles su frescura original.
+            En limpiarmuebles.pro, ofrecemos servicios de lavado de muebles a domicilio con resultados profesionales.<br /> Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, para renovar tus muebles, colchones y alfombras. <br />Eliminamos manchas, olores, bacterias, ácaros de polvo y alergénicos, devolviéndoles su frescura original.
         </p>
         <div className="flex mt-[60px] items-center justify-center">
             {/* <Button content="калькулятор стоимости" className="border-[#e23936] bg-[#e23936] hover:shadow-[0_10px_15px_rgba(226,57,54,0.22)]" /> */}
