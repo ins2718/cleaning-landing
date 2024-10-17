@@ -9,9 +9,9 @@ function LeftSide() {
             {title}
         </h1>
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
-            <strong className="">¿Tus muebles, colchón o alfombra están sucios, huelen mal o simplemente necesitan una limpieza a fondo?</strong>
-            <br />
-            <br />En limpiarmuebles.pro ofrecemos un servicio profesional de limpieza de muebles a domicilio que les dará una nueva vida.
+            <strong className="">¿Tus muebles, colchón o alfombra necesitan una limpieza y desinfección profunda?</strong>
+            <br />En limpiarmuebles.pro utilizamos el método de inyección-extracción, que no solo elimina suciedad y malos olores, sino que también desinfecta, eliminando bacterias y ácaros.
+            <br />Ofrecemos un servicio profesional a domicilio para que tus muebles queden frescos, limpios.
         </p>
         <div className="flex mt-[90px] items-center justify-center">
             {/* <Button content="калькулятор стоимости" className="border-[#e23936] bg-[#e23936] hover:shadow-[0_10px_15px_rgba(226,57,54,0.22)]" /> */}
