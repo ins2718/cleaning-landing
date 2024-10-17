@@ -47,7 +47,7 @@ const options = {
             }, {
                 title: "Limpieza segura y eficaz:",
                 text: `
-                Utilizamos equipos profesionales Karcher y productos de limpieza profesionales de fabricación alemana y suiza, hipoalergénicos, inofensivos para personas y animales, con un ligero aroma que desaparece a los 20 minutos.`,
+                La limpieza por inyección-extracción es un método altamente efectivo para eliminar incluso las manchas más persistentes. Con la ayuda del extractor Karcher, el agua y el detergente se inyectan a presión, penetrando en la profundidad de la tela, y luego se extraen junto con la suciedad, asegurando una limpieza profunda.`,
                 image: "hand.png",
             }, {
                 title: "Limpieza honesta:",
