@@ -51,7 +51,7 @@ const options = {
                 image: "hand.png",
             }, {
                 title: "Limpieza honesta:",
-                text: `No prometemos lo imposible. Si hay manchas o suciedad que no se pueden eliminar, te lo avisaremos con antelación. Nuestros especialistas siempre se esfuerzan al máximo para eliminar las manchas y la suciedad.`,
+                text: `Nuestros especialistas siempre hacen el máximo esfuerzo para eliminar manchas y suciedad. Pero no engañamos ni prometemos lo imposible. Si el especialista encuentra manchas que no se pueden eliminar, le advertirá honestamente sobre ello con anticipación.`,
                 image: "handshake.png",
             },
         ],
