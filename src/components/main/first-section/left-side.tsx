@@ -11,7 +11,7 @@ function LeftSide() {
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
             <strong className="">¿Sabías que limpiar tu colchón por ti mismo puede ser ineficaz y hasta dañino?</strong>
             <br />
-            En limpiarmuebles.pro, entendemos que la limpieza de colchones requiere un enfoque profesional.<br />Intentar limpiar un colchón con hidrolavadora o métodos caseros puede no solo ser ineficaz, sino también empeorar la situación al dañar el material o no eliminar ácaros, bacterias y alérgenos de manera adecuada.<br />Ofrecemos servicios profesionales de lavado de colchones a domicilio, utilizando técnicas y equipos especializados que garantizan una limpieza profunda y segura.Recupera la frescura de tu colchón y disfruta de un entorno más limpio y saludable para descansar.
+            En limpiarmuebles.pro, entendemos que la limpieza de colchones requieIntentar limpiar un colchón con vaporeta o métodos caseros puede no solo ser ineficaz, sino también empeorar la situación al dañar el material o no eliminar ácaros, bacterias y alérgenos de manera adecuada.re un enfoque profesional.<br /><br />Ofrecemos servicios profesionales de lavado de colchones a domicilio, utilizando técnicas y equipos especializados que garantizan una limpieza profunda y segura.Recupera la frescura de tu colchón y disfruta de un entorno más limpio y saludable para descansar.
             
             </p>
         <div className="flex mt-[60px] items-center justify-center">
