@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza Eficaz de Sofás de Piel Blanca en Madrid",
+        title: "Limpieza Profesional de Colchones y Muebles a Domicilio con Vapor",
     },
 
     chooseFurnitureSection: {
