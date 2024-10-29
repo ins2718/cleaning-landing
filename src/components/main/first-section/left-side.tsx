@@ -11,7 +11,7 @@ function LeftSide() {
         <p className="text-[16px] md:text-[24px] leading-[24px] md:leading-[47px] font-semibold text-left font-secondary">
             <strong className=""></strong>
             <br />
-            En limpiarmuebles.pro, ofrecemos servicios de limpieza a domicilio para sofás de polipiel.<br />Usamos métodos especializados para eliminar manchas y olores, restaurando el aspecto y la comodidad de tu sofá de polipiel.
+            En limpiarmuebles.pro, nos especializamos en la limpieza de sofás de cuero.<br />Contamos con una amplia experiencia en sofás de gama alta, incluyendo los de la marca Natuzzi, y ofrecemos nuestros servicios a domicilio.<br />Utilizamos métodos especializados que ayudan a renovar la apariencia y frescura de su sofá, preservando la calidad del material.
         </p>
         <div className="flex mt-[90px] items-center justify-center">
             {/* <Button content="калькулятор стоимости" className="border-[#e23936] bg-[#e23936] hover:shadow-[0_10px_15px_rgba(226,57,54,0.22)]" /> */}
