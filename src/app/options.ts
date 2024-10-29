@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza Eficaz de Sofás de Piel Blanca en Madrid",
+        title: "Sanitización de Colchones en Madrid: Servicio para Colchones, Sofás y Sillones - Desinfección Profesional",
     },
 
     chooseFurnitureSection: {
