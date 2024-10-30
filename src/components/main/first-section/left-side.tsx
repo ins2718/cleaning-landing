@@ -12,7 +12,7 @@ function LeftSide() {
             <strong className="">¿Tu sofá necesita una limpieza profunda y eliminación de polvo?</strong>
             <br />
             Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de sofás a domicilio. 
-            <br />Nos especializamos en la eliminación de polvo, piojos, ácaros y bacterias, asegurando una desinfección completa y un ambiente más saludable en tu hogar.
+            <br />Nos especializamos en la eliminación de polvo, ácaros y bacterias, asegurando una desinfección completa y un ambiente más saludable en tu hogar.
             <br />Utilizamos productos y equipos de limpieza de alta calidad para garantizar que tu sofá quede libre de alérgenos y como nuevo.
             <br />¡Confía en nosotros para un sofá fresco y desinfectado!
             </p>
