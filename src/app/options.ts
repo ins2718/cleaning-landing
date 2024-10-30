@@ -61,7 +61,7 @@ const options = {
         root: "/images/what-we-clean/",
         cards: [
             {
-                title: "Limpieza de alfombras desde 8€/m²",
+                title: "Limpieza de alfombras desde 8€/m²– El costo de limpieza depende del material, tamaño, grado de suciedad y ubicación",
                 image: "carpet.jpg"
             }, {
                 title: "Limpieza de colchones desde 25€",
