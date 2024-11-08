@@ -1,4 +1,5 @@
 import { useCsrfCookieQuery } from "@/app/api/order-form";
+import options from "@/app/options";
 import FirstSection from "./first-section";
 import dynamic from "next/dynamic";
 const RenderOnViewportEntry = dynamic(() => import("../render-on-viewport-entry"), { ssr: false });
@@ -13,6 +14,7 @@ const TestimonialsSection = dynamic(() => import("./testimonials-section"), { ss
 
 function Main() {
     useCsrfCookieQuery();
+    const { showGallery } = options.firstSection;
     return <main className="overflow-x-hidden">
         <FirstSection />
         <RenderOnViewportEntry className="min-h-[1183px] lg:min-h-[903px]" id="choose-furniture">
@@ -27,9 +29,9 @@ function Main() {
         <RenderOnViewportEntry className="min-h-[506px]" id="how-to-order-easy-section">
             <HowToOrderEasySection />
         </RenderOnViewportEntry>
-        <RenderOnViewportEntry className="min-h-[830px]" id="our-works-section">
+        {!showGallery && <RenderOnViewportEntry className="min-h-[830px]" id="our-works-section">
             <OurWorksSection />
-        </RenderOnViewportEntry>
+        </RenderOnViewportEntry>}
         <RenderOnViewportEntry className="min-h-[1459px] min-[720px]:min-h-[1030px]" id="video-section">
             <VideoSection />
         </RenderOnViewportEntry>
