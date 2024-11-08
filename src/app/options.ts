@@ -26,8 +26,9 @@ const options = {
 
     firstSection: {
         title: "Elimina Manchas de Humo en Muebles en Madrid - Servicio Profesional de Limpieza",
-        showTitlePickture: false,
+        showTitlePicture: false,
         showLogoTitle: false,
+        showGallery: false,
     },
 
     chooseFurnitureSection: {
