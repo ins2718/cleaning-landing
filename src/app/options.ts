@@ -26,8 +26,9 @@ const options = {
 
     firstSection: {
         title: "Servicios de Limpieza de Muebles Ikea en Madrid",
-        showTitlePickture: false,
+        showTitlePicture: false,
         showLogoTitle: false,
+        showGallery: false,
     },
 
     chooseFurnitureSection: {
