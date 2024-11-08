@@ -26,8 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Alfombras de Pelo Largo en Madrid: Servicio Profesional y Precios",
-        showTitlePickture: true,
+        showTitlePicture: false,
         showLogoTitle: false,
+        showGallery: true,
     },
 
     chooseFurnitureSection: {
