@@ -26,8 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Tapicerías en Madrid: Vapor y Otras Tecnologías Avanzadas para Muebles a Domicilio",
-        showTitlePickture: false,
+        showTitlePicture: false,
         showLogoTitle: false,
+        showGallery: false,
     },
 
     chooseFurnitureSection: {
