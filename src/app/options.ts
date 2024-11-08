@@ -26,8 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza Profesional de Tapizados en Madrid - Consulta Nuestros Precios",
-        showTitlePickture: false,
+        showTitlePicture: false,
         showLogoTitle: false,
+        showGallery: false,
     },
 
     chooseFurnitureSection: {
