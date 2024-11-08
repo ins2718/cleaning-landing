@@ -26,8 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza Profesional de Sillones en Madrid: Servicios Efectivos para Lavar tus Sillones",
-        showTitlePickture: false,
+        showTitlePicture: false,
         showLogoTitle: false,
+        showGallery: false,
     },
 
     chooseFurnitureSection: {
