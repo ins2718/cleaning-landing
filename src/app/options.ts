@@ -26,6 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Tapicería en Madrid - Consulta Nuestros Precios Atractivos",
+        showTitlePicture: false,
+        showLogoTitle: false,
+        showGallery: false,
     },
 
     chooseFurnitureSection: {
