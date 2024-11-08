@@ -26,8 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Futones en Madrid: Servicio Profesional para Futones, Sofás y Sillones",
-        showTitlePickture: false,
+        showTitlePicture: false,
         showLogoTitle: false,
+        showGallery: false,
     },
 
     chooseFurnitureSection: {
