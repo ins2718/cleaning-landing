@@ -26,8 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza de sofás en Madrid: Tecnologías modernas de cuidado con vapor y agua a 95 grados",
-        showTitlePickture: false,
+        showTitlePicture: false,
         showLogoTitle: false,
+        showGallery: false,
     },
 
     chooseFurnitureSection: {
