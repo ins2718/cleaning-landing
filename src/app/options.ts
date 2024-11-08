@@ -26,8 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Sommiers en Madrid: Servicio Profesional para Sommiers, Sofás y Sillones",
-        showTitlePickture: false,
+        showTitlePicture: false,
         showLogoTitle: false,
+        showGallery: false,
     },
 
     chooseFurnitureSection: {
