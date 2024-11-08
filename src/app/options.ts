@@ -26,8 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza Especializada de Muebles de Cuero en Madrid – 10 Años de Calidad",
-        showTitlePickture: false,
+        showTitlePicture: false,
         showLogoTitle: false,
+        showGallery: false,
     },
 
     chooseFurnitureSection: {
