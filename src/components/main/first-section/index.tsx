@@ -1,3 +1,4 @@
+import options from "@/app/options";
 import LeftSide from "./left-side";
 import RightSide from "./right-side";
 
