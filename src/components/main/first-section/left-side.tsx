@@ -10,7 +10,7 @@ import CompareImagesSlider from "../our-works-section/compare-images-slider";
 const plugins = [presetReact()];
 
 function LeftSide() {
-    const { title, showTitlePicture, showLogoTitle, leftSideText, leftSideButtonMarginTop } = options.firstSection;
+    const { title, showTitlePicture, showLogoTitle, leftSideText, leftSideButtonMarginTop, showGallery } = options.firstSection;
     const styles: any = {
         "--LeftSide-leftSideButtonMarginTop": leftSideButtonMarginTop,
     };
