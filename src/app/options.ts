@@ -140,7 +140,7 @@ Eliminamos manchas, olores, bacterias, ácaros de polvo y alergénicos, devolvi�
                     path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                },  
+                }, 
             ],
         },
     },
