@@ -167,6 +167,7 @@ Eliminamos manchas y olores, devolviendo a tu sofá de piel blanca su apariencia
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
