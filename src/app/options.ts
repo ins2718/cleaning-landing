@@ -158,6 +158,7 @@ Eliminamos manchas, olores, bacterias y ácaros, devolviéndoles su frescura ori
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
