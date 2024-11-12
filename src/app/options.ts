@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza profesional de muebles a domicilio.",
+        title: "LLimpieza profesional de muebles a domicilio en Madrid.",
         showTitlePicture: false,
         showLogoTitle: false,
         showGallery: true,
