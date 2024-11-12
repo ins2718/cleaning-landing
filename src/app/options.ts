@@ -157,6 +157,7 @@ Nos especializamos en la eliminación de polvo, suciedad, ácaros y bacterias de
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
