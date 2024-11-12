@@ -162,6 +162,7 @@ Ofrecemos servicios profesionales de lavado de colchones a domicilio, utilizando
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
