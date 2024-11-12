@@ -178,7 +178,7 @@ Contamos con más de 10 años de experiencia en la eliminación de manchas y suc
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
-        mute: true,
+        mute: false,
     },
 
     faqSection: {
