@@ -158,6 +158,7 @@ Utilizamos productos y equipos de alta calidad para que tus alfombras queden com
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
