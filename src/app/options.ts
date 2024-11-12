@@ -156,6 +156,7 @@ Utilizamos productos de limpieza profesionales y equipos especializados.`,
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
