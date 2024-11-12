@@ -161,6 +161,7 @@ Recupera la frescura de tu colchón y disfruta de un entorno más limpio y salud
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
