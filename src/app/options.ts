@@ -170,6 +170,7 @@ Eliminamos manchas, olores, bacterias, ácaros del polvo y alérgenos, devolvié
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
