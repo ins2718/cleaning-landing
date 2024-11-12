@@ -174,6 +174,7 @@ En limpiarmuebles.pro ofrecemos un servicio profesional de limpieza de muebles a
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
