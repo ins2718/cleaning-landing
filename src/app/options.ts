@@ -168,6 +168,7 @@ Usamos métodos especializados para eliminar manchas y olores, restaurando el as
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
