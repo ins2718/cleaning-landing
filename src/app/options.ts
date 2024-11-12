@@ -169,6 +169,7 @@ Nos encargamos de eliminar manchas y olores, devolviendo a tu tapicería de cuer
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
