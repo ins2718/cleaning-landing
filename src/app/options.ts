@@ -158,6 +158,7 @@ Utilizamos productos y equipos de limpieza profesionales para obtener el máximo
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
