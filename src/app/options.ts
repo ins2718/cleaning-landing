@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza de Tapizados con Vapor en Madrid: Otras Tecnologías Avanzadas para Muebles a Domicilio",
+        title: "Limpieza de Tapizados en Madrid con Vapor y Otras Tecnologías Avanzadas a Domicilio",
         showTitlePicture: true,
         showLogoTitle: false,
         showGallery: true,
