@@ -162,6 +162,7 @@ Ofrecemos un servicio profesional a domicilio para que tus muebles queden fresco
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
