@@ -129,7 +129,7 @@ En limpiarmuebles.pro, ofrecemos servicios de lavado de muebles a domicilio con 
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
-                    path: 'sofa_corner_black/',
+                    path: 'sofa_corner_lather/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }  {
