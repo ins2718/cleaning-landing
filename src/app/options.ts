@@ -139,6 +139,10 @@ Eliminamos manchas, olores, bacterias, ácaros de polvo y alergénicos, devolvi�
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
+                    path: 'sofa_corner_black/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
                     path: 'sofa_corner/',
                     before: 'before.jpg',
                     after: 'after.jpg',
