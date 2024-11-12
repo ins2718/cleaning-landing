@@ -153,6 +153,9 @@ Eliminamos manchas, olores, bacterias, ácaros de polvo y alergénicos, devolvi�
         title: "Un vídeo que dice más que mil palabras...",
         videos: [
             {
+                original: "dy8zLn1uF20",
+                thumbnail: "/images/video-thumbs/sofa-brown.png",
+            }, {
                 original: "9X9FFHy6hZg",
                 thumbnail: "/images/video-thumbs/sofa-light.png",
             }, {
