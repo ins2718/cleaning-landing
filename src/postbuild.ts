@@ -46,7 +46,7 @@ async function main() {
     const serverFilesNames = Object.fromEntries(serverFiles.resources.map((f: any) => [(`${f.public_id}.${f.format}`).substring(prefix.length), `${f.public_id}.${f.format}`]));
     // console.log(Object.keys(localFilesNames), Object.keys(serverFilesNames))
     const deleteArray = Object.keys(serverFilesNames).filter(fileName => !Object.keys(localFilesNames).includes(fileName));
-    const addArray = Object.keys(localFilesNames).filter(fileName => !Object.keys(serverFilesNames).includes(fileName));
+    const addArray = Object.keys(localFilesNames); // Object.keys(localFilesNames).filter(fileName => !Object.keys(serverFilesNames).includes(fileName));
     // console.log(addArray, deleteArray)
     console.log("upload files:", addArray);
     addArray.forEach(async fileName => {
