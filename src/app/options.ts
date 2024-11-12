@@ -169,6 +169,7 @@ Utilizamos técnicas avanzadas, incluyendo limpieza de mobiliario con vapor si e
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
