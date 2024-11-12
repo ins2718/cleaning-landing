@@ -159,6 +159,7 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, p
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
