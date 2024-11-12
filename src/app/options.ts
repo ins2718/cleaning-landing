@@ -158,6 +158,7 @@ Utilizamos productos y equipos de limpieza de alta calidad para que tus alfombra
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
