@@ -14,7 +14,7 @@ function YoutubeVideoFrame({ src }: YoutubeVideoFrameProps) {
         ref.current = event.target;
     };
     const { videoGalleryVideo } = useAppSelector(state => state.header);
-    const { videos } = options.videoSection;
+    const { videos, mute } = options.videoSection;
     const active = videoGalleryVideo !== false && videos[videoGalleryVideo].original === src;
     if (!active && ref.current) {
         ref.current?.pauseVideo();
@@ -24,7 +24,7 @@ function YoutubeVideoFrame({ src }: YoutubeVideoFrameProps) {
         height: "auto",
         playerVars: {
             autoplay: active ? 1 : 0,
-            mute: 1,
+            mute: +mute,
         }
     };
     return <YouTube
