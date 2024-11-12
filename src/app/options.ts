@@ -168,6 +168,7 @@ Nos encargamos de eliminar manchas y olores persistentes para que tus muebles lu
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
