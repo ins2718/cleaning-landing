@@ -4,7 +4,7 @@ import RightSide from "./right-side";
 import { CSSProperties } from "react";
 
 function FirstSection() {
-    const { topMargin, bottomMargin, showTitlePicture } = options.firstSection;
+    const { topMargin, bottomMargin, showTitlePicture, showGallery } = options.firstSection;
     const styles = {
         "--FirstSection-topMargin": topMargin,
         "--FirstSection-bottomMargin": bottomMargin,
@@ -13,7 +13,7 @@ function FirstSection() {
         <div className="px-[15px] mx-auto my-0 max-w-[1260px]">
             <div className="flex">
                 <LeftSide />
-                {!showTitlePicture && <RightSide />}
+                {(!showTitlePicture && !showGallery) && <RightSide />}
             </div>
         </div>
     </div>;
