@@ -158,6 +158,7 @@ const options = {
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
