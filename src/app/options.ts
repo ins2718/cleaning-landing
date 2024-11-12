@@ -169,6 +169,7 @@ Nos encargamos de eliminar manchas y olores, devolviéndole a tu tapicería de c
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
