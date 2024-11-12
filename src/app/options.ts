@@ -157,6 +157,7 @@ Confía en nuestros expertos para restaurar la frescura y el aspecto original de
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
+        mute: true,
     },
 
     faqSection: {
