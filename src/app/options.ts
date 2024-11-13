@@ -127,6 +127,10 @@ Eliminamos manchas, olores, bacterias, ácaros de polvo y alergénicos, devolvi�
             root: '/images/our-works/compare/',
             images: [
                 {
+                    path: 'sofa_light/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
@@ -142,11 +146,7 @@ Eliminamos manchas, olores, bacterias, ácaros de polvo y alergénicos, devolvi�
                     path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                }, {
-                    path: 'sofa_light/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
+                },  {
                     path: 'sofa_orange/',
                     before: 'before.jpg',
                     after: 'after.jpg',
