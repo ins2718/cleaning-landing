@@ -117,6 +117,10 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, p
             root: '/images/our-works/compare/',
             images: [
                 {
+                    path: 'sofa_light/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
@@ -130,10 +134,6 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, p
                     after: 'after.jpg',
                 }, {
                     path: 'sofa_corner_black/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
-                    path: 'sofa_light/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
