@@ -26,9 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Tapizados Profesional: Sofás, Sillones y Colchones en Madrid",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b]¿Tus muebles, colchón o alfombra necesitan una limpieza profunda?[/b]
