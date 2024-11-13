@@ -119,6 +119,10 @@ Ofrecemos un servicio profesional a domicilio para que tus muebles queden fresco
             root: '/images/our-works/compare/',
             images: [
                 {
+                    path: 'sofa_light/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
@@ -132,10 +136,6 @@ Ofrecemos un servicio profesional a domicilio para que tus muebles queden fresco
                     after: 'after.jpg',
                 }, {
                     path: 'sofa_corner_black/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
-                    path: 'sofa_light/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
