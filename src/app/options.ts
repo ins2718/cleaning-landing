@@ -31,7 +31,7 @@ const options = {
         showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]]¿Tus muebles, colchón o alfombra necesitan una limpieza y desinfección profunda?[/b]
+        leftSideText: `[b]¿Tus muebles, colchón o alfombra necesitan una limpieza y desinfección profunda?[/b]
 En limpiarmuebles.pro utilizamos el método de inyección-extracción, que no solo elimina suciedad y malos olores, sino que también desinfecta, eliminando bacterias y ácaros.
 Ofrecemos un servicio profesional a domicilio para que tus muebles queden frescos, limpios.`,
         leftSideButtonMarginTop: "60px",
