@@ -28,7 +28,7 @@ const options = {
         title: "Limpieza de Tapicerías en Madrid: Vapor y Otras Tecnologías Avanzadas para Muebles a Domicilio",
         showTitlePicture: false,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b]¿Tus muebles, colchón o alfombra necesitan una limpieza profunda?[/b]
