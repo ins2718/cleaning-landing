@@ -124,6 +124,14 @@ Eliminamos manchas y olores, devolviendo a tu sofá de piel blanca su apariencia
             root: '/images/our-works/compare/',
             images: [
                 {
+                    path: 'sofa_white_lether/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
+                    path: 'sofa_corner_lather/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
