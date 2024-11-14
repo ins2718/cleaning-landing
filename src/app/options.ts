@@ -26,9 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza Eficaz de Sofás de Piel Blanca en Madrid",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b]En limpiarmuebles.pro ofrecemos servicios de limpieza de sofás de piel en domicilio con garantía de resultados excelentes.[/b]
