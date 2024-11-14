@@ -26,9 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza Profesional de Colchones y Muebles a Domicilio con Vapor",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b][/b]
@@ -127,14 +127,14 @@ Eliminamos manchas, olores, bacterias, ácaros del polvo y alérgenos, devolvié
             root: '/images/our-works/compare/',
             images: [
                 {
-                    path: 'mattress/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
                     path: 'sofa_brown/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                }, {
+                },{
+                    path: 'mattress/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },  {
                     path: 'sofa_corner/',
                     before: 'before.jpg',
                     after: 'after.jpg',
