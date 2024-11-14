@@ -26,9 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Colchones en Madrid: Servicio para Colchones, Sofás y Sillones - Desinfección Profesional",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b]Con más de 10 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza y desinfección de colchones a domicilio, enfocados en la eliminación de ácaros, bacterias y alérgenos.[/b]
@@ -114,6 +114,10 @@ Utilizamos productos y equipos de limpieza profesionales para desinfectar colcho
             root: '/images/our-works/compare/',
             images: [
                 {
+                    path: 'sofa_brown/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
