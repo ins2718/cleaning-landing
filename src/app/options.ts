@@ -72,12 +72,12 @@ Recupera la frescura de tu colchón y disfruta de un entorno más limpio y salud
         root: "/images/what-we-clean/",
         cards: [
             {
-                title: "Limpieza de sofás desde 60€ por sofá de dos plazas",
-                image: "sofa.jpg"
-            }, {
-                title: "Limpieza de colchones desde 25€",
+                title: "El precio para limpiar un colchón de 90 cm de ancho empieza desde 40€, pero necesitamos más detalles para un presupuesto exacto. Envíanos las medidas y una foto de tu colchón para ofrecerte la mejor opción y precio.",
                 image: "mattress.jpg"
             }, {
+                title: "Limpieza de sofás desde 60€ por sofá de dos plazas",
+                image: "sofa.jpg"
+            },  {
                 title: "Limpieza de alfombras desde 8€/m²",
                 image: "carpet.jpg"
             }, {
