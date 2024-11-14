@@ -173,7 +173,7 @@ Eliminamos manchas, olores, bacterias, ácaros del polvo y alérgenos, devolvié
             },
 
         ],
-        mute: true,
+        mute: false,
     },
 
     faqSection: {
