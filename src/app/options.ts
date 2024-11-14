@@ -26,9 +26,9 @@ const options = {
 
     firstSection: {
         title: "Servicio Profesional de Limpieza y Lavado de Colchones, Sofás y Sillones en Madrid",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b]¿Tu colchón necesita una limpieza profunda para mejorar tu salud y bienestar?[/b]
