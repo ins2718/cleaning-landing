@@ -158,6 +158,9 @@ Nos encargamos de eliminar manchas y olores persistentes para que tus muebles lu
         subtitle: "",
         videos: [
             {
+                original: "dy8zLn1uF20",
+                thumbnail: "/images/video-thumbs/sofa-yellow.jpg",
+            },{
                 original: "9X9FFHy6hZg",
                 thumbnail: "/images/video-thumbs/sofa-light.png",
             }, {
@@ -168,7 +171,7 @@ Nos encargamos de eliminar manchas y olores persistentes para que tus muebles lu
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
-        mute: true,
+        mute: false,
     },
 
     faqSection: {
