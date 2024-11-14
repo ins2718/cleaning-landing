@@ -116,15 +116,15 @@ Recupera la frescura de tu colchón y disfruta de un entorno más limpio y salud
             root: '/images/our-works/compare/',
             images: [
                 {
+                    path: 'sofa_corner/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },{
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
                     path: 'sofa_brown/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
-                    path: 'sofa_corner/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
