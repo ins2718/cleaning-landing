@@ -77,22 +77,22 @@ Eliminamos manchas, olores, bacterias, ácaros del polvo y alérgenos, devolvié
 
     whatWeCleanSection: {
         title: "Nuestros servicios:",
-        subtitle: "Entendemos que cada mueble es único, por lo que no podemos ofrecer un precio exacto para la limpieza de tapizados sin ver fotos de tu mobiliario. Para garantizar un servicio de calidad y un precio justo, te invitamos a enviarnos imágenes de tus sofás, sillones, colchones u otros muebles. Así podremos proporcionarte una cotización precisa y adaptada a tus necesidades específicas.",
         root: "/images/what-we-clean/",
         cards: [
             {
-                title: "Limpieza de sofás desde 60€ por sofá de dos plazas",
-                image: "sofa.jpg"
-            }, {
-                title: "Limpieza de colchones desde 40€",
+                title: "El precio para limpiar un colchón de 90 cm de ancho empieza desde 40€, pero necesitamos más detalles para un presupuesto exacto. Envíanos las medidas y una foto de tu colchón para ofrecerte la mejor opción y precio.",
                 image: "mattress.jpg"
-            }, {
-                title: "Limpieza de alfombras desde 8€/m²",
+            },  {
+                title: "El precio para limpiar un sofá de dos plazas empieza desde 60€, pero necesitamos más detalles para un presupuesto exacto. Envíanos una foto de tu sofá o tapizado para ofrecerte la mejor opción y precio.",
+                image: "sofa.jpg"
+            },  {
+                title: "El precio para limpiar una alfombra comienza desde 8€ por m². Necesitamos más detalles para ofrecerte un presupuesto exacto. Envíanos las medidas y una foto de tu alfombra para darte la mejor opción y precio",
                 image: "carpet.jpg"
             }, {
-                title: "Limpieza de sillones y sillas desde 10€",
+                title: "El precio para limpiar sillas comienza desde 10€. Necesitamos más detalles para ofrecerte un presupuesto exacto. Envíanos una foto de las sillas o sillones para darte la mejor opción y precio",
                 image: "chair.jpg"
             },
+
         ]
     },
 
