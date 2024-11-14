@@ -116,11 +116,11 @@ Ofrecemos servicios profesionales de lavado de colchones a domicilio, utilizando
             root: '/images/our-works/compare/',
             images: [
                 {
-                    path: 'mattress/',
+                    path: 'sofa_brown/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
-                    path: 'sofa_brown/',
+                    path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
