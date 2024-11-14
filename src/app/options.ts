@@ -26,9 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Colchones en Madrid: Servicio para Colchones, Sofás y Sillones - Eliminación de Manchas",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b]¿Tu colchón necesita una limpieza profunda y eliminación de manchas?[/b]
@@ -115,11 +115,11 @@ Utilizamos productos y equipos de limpieza profesionales para obtener los mejore
             root: '/images/our-works/compare/',
             images: [
                 {
-                    path: 'mattress/',
+                    path: 'sofa_brown/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
-                    path: 'sofa_brown/',
+                    path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
