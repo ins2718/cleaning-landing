@@ -26,9 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Colchones en Madrid: Servicio Profesional para Colchones, Sofás y Sillones",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b]¿Sabías que limpiar tu colchón por ti mismo puede ser ineficaz y hasta dañino?[/b]
