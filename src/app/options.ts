@@ -26,9 +26,9 @@ const options = {
 
     firstSection: {
         title: "Servicios de Limpieza de Muebles Ikea en Madrid",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b]¿Tus muebles, colchón o alfombra necesitan una limpieza profunda?[/b]
@@ -126,6 +126,10 @@ Utilizamos técnicas avanzadas, incluyendo limpieza de mobiliario con vapor si e
             root: '/images/our-works/compare/',
             images: [
                 {
+                    path: 'sofa_light/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
@@ -139,10 +143,6 @@ Utilizamos técnicas avanzadas, incluyendo limpieza de mobiliario con vapor si e
                     after: 'after.jpg',
                 }, {
                     path: 'sofa_corner_black/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
-                    path: 'sofa_light/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
