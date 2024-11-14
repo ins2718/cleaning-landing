@@ -26,9 +26,9 @@ const options = {
 
     firstSection: {
         title: "Elimina Manchas de Humo en Muebles en Madrid - Servicio Profesional de Limpieza",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b]En limpiarmuebles.pro, ofrecemos servicios de limpieza a domicilio especializados en eliminar manchas de humo en muebles.[/b]
@@ -125,6 +125,10 @@ Nos encargamos de eliminar manchas y olores persistentes para que tus muebles lu
             root: '/images/our-works/compare/',
             images: [
                 {
+                    path: 'sofa_light/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },{
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
@@ -138,10 +142,6 @@ Nos encargamos de eliminar manchas y olores persistentes para que tus muebles lu
                     after: 'after.jpg',
                 }, {
                     path: 'sofa_corner_black/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
-                    path: 'sofa_light/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
