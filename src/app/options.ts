@@ -26,9 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Colchones en Madrid: Servicio Profesional para Colchones, Sofás y Sillones",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b]¿Sabías que limpiar tu colchón por ti mismo puede ser ineficaz y hasta dañino?[/b]
@@ -116,14 +116,14 @@ Ofrecemos servicios profesionales de lavado de colchones a domicilio, utilizando
             root: '/images/our-works/compare/',
             images: [
                 {
-                    path: 'mattress/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
                     path: 'sofa_brown/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                }, {
+                },  {
+                    path: 'mattress/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },  {
                     path: 'sofa_corner/',
                     before: 'before.jpg',
                     after: 'after.jpg',
