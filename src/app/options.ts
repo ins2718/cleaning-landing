@@ -134,15 +134,15 @@ Advertencia: No utilices amoníaco para limpiar tu sofá de piel, ya que puede d
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
+                    path: 'sofa_light/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
                     path: 'sofa_corner/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
                     path: 'sofa_corner_black/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
-                    path: 'sofa_light/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
@@ -156,9 +156,11 @@ Advertencia: No utilices amoníaco para limpiar tu sofá de piel, ya que puede d
 
     videoSection: {
         title: "Un vídeo que dice más que mil palabras...",
-        subtitle: "",
         videos: [
             {
+                original: "dy8zLn1uF20",
+                thumbnail: "/images/video-thumbs/sofa-yellow.jpg",
+            },{
                 original: "9X9FFHy6hZg",
                 thumbnail: "/images/video-thumbs/sofa-light.png",
             }, {
@@ -168,6 +170,7 @@ Advertencia: No utilices amoníaco para limpiar tu sofá de piel, ya que puede d
                 original: "a2np9IDDTHQ",
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
+
         ],
     },
 
