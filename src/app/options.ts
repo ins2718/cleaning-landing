@@ -168,7 +168,7 @@ Utilizamos productos y equipos de limpieza profesionales para desinfectar colcho
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
-        mute: true,
+        mute: false,
     },
 
     faqSection: {
