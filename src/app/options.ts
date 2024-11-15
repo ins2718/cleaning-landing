@@ -26,9 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza Especializada de Muebles de Cuero en Madrid – 10 Años de Calidad",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b][/b]
@@ -169,7 +169,7 @@ Nos encargamos de eliminar manchas y olores, devolviendo a tu tapicería de cuer
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
-        mute: true,
+        mute: false,
     },
 
     faqSection: {
