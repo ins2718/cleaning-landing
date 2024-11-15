@@ -123,10 +123,6 @@ Utilizamos productos y equipos de limpieza profesionales para desinfectar colcho
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
-                    path: 'sofa_brown/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
                     path: 'sofa_corner/',
                     before: 'before.jpg',
                     after: 'after.jpg',
