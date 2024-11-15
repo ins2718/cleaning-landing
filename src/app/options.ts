@@ -172,7 +172,7 @@ Nos encargamos de eliminar manchas y olores, devolviéndole a tu tapicería de c
             },
 
         ],
-        mute: true,
+        mute: false,
     },
 
     faqSection: {
