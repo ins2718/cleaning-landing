@@ -26,9 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza Profesional de Sofás de Piel en Madrid – Cuidado Especializado",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b]En limpiarmuebles.pro, ofrecemos servicios especializados en la limpieza de sofás de piel a domicilio, garantizando resultados excepcionales.[/b]
