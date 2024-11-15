@@ -31,7 +31,8 @@ const options = {
         showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]¿Tu colchón necesita una limpieza profunda para mejorar tu salud y bienestar?[/b]
+        leftSideText: `[b]
+        ¿Tu colchón necesita una limpieza profunda para mejorar tu salud y bienestar?[/b]
 En limpiarmuebles.pro, ofrecemos servicios profesionales de lavado de colchones a domicilio, enfocados en la eliminación de ácaros, bacterias y alérgenos.
 Recupera la frescura de tu colchón y disfruta de un entorno más limpio y saludable para descansar. 
         `,
