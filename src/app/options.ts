@@ -134,6 +134,14 @@ Nos encargamos de eliminar manchas y olores, devolviéndole a tu tapicería de c
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
+                    path: 'sofa_light/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },  {
+                    path: 'sofa_orange/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },  {
                     path: 'sofa_corner/',
                     before: 'before.jpg',
                     after: 'after.jpg',
@@ -141,15 +149,7 @@ Nos encargamos de eliminar manchas y olores, devolviéndole a tu tapicería de c
                     path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                }, {
-                    path: 'sofa_light/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
-                    path: 'sofa_orange/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                },
+                }, 
             ],
         },
     },
