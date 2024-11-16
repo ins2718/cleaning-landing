@@ -1,5 +1,4 @@
 import { useCsrfCookieQuery } from "@/app/api/order-form";
-import { useCsrfCookieQuery } from "@/app/api/order-form";
 import options from "@/app/options";
 import FirstSection from "./first-section";
 import dynamic from "next/dynamic";
@@ -14,7 +13,6 @@ const ChooseFurnitureSection = dynamic(() => import("./choose-furnitute-section"
 const TestimonialsSection = dynamic(() => import("./testimonials-section"), { ssr: false });
 
 function Main() {
-    useCsrfCookieQuery();
     useCsrfCookieQuery();
     const { showGallery } = options.firstSection;
     return <main className="overflow-x-hidden">
