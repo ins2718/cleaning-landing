@@ -31,7 +31,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza profesional de muebles a domicilio.",
+        title: "Reformas y construcción de calidad: 20 años de experiencia en proyectos de todas las escalas.",
         showTitlePicture: true,
         showLogoTitle: false,
         showGallery: true,
