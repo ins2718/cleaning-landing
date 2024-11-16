@@ -263,15 +263,15 @@ Eliminamos manchas, olores, bacterias, ácaros de polvo y alergénicos, devolvi�
         imagesPath: '/images/testimonials/',
         testimonials: [
             {
+                name: "Alba Lago",
+                text: "Gracias, estamos muy contentos con el resultado. ¡Ahora todos las sillas y el sofá se ven preciosos! Están limpios y da placer sentarse en ellos.",
+                image: "alba-lago.png"
+            }, {
                 name: "Adriana González",
                 text: "Gracias por el excelente y buen coordinado trabajo. Fue muy cómodo comunicarse con el operador: me explicó todo de manera clara y sencilla, sin apresurarse con la tecnología y, al mismo tiempo, sin retrasar el proceso. El precio fue muy razonable en mi opinión. El de otras empresas es mucho más alto. Gracias por la calidad y por ser como sois. Definitivamente os recomendaré a mis amigos y familiares.",
                 image: "adriana-gonzalez.png"
             },
-            {
-                name: "Alba Lago",
-                text: "Gracias, estamos muy contentos con el resultado. ¡Ahora todos las sillas y el sofá se ven preciosos! Están limpios y da placer sentarse en ellos.",
-                image: "alba-lago.png"
-            },
+            
             {
                 name: "Ana Navarro Ramos",
                 text: "¡El resultado superó todas las expectativas! Los chicos llegaron puntualmente. ¡Todo fue rápido, de buena fe y excelente! Lo recomiendo. No se apresure a tirar los sofás viejos, ¡confíelos a los profesionales! :)",
