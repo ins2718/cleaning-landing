@@ -31,9 +31,10 @@ const options = {
         showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]¿Tus muebles, colchón o alfombra necesitan una limpieza y desinfección profunda?[/b]
-En limpiarmuebles.pro utilizamos el método de inyección-extracción, que no solo elimina suciedad y malos olores, sino que también desinfecta, eliminando bacterias y ácaros del polvo.
-Ofrecemos un servicio profesional a domicilio para que tus muebles queden frescos, limpios.`,
+        leftSideText: `[b]
+        ¿Tus muebles, colchón o alfombra necesitan una limpieza y desinfección profunda?[/b]
+ En limpiarmuebles.pro utilizamos el método de inyección-extracción, que no solo elimina suciedad y malos olores, sino que también desinfecta, eliminando bacterias y ácaros del polvo.
+ Ofrecemos un servicio profesional a domicilio para que tus muebles queden frescos, limpios.`,
         leftSideButtonMarginTop: "60px",
     },
 
@@ -73,16 +74,16 @@ Ofrecemos un servicio profesional a domicilio para que tus muebles queden fresco
         root: "/images/what-we-clean/",
         cards: [
             {
-                title: "Limpieza de sofás desde 60€ por sofá de dos plazas",
+                title: "El precio para limpiar un sofá de dos plazas empieza desde 60€, pero necesitamos más detalles para un presupuesto exacto. Envíanos una foto de tu sofá o tapizado para ofrecerte la mejor opción y precio.",
                 image: "sofa.jpg"
             }, {
-                title: "Limpieza de colchones desde 25€",
+                title: "El precio para limpiar un colchón de 90 cm de ancho empieza desde 40€, pero necesitamos más detalles para un presupuesto exacto. Envíanos las medidas y una foto de tu colchón para ofrecerte la mejor opción y precio.",
                 image: "mattress.jpg"
             }, {
-                title: "Limpieza de alfombras desde 8€/m²",
+                title: "El precio para limpiar una alfombra comienza desde 8€ por m². Necesitamos más detalles para ofrecerte un presupuesto exacto. Envíanos las medidas y una foto de tu alfombra para darte la mejor opción y precio.",
                 image: "carpet.jpg"
             }, {
-                title: "Limpieza de sillones y sillas desde 10€",
+                title: "El precio para limpiar sillas comienza desde 10€. Necesitamos más detalles para ofrecerte un presupuesto exacto. Envíanos una foto de las sillas o sillones para darte la mejor opción y precio.",
                 image: "chair.jpg"
             },
         ]
@@ -165,7 +166,7 @@ Ofrecemos un servicio profesional a domicilio para que tus muebles queden fresco
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
         ],
-        mute: true,
+        mute: false,
     },
 
     faqSection: {
@@ -250,11 +251,7 @@ Ofrecemos un servicio profesional a domicilio para que tus muebles queden fresco
         subTitle: "Durante 15 años de trabajo exitoso, hemos logrado ganar credibilidad entre los clientes. La mayoría de nuestros clientes, tras el primer contacto con la empresa, colaboran con nosotros de forma continua.",
         imagesPath: '/images/testimonials/',
         testimonials: [
-            {
-                name: "Adriana González",
-                text: "Gracias por el excelente y buen coordinado trabajo. Fue muy cómodo comunicarse con el operador: me explicó todo de manera clara y sencilla, sin apresurarse con la tecnología y, al mismo tiempo, sin retrasar el proceso. El precio fue muy razonable en mi opinión. El de otras empresas es mucho más alto. Gracias por la calidad y por ser como sois. Definitivamente os recomendaré a mis amigos y familiares.",
-                image: "adriana-gonzalez.png"
-            },
+            
             {
                 name: "Alba Lago",
                 text: "Gracias, estamos muy contentos con el resultado. ¡Ahora todos las sillas y el sofá se ven preciosos! Están limpios y da placer sentarse en ellos.",
@@ -274,6 +271,11 @@ Ofrecemos un servicio profesional a domicilio para que tus muebles queden fresco
                 name: "Diana Martínez",
                 text: "Pedimos la limpieza del sofá, sinceramente, no creíamos mucho en el resultado ¡Pero superaron todas las expectativas! ¡Estamos muy satisfechos! Queríamos tirar el sofá, ¡pero quedó como nuevo! ¡Muchas gracias, sois unos auténticos profesionales!",
                 image: "diana-martinez.jpg"
+            },
+            {
+                name: "Adriana González",
+                text: "Gracias por el excelente y buen coordinado trabajo. Fue muy cómodo comunicarse con el operador: me explicó todo de manera clara y sencilla, sin apresurarse con la tecnología y, al mismo tiempo, sin retrasar el proceso. El precio fue muy razonable en mi opinión. El de otras empresas es mucho más alto. Gracias por la calidad y por ser como sois. Definitivamente os recomendaré a mis amigos y familiares.",
+                image: "adriana-gonzalez.png"
             },
             {
                 name: "Paz Juárez Olmos",
