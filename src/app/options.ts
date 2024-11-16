@@ -33,7 +33,7 @@ const options = {
     firstSection: {
         title: "Limpieza profesional de muebles a domicilio.",
         showTitlePicture: true,
-        showLogoTitle: true,
+        showLogoTitle: false,
         showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
