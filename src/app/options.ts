@@ -173,7 +173,7 @@ const options = {
             },
 
         ],
-        mute: true,
+        mute: false,
     },
 
     faqSection: {
