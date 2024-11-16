@@ -31,9 +31,10 @@ const options = {
         showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]En limpiarmuebles.pro, ofrecemos servicios de limpieza a domicilio especializados en eliminar manchas de humo en muebles.[/b]
-Utilizamos técnicas avanzadas para renovar tus muebles, colchones y alfombras, devolviéndoles su frescura original.
-Nos encargamos de eliminar manchas y olores persistentes para que tus muebles luzcan como nuevos.`,
+        leftSideText: `[b]
+    En limpiarmuebles.pro, ofrecemos servicios de limpieza a domicilio especializados en eliminar manchas de humo en muebles.[/b]
+    Utilizamos técnicas avanzadas para renovar tus muebles, colchones y alfombras, devolviéndoles su frescura original.
+    Nos encargamos de eliminar manchas y olores persistentes para que tus muebles luzcan como nuevos.`,
         leftSideButtonMarginTop: "60px",
     },
 
