@@ -31,10 +31,11 @@ const options = {
         showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]¿Tus muebles, colchón o alfombra necesitan una limpieza profunda?[/b]
-En limpiarmuebles.pro, ofrecemos servicios de limpieza de mobiliario a domicilio con resultados profesionales.
-Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, para eliminar polvo, manchas, olores y bacterias, devolviéndoles su frescura original. 
-¡Eliminamos manchas, olores y bacterias, devolviéndoles su frescura original!
+        leftSideText: `[b]
+        ¿Tus muebles, colchón o alfombra necesitan una limpieza profunda?[/b]
+  En limpiarmuebles.pro, ofrecemos servicios de limpieza de mobiliario a domicilio con resultados profesionales.
+  Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, para eliminar polvo, manchas, olores y bacterias, devolviéndoles su frescura original. 
+  ¡Eliminamos manchas, olores y bacterias, devolviéndoles su frescura original!
 `,
         leftSideButtonMarginTop: "60px",
     },
@@ -247,11 +248,7 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, p
         subTitle: "Durante 15 años de trabajo exitoso, hemos logrado ganar credibilidad entre los clientes. La mayoría de nuestros clientes, tras el primer contacto con la empresa, colaboran con nosotros de forma continua.",
         imagesPath: '/images/testimonials/',
         testimonials: [
-            {
-                name: "Adriana González",
-                text: "Gracias por el excelente y buen coordinado trabajo. Fue muy cómodo comunicarse con el operador: me explicó todo de manera clara y sencilla, sin apresurarse con la tecnología y, al mismo tiempo, sin retrasar el proceso. El precio fue muy razonable en mi opinión. El de otras empresas es mucho más alto. Gracias por la calidad y por ser como sois. Definitivamente os recomendaré a mis amigos y familiares.",
-                image: "adriana-gonzalez.png"
-            },
+            
             {
                 name: "Alba Lago",
                 text: "Gracias, estamos muy contentos con el resultado. ¡Ahora todos las sillas y el sofá se ven preciosos! Están limpios y da placer sentarse en ellos.",
@@ -276,6 +273,11 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, p
                 name: "Paz Juárez Olmos",
                 text: "¡Gracias por la gran limpieza del sofá! Estamos muy contentos con el resultado. ¡Les recomendaremos a nuestros amigos y familiares!",
                 image: "paz-juarez-olmos.png"
+            },
+            {
+                name: "Adriana González",
+                text: "Gracias por el excelente y buen coordinado trabajo. Fue muy cómodo comunicarse con el operador: me explicó todo de manera clara y sencilla, sin apresurarse con la tecnología y, al mismo tiempo, sin retrasar el proceso. El precio fue muy razonable en mi opinión. El de otras empresas es mucho más alto. Gracias por la calidad y por ser como sois. Definitivamente os recomendaré a mis amigos y familiares.",
+                image: "adriana-gonzalez.png"
             },
             {
                 name: "Pilar Fernández-Palma",
