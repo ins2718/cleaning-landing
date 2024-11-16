@@ -31,8 +31,10 @@ const options = {
         showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]En limpiarmuebles.pro, ofrecemos servicios de limpieza de sofás de piel blanco a domicilio, con resultados óptimos.[/b]
-Contamos con más de 10 años de experiencia en la eliminación de manchas y suciedad de sofás de piel clara.[/b] Eliminamos manchas y olores, devolviendo a tu sofá de piel su aspecto original y fresco.`,
+        leftSideText: `[b]
+        En limpiarmuebles.pro, ofrecemos servicios de limpieza de sofás de piel blanco a domicilio, con resultados óptimos.[/b]
+        Contamos con más de 10 años de experiencia en la eliminación de manchas y suciedad de sofás de piel clara.[/b] 
+        Eliminamos manchas y olores, devolviendo a tu sofá de piel su aspecto original y fresco.`,
         leftSideButtonMarginTop: "60px",
     },
 
