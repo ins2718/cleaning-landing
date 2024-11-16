@@ -32,9 +32,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza profesional de muebles a domicilio.",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: true,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b]¿Tus muebles, colchón o alfombra están sucios, huelen mal o simplemente necesitan una limpieza a fondo?[/b]
