@@ -1,6 +1,5 @@
 import { useCsrfCookieQuery } from "@/app/api/order-form";
 import options from "@/app/options";
-import { useCsrfCookieQuery } from "@/app/api/order-form";
 import FirstSection from "./first-section";
 import dynamic from "next/dynamic";
 const RenderOnViewportEntry = dynamic(() => import("../render-on-viewport-entry"), { ssr: false });
