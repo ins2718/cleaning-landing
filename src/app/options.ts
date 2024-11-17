@@ -25,7 +25,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Limpieza Profesional de Sofás de Tela Antimanchas en Madrid – 15 Años de Experiencia",
+        title: "Limpieza Profesional de Sofás de Tela Antimanchas en Madrid          – 15 Años de Experiencia",
         showTitlePicture: true,
         showLogoTitle: false,
         showGallery: true,
