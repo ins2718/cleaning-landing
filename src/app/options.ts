@@ -73,7 +73,7 @@ const options = {
         root: "/images/what-we-clean/",
         cards: [
             {
-                title: "LEl precio para limpiar un sofá de dos plazas empieza desde 60€, pero necesitamos más detalles para un presupuesto exacto. Envíanos una foto de tu sofá o tapizado para ofrecerte la mejor opción y precio.",
+                title: "El precio para limpiar un sofá de dos plazas empieza desde 60€, pero necesitamos más detalles para un presupuesto exacto. Envíanos una foto de tu sofá o tapizado para ofrecerte la mejor opción y precio.",
                 image: "sofa.jpg"
             }, {
                 title: "El precio para limpiar un colchón de 90 cm de ancho empieza desde 40€, pero necesitamos más detalles para un presupuesto exacto. Envíanos las medidas y una foto de tu colchón para ofrecerte la mejor opción y precio.",
