@@ -26,14 +26,15 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Sofás de Terciopelo en Madrid: 15 Años de Experiencia para Resultados Máximos",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]En limpiarmuebles.pro, contamos con 15 años de experiencia en la limpieza a domicilio de sofás, incluyendo los delicados sofás de terciopelo.[/b]
-Aplicamos técnicas avanzadas, como limpieza con vapor o agua a 95 grados, para eliminar eficazmente polvo, manchas, olores, bacterias y ácaros.
-Confía en nuestros expertos para restaurar la frescura y el aspecto original de tus sofás de terciopelo.`,
+        leftSideText: `[b]
+    En limpiarmuebles.pro, contamos con 15 años de experiencia en la limpieza a domicilio de sofás, incluyendo los delicados sofás de terciopelo.[/b]
+ Aplicamos técnicas avanzadas, como limpieza con vapor o agua a 95 grados, para eliminar eficazmente polvo, manchas, olores, bacterias y ácaros.
+ Confía en nuestros expertos para restaurar la frescura y el aspecto original de tus sofás de terciopelo.`,
         leftSideButtonMarginTop: "60px",
     },
 
