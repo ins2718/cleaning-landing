@@ -26,15 +26,16 @@ const options = {
 
     firstSection: {
         title: "¿Buscas limpieza profesional de sofás de microfibra en Madrid? 10 años de experiencia para resultados máximos con tecnologías avanzadas",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]¿Tus sofás de microfibra necesitan una limpieza profunda?[/b]
-En limpiarmuebles.pro, ofrecemos servicios de limpieza de sofás a domicilio con resultados profesionales.
-Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados si es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros en sofás de microfibra, devolviéndoles su frescura original.
-¡Eliminamos manchas, olores, bacterias y ácaros, devolviéndoles su frescura original!
+        leftSideText: `[b]
+        ¿Tus sofás de microfibra necesitan una limpieza profunda?[/b]
+ En limpiarmuebles.pro, ofrecemos servicios de limpieza de sofás a domicilio con resultados profesionales.
+ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados si es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros en sofás de microfibra, devolviéndoles su frescura original.
+ ¡Eliminamos manchas, olores, bacterias y ácaros, devolviéndoles su frescura original!
 `,
         leftSideButtonMarginTop: "60px",
     },
