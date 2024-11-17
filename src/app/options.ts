@@ -117,6 +117,14 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados
             root: '/images/our-works/compare/',
             images: [
                 {
+                    path: 'sofa_light/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
+                    path: 'sofa_orange/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
@@ -132,15 +140,7 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados
                     path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                }, {
-                    path: 'sofa_light/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
-                    path: 'sofa_orange/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                },
+                }, 
             ],
         },
     },
