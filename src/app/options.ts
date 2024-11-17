@@ -250,11 +250,7 @@ const options = {
         subTitle: "Durante 15 años de trabajo exitoso, hemos logrado ganar credibilidad entre los clientes. La mayoría de nuestros clientes, tras el primer contacto con la empresa, colaboran con nosotros de forma continua.",
         imagesPath: '/images/testimonials/',
         testimonials: [
-            {
-                name: "Adriana González",
-                text: "Gracias por el excelente y buen coordinado trabajo. Fue muy cómodo comunicarse con el operador: me explicó todo de manera clara y sencilla, sin apresurarse con la tecnología y, al mismo tiempo, sin retrasar el proceso. El precio fue muy razonable en mi opinión. El de otras empresas es mucho más alto. Gracias por la calidad y por ser como sois. Definitivamente os recomendaré a mis amigos y familiares.",
-                image: "adriana-gonzalez.png"
-            },
+            
             {
                 name: "Alba Lago",
                 text: "Gracias, estamos muy contentos con el resultado. ¡Ahora todos las sillas y el sofá se ven preciosos! Están limpios y da placer sentarse en ellos.",
@@ -274,6 +270,11 @@ const options = {
                 name: "Diana Martínez",
                 text: "Pedimos la limpieza del sofá, sinceramente, no creíamos mucho en el resultado ¡Pero superaron todas las expectativas! ¡Estamos muy satisfechos! Queríamos tirar el sofá, ¡pero quedó como nuevo! ¡Muchas gracias, sois unos auténticos profesionales!",
                 image: "diana-martinez.jpg"
+            },
+            {
+                name: "Adriana González",
+                text: "Gracias por el excelente y buen coordinado trabajo. Fue muy cómodo comunicarse con el operador: me explicó todo de manera clara y sencilla, sin apresurarse con la tecnología y, al mismo tiempo, sin retrasar el proceso. El precio fue muy razonable en mi opinión. El de otras empresas es mucho más alto. Gracias por la calidad y por ser como sois. Definitivamente os recomendaré a mis amigos y familiares.",
+                image: "adriana-gonzalez.png"
             },
             {
                 name: "Paz Juárez Olmos",
