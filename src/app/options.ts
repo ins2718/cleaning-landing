@@ -31,9 +31,10 @@ const options = {
         showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]¿Tus muebles, colchón o alfombra necesitan una limpieza profunda?[/b]
-En limpiarmuebles.pro, ofrecemos servicios de lavado de muebles a domicilio con resultados profesionales.
-Utilizamos técnicas avanzadas, incluyendo limpieza de tapicería por inyección-extracción y vapor si es necesario, para renovar tus muebles, colchones y alfombras.`,
+        leftSideText: `[b]
+        ¿Tus muebles, colchón o alfombra necesitan una limpieza profunda?[/b]
+ En limpiarmuebles.pro, ofrecemos servicios de lavado de muebles a domicilio con resultados profesionales.
+ Utilizamos técnicas avanzadas, incluyendo limpieza de tapicería por inyección-extracción y vapor si es necesario, para renovar tus muebles, colchones y alfombras.`,
         leftSideButtonMarginTop: "60px",
     },
 
