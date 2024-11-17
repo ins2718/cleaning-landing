@@ -29,7 +29,7 @@ const options = {
         showTitlePicture: true,
         showLogoTitle: false,
         showGallery: true,
-        topMargin: "130px",
+        topMargin: "160px",
         bottomMargin: "170px",
         leftSideText: `[b]
         ¿Tu colchón necesita una limpieza profunda y eliminación de manchas?[/b]
