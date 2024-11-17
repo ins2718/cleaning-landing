@@ -26,9 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Tapicería en Madrid - Consulta Nuestros Precios Atractivos",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b]¿Tus muebles, colchón o alfombra necesitan una limpieza profunda?[/b]
