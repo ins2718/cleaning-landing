@@ -26,9 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza Profesional de Sofás en Madrid: Consulta Nuestros Precios para Limpieza de Sofás",
-        showTitlePicture: false,
+        showTitlePicture: true
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b]¿Tus sofás, colchón o alfombra necesitan una limpieza profunda?[/b]
