@@ -79,12 +79,12 @@ const options = {
         root: "/images/what-we-clean/",
         cards: [
             {
-                title: "Limpieza de sofás desde 60€ por sofá de dos plazas",
-                image: "sofa.jpg"
-            }, {
                 title: "Limpieza de colchones desde 40€",
                 image: "mattress.jpg"
             }, {
+                title: "Limpieza de sofás desde 60€ por sofá de dos plazas",
+                image: "sofa.jpg"
+            },  {
                 title: "Limpieza de alfombras desde 8€/m²",
                 image: "carpet.jpg"
             }, {
