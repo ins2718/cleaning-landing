@@ -26,15 +26,16 @@ const options = {
 
     firstSection: {
         title: "Limpieza de sofás en Madrid: Tecnologías modernas de cuidado con vapor y agua a 95 grados",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]Tus sofás, colchón o alfombra necesitan una limpieza profunda?[/b]
-En limpiarmuebles.pro, ofrecemos servicios de limpieza de sofás a domicilio con resultados profesionales.
-Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros, devolviéndoles su frescura original.
-¡Eliminamos manchas, olores, bacterias y ácaros, devolviéndoles su frescura original!
+        leftSideText: `[b]
+        Tus sofás, colchón o alfombra necesitan una limpieza profunda?[/b]
+  En limpiarmuebles.pro, ofrecemos servicios de limpieza de sofás a domicilio con resultados profesionales.
+  Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros, devolviéndoles su frescura original.
+  ¡Eliminamos manchas, olores, bacterias y ácaros, devolviéndoles su frescura original!
 `,
         leftSideButtonMarginTop: "60px",
     },
@@ -117,6 +118,14 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, p
             root: '/images/our-works/compare/',
             images: [
                 {
+                    path: 'sofa_light/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
+                    path: 'sofa_orange/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
@@ -132,15 +141,7 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, p
                     path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                }, {
-                    path: 'sofa_light/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
-                    path: 'sofa_orange/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                },
+                }, 
             ],
         },
     },
