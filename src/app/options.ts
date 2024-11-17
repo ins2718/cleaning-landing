@@ -26,9 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza profesional de muebles a domicilio.",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b]¿Tus muebles, colchón o alfombra necesitan una limpieza profunda?[/b]
@@ -124,6 +124,11 @@ Utilizamos técnicas avanzadas, incluyendo limpieza de tapicería por inyección
             root: '/images/our-works/compare/',
             images: [
                 {
+                    path: 'sofa_light/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },
+                {
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
@@ -139,11 +144,7 @@ Utilizamos técnicas avanzadas, incluyendo limpieza de tapicería por inyección
                     path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                }, {
-                    path: 'sofa_light/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
+                },  {
                     path: 'sofa_orange/',
                     before: 'before.jpg',
                     after: 'after.jpg',
