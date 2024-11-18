@@ -128,7 +128,7 @@ const options = {
             {
                 title: "1. Medición:",
                 text: `Un especialista visita su propiedad, discute con usted todos los aspectos del futuro proyecto de reforma y realiza la medición. Todo esto es completamente gratuito para usted.`,
-                image: "whats-app.png",
+                image: "tape-measure.png",
             }, {
                 title: "2. Presupuesto:",
                 text: `El especialista, junto con los departamentos técnico y de producción, elabora el presupuesto del proyecto de reforma en base a sus deseos y necesidades.`,
@@ -140,11 +140,11 @@ const options = {
             }, {
                 title: "4. Compra y entrega de materiales:",
                 text: `Puede proporcionar los materiales de construcción y acabados por su cuenta o puede contar con nuestra empresa para la compra, entrega y recepción de los mismos.`,
-                image: "whats-app.png",
+                image: "building-material.png",
             }, {
                 title: "5.Trabajos de reparación y acabados:",
                 text: `Comenzamos los trabajos de acuerdo con el contrato. Todos los trabajos se realizan por etapas.`,
-                image: "calculator.png",
+                image: "worker.png",
             }, {
                 title: "6. Recepción y pago de trabajos:",
                 text: `	Después de completar cada etapa del trabajo, se proporciona un Acta de trabajos realizados. El pago se realiza solo después de la recepción y aprobación de cada etapa.`,
