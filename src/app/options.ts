@@ -52,7 +52,7 @@ const options = {
     },
 
     whyUsSection: {
-        title: "Desde el inicio hasta el final, te acompañamos para que tengas total confianza en los resultados ",
+        title: "¿Por qué somos la mejor opción para realizar su reforma? Al trabajar con nosotros, usted recibirá: ",
         root: "/images/why-us/",
         cards: [
             {
@@ -109,45 +109,45 @@ const options = {
     },
 
     whatWeCleanSection: {
-        title: "Nuestros servicios:",
-        subtitle: "Entendemos que cada mueble es único, por lo que no podemos ofrecer un precio exacto para la limpieza de tapizados sin ver fotos de tu mobiliario. Para garantizar un servicio de calidad y un precio justo, te invitamos a enviarnos imágenes de tus sofás, sillones, colchones u otros muebles. Así podremos proporcionarte una cotización precisa y adaptada a tus necesidades específicas.",
+        title: "¿Cómo seguir el progreso de la reforma?:",
+        subtitle: "Enviamos informes regulares con fotos y videos sobre el progreso de la reforma. Antes de comenzar el proyecto, creamos un chat para intercambiar toda la información importante. En el chat, enviamos fotos y videos de los trabajos realizados, para que siempre esté al tanto de lo que ocurre en su propiedad. La comunicación en el chat es fácil y rápida. Si tiene alguna pregunta, simplemente escríbala en el chat, y le responderemos de inmediato. Antes de enviar el informe, el jefe de proyecto realiza una supervisión técnica adicional y controla nuevamente la calidad y los plazos de las obras. También puede visitar el sitio en cualquier momento para verificar el progreso de los trabajos.",
         root: "/images/what-we-clean/",
         cards: [
             {
                 title: "Limpieza de sofás desde 60€ por sofá de dos plazas",
                 image: "sofa.jpg"
-            }, {
-                title: "Limpieza de colchones desde 40€",
-                image: "mattress.jpg"
-            }, {
-                title: "Limpieza de alfombras desde 8€/m²",
-                image: "carpet.jpg"
-            }, {
-                title: "Limpieza de sillones y sillas desde 10€",
-                image: "chair.jpg"
-            },
+            }, 
         ]
     },
 
     howToOrderEasySection: {
-        title: "¡Cómo hacer un pedido fácilmente!",
+        title: "¿Cómo trabajamos?",
         subtitle: "",
         root: "/images/how-to-order-easy/",
         cards: [
             {
-                title: "1. Envíanos fotos y tu dirección:",
-                text: `Haz clic en el botón de WhatsApp para enviar fotos de tu sofá, colchón, alfombra, silla, sillón.
-                IndIndica tu código postal.`,
+                title: "1. Medición:",
+                text: `Un especialista visita su propiedad, discute con usted todos los aspectos del futuro proyecto de reforma y realiza la medición. Todo esto es completamente gratuito para usted.`,
                 image: "whats-app.png",
             }, {
-                title: "2. Cálculo del precio:",
-                text: `Te haremos algunas preguntas para calcular el precio exacto de la limpieza.
-                El precio no cambiará durante el proceso.`,
+                title: "2. Presupuesto:",
+                text: `El especialista, junto con los departamentos técnico y de producción, elabora el presupuesto del proyecto de reforma en base a sus deseos y necesidades.`,
                 image: "calculator.png",
             }, {
-                title: "3. Confirmación del pedido:",
-                text: `	Si te parece bien el precio, acordaremos una fecha y hora convenientes para la limpieza.
-                Confirmaremos tu dirección.`,
+                title: "3. Contrato:",
+                text: `	Todos los trabajos se realizan únicamente bajo un contrato, en el cual se especifican todas las condiciones, el costo de los trabajos y los plazos de ejecución.`,
+                image: "checked.png",
+            }, {
+                title: "4. Compra y entrega de materiales:",
+                text: `Puede proporcionar los materiales de construcción y acabados por su cuenta o puede contar con nuestra empresa para la compra, entrega y recepción de los mismos.`,
+                image: "whats-app.png",
+            }, {
+                title: "5.Trabajos de reparación y acabados:",
+                text: `Comenzamos los trabajos de acuerdo con el contrato. Todos los trabajos se realizan por etapas.`,
+                image: "calculator.png",
+            }, {
+                title: "6. Recepción y pago de trabajos:",
+                text: `	Después de completar cada etapa del trabajo, se proporciona un Acta de trabajos realizados. El pago se realiza solo después de la recepción y aprobación de cada etapa.`,
                 image: "checked.png",
             },
         ],
@@ -207,79 +207,60 @@ const options = {
     },
 
     faqSection: {
-        title: "PREGUNTAS FRECUENTES Y SUS RESPUESTAS",
+        title: "Nos preguntan a menudo:",
         questions: [
             {
-                question: "¿Qué método utilizamos?",
-                answer: `LA LIMPIEZA DE MUEBLES SE REALIZA EN VARIAS ETAPAS:
+                question: "¿Por qué puedes confiar en nosotros?",
+                answer: `Firmamos un contrato oficial.
             <ol style="list-style: inside decimal">
-            <li>Si es necesario, aspiramos tus muebles</li>
-            <li>Se aplica el primer componente del producto de limpieza, la solución.</li>
-            <li>Se aplica el segundo componente del producto de limpieza, la espuma.</li>
-            <li>La limpieza con cepillos eléctricos y manuales.</li>
-            <li>Con un aparato especial con otro producto, lavamos toda la suciedad disuelta.</li>
-            <li>Se elimina manchas u olores específicos</li>
-            <li>Lavamos los muebles y eliminamos todos los residuos químicos</li>
+            <li>Si Todos los trabajos se pagan al finalizar y aceptar cada fase.</li>
+            <li>Se Valoramos nuestra reputación. La mayoría de nuestros clientes han llegado a nosotros por recomendaciones de amigos, que son nuestros anteriores clientes.</li>
+            <li>Se Con 20 años de experiencia y relaciones de largo plazo con los principales proveedores y fabricantes de materiales de construcción, acabados y elementos decorativos, además de contar con un equipo propio de empleados, podemos realizar reformas "llave en mano" de cualquier complejidad..</li>
+            
             </ol>`,
                 answerInHtml: true,
             }, {
-                question: "¿Es seguro para la salud?",
-                answer: `¡INDUDABLEMENTE!
-            Para el trabajo, utilizamos solo productos especializados, son hipoalergénicos y sin peligro para los niños y animales. Tenemos todos los certificados.
+                question: "¿Puede cambiar el costo de la reforma durante el proceso?",
+                answer: `¡Sí, es posible, pero hay una explicación para ello:
+El costo del contrato puede cambiar, tanto en aumento como en disminución.
+Por ejemplo, si al principio, durante la medición y la elaboración del presupuesto, se especificó que el tamaño de las baldosas sería estándar (30x30 cm), pero luego se decidió cambiar por un porcelanato más grande de 120x60 cm, la instalación de baldosas de mayor tamaño requerirá más tiempo y recursos técnicos, lo que aumentará el costo.
+También es posible que el costo disminuya si, al principio, se había decidido levantar una pared adicional, pero luego, tras reconsiderarlo, se decidió no construirla, lo que reducirá el costo final.
+Si va a seleccionar o comprar los materiales de acabado por su cuenta, le recomendamos que consulte con nuestro especialista para evitar exceder el presupuesto acordado.`,
+            }, {
+                question: "¿Pueden cambiar los plazos?",
+                answer: `Sí, los plazos, al igual que el precio, dependen de muchos factores: por ejemplo, del tiempo de secado del yeso o la masilla (desafortunadamente, en clima húmedo, en paredes sombreadas o en habitaciones con ventilación insuficiente, el secado puede llevar mucho más tiempo), del pago y la entrega de materiales (los materiales fabricados a medida pueden no llegar al sitio en el tiempo previsto, etc.).
+Si por alguna razón los plazos deben cambiar, este cambio se reflejará en un acuerdo adicional que se adjuntará al contrato, previa consulta y firma con usted.
+Nosotros NO ESTAMOS INTERESADOS EN retrasar los plazos, ya que usted paga por cada etapa solo cuando se ha completado. ¡Por lo tanto, cumplimos con los plazos y los fijamos en el contrato!`,
+            }, {
+                question: "¿Cuánto cuesta la visita de un especialista?",
+                answer: `La visita del especialista es gratuita. La medición no lo compromete en absoluto. 
             
-            Además, somos una de las pocas empresas en las que los expertos lavan los muebles con un acondicionador especial que neutraliza los residuos de detergente.`,
-            }, {
-                question: "Que está incluido en el precio?",
-                answer: `TODAS LAS ETAPAS DE LIMPIEZA REQUERIDAS
-            El costo anunciado por el operador por teléfono o por correspondencia es definitivo.
-            
-            El precio incluye todos los pasos de limpieza necesarios.
-            
-            Nuestro experto llega a la hora acordada, limpia y solo después del trabajo se paga el servicio.`,
-            }, {
-                question: "¿Se irán todas las manchas?",
-                answer: `HACEMOS TODO LO POSIBLE
-            Muchas empresas dan garantía de que limpiarán todas las manchas y el sofá "quedará como nuevo". Esto es deshonesto. Las manchas son diferentes en origen y edad. Algunas manchas no se pueden quitar. Por ejemplo, puede haber problemas con sangre vieja (a partir de los 2 años).
-            
-            Mucho también depende del material del sofá. Por ejemplo, algunas telas no se pueden limpiar con agua en absoluto. Sin embargo, algunos contaminantes no se pueden eliminar sin agua.
-            
-            Y otro factor es la autolimpieza. Algunas manchas y suciedad de los productos del hogar "enlatados" en la tapicería también pueden causar muchos problemas.
-            Pero, hacemos nuestro mejor esfuerzo para librar a sus muebles de toda contaminación. Y en casos severos, definitivamente advertiremos que el resultado puede no ser el ideal.`,
-            }, {
-                question: "¿Elimina los malos olores?",
-                answer: `¡SI, OBVIAMENTE!
-            Sí, tenemos métodos especiales.
-            En el asunto de eliminar el olor, lo más importante no es solo enmascararlo, sino eliminar la fuente. Le ayudaremos con esto.`,
-            }, {
-                question: "¿Trabajan con personas jurídicas?",
-                answer: `Sí, trabajamos con personas jurídicas`,
-            }, {
-                question: "¿Llegan a las afueras de la ciudad?",
-                answer: `TRABAJAMOS PARA USTED
-            Sí. Dígale a nuestros operadores la localidad y ellos calcularán el costo de la salida para usted.`,
-            }, {
-                question: "¿Cuánto tiempo se secan los muebles después de limpiarlos?",
-                answer: `TODO ES DIFERENTE
+            Es una oportunidad para inspeccionar el apartamento, conocernos, recibir asesoramiento profesional sobre su proyecto y conocer el costo real de la reforma.
 
-            En promedio, los muebles se secan en 6 a 12 horas, depende del material, el grado de contaminación, la temperatura del aire y su circulación en la habitación.
             
-            Si tiene un calentador o un ventilador en su casa, esto ayudará a acelerar el proceso de secado.`,
+            Después de eso, podrá reflexionar y tomar decisiones basadas en cifras reales.`,
             }, {
-                question: "¿Cuánto dura la limpieza?",
-                answer: `VARIOS FACTORES SON RESPONSABLES DE ESTO:
-            La duración del trabajo depende del tipo de mueble, material, grado de contaminación.
-            
-            Por ejemplo, limpiar un pequeño sofá rinconero lleva de media a una hora y media.`,
+                question: "¿Cuánto cuesta la reforma por metro cuadrado?",
+                answer: `Una de las preguntas más frecuentes, y la respuesta es muy simple. Cada proyecto/reforma es único, por lo que el precio puede variar. Dar cifras 'al azar' no es correcto ni justo. Las cifras por metro cuadrado solo las mencionan los amateurs, generalmente solo para captar su atención e iniciar el proyecto, pero al final, no es así. Tomar medidas precisas del sitio y elaborar un presupuesto es el enfoque que consideramos correcto y honesto.`,
             }, {
-                question: "HORARIO DIARIO",
-                answer: `Trabajamos a diario.
-            Siete días a la semana.
-            La salida nocturna también es posible.`,
+                question: "¿Cómo se realiza el pago?",
+                answer: `El pago se realiza por etapas, al finalizar y recibir cada fase del trabajo.`,
             }, {
-                question: "¿Con qué frecuencia debo lavar en seco?",
-                answer: `RECOMENDACIÓN:
-            Recomendamos limpiar sus muebles al menos una vez al año.`,
-            },
+                question: "¿Es el costo del presupuesto definitivo?",
+                answer: `Los cambios solo son posibles si usted decide modificar el conjunto de trabajos o los materiales establecidos en el presupuesto.`,
+            }, {
+                question: "¿Se puede pedir un proyecto de diseño?",
+                answer: `Sí. Además, el diseñador se desplazará hasta su propiedad para una consulta y le sugerirá/propondrá la mejor solución según el tipo de distribución de su vivienda.`,
+            }, {
+                question: "¿Quién debe comprar los materiales?",
+                answer: `Podemos encargarnos de la compra de los materiales o trabajar con los materiales que usted proporcione.`,
+            }, {
+                question: "¿Se retira la basura después de la reforma?",
+                answer: `Sí. Al finalizar la reforma, por encargo del cliente, realizamos la limpieza en seco y/o húmeda y retiramos la basura. Además, llevamos a cabo limpiezas regulares durante el proceso de reforma.`,
+            }, {
+                question: "¿Cómo se puede supervisar el progreso de la reforma?",
+                answer: `Se puede controlar el progreso de los trabajos tanto en persona como de forma remota. Regularmente enviamos informes fotográficos y videos a través de WhatsApp.`,
+            }, 
         ],
     },
 
