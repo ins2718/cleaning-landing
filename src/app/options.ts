@@ -56,14 +56,13 @@ const options = {
         root: "/images/why-us/",
         cards: [
             {
-                title: "Expertos en limpieza:",
-                text: `
-                Contamos con un equipo de técnicos altamente cualificados y experimentados en la limpieza de todo tipo de muebles, colchones, alfombras y tapizados. Nuestro servicio de limpieza de tapizados es confiable y efectivo. Más de 5000 clientes satisfechos avalan nuestro trabajo. Más de 5000 sofás, colchones, sillas y alfombras han quedado como nuevos.`,
+                title: "Control de calidad en cada etapa:",
+                text: `Supervisión exhaustiva por especialistas independientes en cada fase del proyecto para garantizar el cumplimiento de los plazos y los estándares de calidad.`,
                 image: "three-people.png",
             }, {
-                title: "Limpieza segura y eficaz:",
+                title: "Gestión personalizada:",
                 text: `
-                Utilizamos equipos profesionales Karcher y productos de limpieza alemanes y suizos que desinfectan la tapicería, eliminan ácaros y alérgenos, son hipoalergénicos y seguros para personas y animales, con un aroma ligero que desaparece en 20 minutos.
+                Asignación de un gestor de proyecto dedicado, disponible para resolver cualquier consulta y coordinar las tareas.
 
 
 
@@ -73,18 +72,18 @@ const options = {
 `,
                 image: "hand.png",
             }, {
-                title: "Limpieza honesta:",
-                text: `No prometemos lo imposible. Si hay manchas o suciedad que no se pueden eliminar, te lo avisaremos con antelación. Nuestros especialistas siempre se esfuerzan al máximo para eliminar las manchas y la suciedad.`,
+                title: "Presupuesto transparente:",
+                text: `Elaboramos un presupuesto detallado tras una consulta inicial, garantizando precios fijos y fechas límite estrictas.`,
                 image: "handshake.png",
             }, {
-                title: "Expertos en limpieza:",
+                title: "Esquema de pago flexible:",
                 text: `
-                Contamos con un equipo de técnicos altamente cualificados y experimentados en la limpieza de todo tipo de muebles, colchones, alfombras y tapizados. Nuestro servicio de limpieza de tapizados es confiable y efectivo. Más de 5000 clientes satisfechos avalan nuestro trabajo. Más de 5000 sofás, colchones, sillas y alfombras han quedado como nuevos.`,
+                Realiza pagos por etapas únicamente por los trabajos completados y aprobados.`,
                 image: "three-people.png",
             }, {
-                title: "Limpieza segura y eficaz:",
+                title: "Equipo profesional:",
                 text: `
-                Utilizamos equipos profesionales Karcher y productos de limpieza alemanes y suizos que desinfectan la tapicería, eliminan ácaros y alérgenos, son hipoalergénicos y seguros para personas y animales, con un aroma ligero que desaparece en 20 minutos.
+                Nuestro personal cuenta con al menos 5 años de experiencia y participa regularmente en capacitaciones y certificaciones obligatorias.
 
 
 
@@ -94,12 +93,16 @@ const options = {
 `,
                 image: "hand.png",
             }, {
-                title: "Limpieza honesta:",
-                text: `No prometemos lo imposible. Si hay manchas o suciedad que no se pueden eliminar, te lo avisaremos con antelación. Nuestros especialistas siempre se esfuerzan al máximo para eliminar las manchas y la suciedad.`,
+                title: "Garantías claras:",
+                text: `Ofrecemos una garantía estándar de 2 años en nuestros trabajos, ampliable hasta 5 años según tus necesidades. Todo queda registrado en el contrato.`,
                 image: "handshake.png",
             }, {
-                title: "Limpieza honesta:",
-                text: `No prometemos lo imposible. Si hay manchas o suciedad que no se pueden eliminar, te lo avisaremos con antelación. Nuestros especialistas siempre se esfuerzan al máximo para eliminar las manchas y la suciedad.`,
+                title: "Materiales de calidad:",
+                text: `Accede a precios competitivos gracias a nuestra red de proveedores asociados. También nos encargamos de la logística de entrega y recepción de materiales.`,
+                image: "handshake.png",
+            }, {
+                title: "Limpieza postobra:",
+                text: `Servicio adicional de limpieza y retiro de escombros para que puedas disfrutar de tu espacio renovado sin preocupaciones.`,
                 image: "handshake.png",
             },
         ],
