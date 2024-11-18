@@ -58,7 +58,7 @@ const options = {
             {
                 title: "Control de calidad en cada etapa:",
                 text: `Supervisión exhaustiva por especialistas independientes en cada fase del proyecto para garantizar el cumplimiento de los plazos y los estándares de calidad.`,
-                image: "three-people.png",
+                image: "list.png",
             }, {
                 title: "Gestión personalizada:",
                 text: `
@@ -70,16 +70,16 @@ const options = {
 
 
 `,
-                image: "hand.png",
+                image: "three-people.png",
             }, {
                 title: "Presupuesto transparente:",
                 text: `Elaboramos un presupuesto detallado tras una consulta inicial, garantizando precios fijos y fechas límite estrictas.`,
-                image: "handshake.png",
+                image: "receive-euro.png",
             }, {
                 title: "Esquema de pago flexible:",
                 text: `
                 Realiza pagos por etapas únicamente por los trabajos completados y aprobados.`,
-                image: "three-people.png",
+                image: "web-analytics.png",
             }, {
                 title: "Equipo profesional:",
                 text: `
@@ -91,19 +91,19 @@ const options = {
 
 
 `,
-                image: "hand.png",
+                image: "professional.png",
             }, {
                 title: "Garantías claras:",
                 text: `Ofrecemos una garantía estándar de 2 años en nuestros trabajos, ampliable hasta 5 años según tus necesidades. Todo queda registrado en el contrato.`,
-                image: "handshake.png",
+                image: "guarantee.png",
             }, {
                 title: "Materiales de calidad:",
                 text: `Accede a precios competitivos gracias a nuestra red de proveedores asociados. También nos encargamos de la logística de entrega y recepción de materiales.`,
-                image: "handshake.png",
+                image: "good-quality.png",
             }, {
                 title: "Limpieza postobra:",
                 text: `Servicio adicional de limpieza y retiro de escombros para que puedas disfrutar de tu espacio renovado sin preocupaciones.`,
-                image: "handshake.png",
+                image: "cleaning.png",
             },
         ],
     },
