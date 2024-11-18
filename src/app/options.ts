@@ -31,27 +31,28 @@ const options = {
     ],
 
     firstSection: {
-        title: "Reformas y construcción de calidad: 20 años de experiencia en proyectos de todas las escalas.",
+        title: "Reformas y construcción de calidad: 20 años de experiencia en proyectos de todas las escalas, desde la pintura de paredes hasta la construcción de casas completas y el diseño de interiores.",
         showTitlePicture: true,
         showLogoTitle: false,
         showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]¿Tus muebles, colchón o alfombra están sucios, huelen mal o simplemente necesitan una limpieza a fondo?[/b]
-¡No los tires!
-En limpiarmuebles.pro ofrecemos un servicio profesional de limpieza de muebles a domicilio que les dará una nueva vida.`,
+        leftSideText: `[b]
+  Reformas integrales de apartamentos en Barcelona desde 580 €/m²[/b]
+ Calidad garantizada con presupuesto transparente y garantía de hasta 5 años bajo contrato oficial.
+  ¡Visita gratuita de un especialista y presupuesto sin compromiso!`,
         leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
-        title: "Calcula el precio de la limpieza de tu sofá en minutos",
-        subtitle: "¿Cuál se parece al tuyo?",
+        title: "Calcule el costo y los plazos preliminares de la reforma de su espacio con un 95% de precisión.",
+        subtitle: "Responda algunas preguntas y obtenga un cálculo del costo de su reforma.",
         showImage: true,
         // @see "../components/main/choose-furnitute-section/right-side.tsx"
     },
 
     whyUsSection: {
-        title: "15 años de experiencia en limpieza profesional ",
+        title: "Desde el inicio hasta el final, te acompañamos para que tengas total confianza en los resultados ",
         root: "/images/why-us/",
         cards: [
             {
@@ -71,6 +72,31 @@ En limpiarmuebles.pro ofrecemos un servicio profesional de limpieza de muebles a
 
 `,
                 image: "hand.png",
+            }, {
+                title: "Limpieza honesta:",
+                text: `No prometemos lo imposible. Si hay manchas o suciedad que no se pueden eliminar, te lo avisaremos con antelación. Nuestros especialistas siempre se esfuerzan al máximo para eliminar las manchas y la suciedad.`,
+                image: "handshake.png",
+            }, {
+                title: "Expertos en limpieza:",
+                text: `
+                Contamos con un equipo de técnicos altamente cualificados y experimentados en la limpieza de todo tipo de muebles, colchones, alfombras y tapizados. Nuestro servicio de limpieza de tapizados es confiable y efectivo. Más de 5000 clientes satisfechos avalan nuestro trabajo. Más de 5000 sofás, colchones, sillas y alfombras han quedado como nuevos.`,
+                image: "three-people.png",
+            }, {
+                title: "Limpieza segura y eficaz:",
+                text: `
+                Utilizamos equipos profesionales Karcher y productos de limpieza alemanes y suizos que desinfectan la tapicería, eliminan ácaros y alérgenos, son hipoalergénicos y seguros para personas y animales, con un aroma ligero que desaparece en 20 minutos.
+
+
+
+
+
+
+`,
+                image: "hand.png",
+            }, {
+                title: "Limpieza honesta:",
+                text: `No prometemos lo imposible. Si hay manchas o suciedad que no se pueden eliminar, te lo avisaremos con antelación. Nuestros especialistas siempre se esfuerzan al máximo para eliminar las manchas y la suciedad.`,
+                image: "handshake.png",
             }, {
                 title: "Limpieza honesta:",
                 text: `No prometemos lo imposible. Si hay manchas o suciedad que no se pueden eliminar, te lo avisaremos con antelación. Nuestros especialistas siempre se esfuerzan al máximo para eliminar las manchas y la suciedad.`,
