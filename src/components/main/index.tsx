@@ -1,5 +1,4 @@
 import { useCsrfCookieQuery } from "@/app/api/order-form";
-import { useCsrfCookieQuery } from "@/app/api/order-form";
 import options from "@/app/options";
 import FirstSection from "./first-section";
 import dynamic from "next/dynamic";
