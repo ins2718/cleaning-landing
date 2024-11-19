@@ -73,6 +73,9 @@ const options = {
         root: "/images/what-we-clean/",
         cards: [
             {
+                title: "El precio para limpiar sillas comienza desde 10€. Necesitamos más detalles para ofrecerte un presupuesto exacto. Envíanos una foto de las sillas o sillones para darte la mejor opción y precio.",
+                image: "chair.jpg"
+            }, {
                 title: "El precio para limpiar un sofá de dos plazas empieza desde 60€, pero necesitamos más detalles para un presupuesto exacto. Envíanos una foto de tu sofá o tapizado para ofrecerte la mejor opción y precio.",
                 image: "sofa.jpg"
             }, {
@@ -81,10 +84,7 @@ const options = {
             }, {
                 title: "El precio para limpiar una alfombra comienza desde 8€ por m². Necesitamos más detalles para ofrecerte un presupuesto exacto. Envíanos las medidas y una foto de tu alfombra para darte la mejor opción y precio.",
                 image: "carpet.jpg"
-            }, {
-                title: "El precio para limpiar sillas comienza desde 10€. Necesitamos más detalles para ofrecerte un presupuesto exacto. Envíanos una foto de las sillas o sillones para darte la mejor opción y precio.",
-                image: "chair.jpg"
-            },
+            }, 
         ]
     },
 
@@ -147,8 +147,12 @@ const options = {
 
     videoSection: {
         title: "Un vídeo que dice más que mil palabras...",
+        subtitle: "",
         videos: [
             {
+                original: "dy8zLn1uF20",
+                thumbnail: "/images/video-thumbs/sofa-yellow.jpg",
+            },{
                 original: "9X9FFHy6hZg",
                 thumbnail: "/images/video-thumbs/sofa-light.png",
             }, {
@@ -158,8 +162,9 @@ const options = {
                 original: "a2np9IDDTHQ",
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
+
         ],
-        mute: true,
+        mute: false,
     },
 
     faqSection: {
