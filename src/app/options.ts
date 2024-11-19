@@ -26,9 +26,9 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Alfombras en Madrid: Servicio Profesional de Lavado y Eliminación de Manchas",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b]¿Tu alfombra necesita una limpieza profunda y eliminación de manchas, polvo, suciedad y ácaros?[/b]
@@ -116,19 +116,7 @@ Utilizamos productos y equipos de limpieza de alta calidad para que tus alfombra
             root: '/images/our-works/compare/',
             images: [
                 {
-                    path: 'mattress/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
-                    path: 'sofa_brown/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
                     path: 'sofa_corner/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
-                    path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
@@ -136,6 +124,18 @@ Utilizamos productos y equipos de limpieza de alta calidad para que tus alfombra
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
+                    path: 'mattress/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
+                    path: 'sofa_brown/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },  {
+                    path: 'sofa_corner_black/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },  {
                     path: 'sofa_orange/',
                     before: 'before.jpg',
                     after: 'after.jpg',
