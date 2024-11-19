@@ -26,15 +26,16 @@ const options = {
 
     firstSection: {
         title: "Limpieza Profesional de Sillones en Madrid: Servicios Efectivos para Lavar tus Sillones",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]¿Tus sillones necesitan una limpieza profunda?[/b]
-En limpiarmuebles.pro, ofrecemos servicios especializados para lavar sillones con resultados profesionales.
-Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados si es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros, devolviéndoles su frescura original.
-¡Eliminamos manchas, olores, bacterias y ácaros de tus sillones, devolviéndoles su frescura y confort originales!`,
+        leftSideText: `[b]
+    ¿Tus sillones necesitan una limpieza profunda?[/b]
+ En limpiarmuebles.pro, ofrecemos servicios especializados para lavar sillones con resultados profesionales.
+ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados si es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros, devolviéndoles su frescura original.
+ ¡Eliminamos manchas, olores, bacterias y ácaros de tus sillones, devolviéndoles su frescura y confort originales!`,
         leftSideButtonMarginTop: "60px",
     },
 
@@ -72,6 +73,9 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados
         root: "/images/what-we-clean/",
         cards: [
             {
+                title: "El precio para limpiar sillas comienza desde 10€. Necesitamos más detalles para ofrecerte un presupuesto exacto. Envíanos una foto de las sillas o sillones para darte la mejor opción y precio.",
+                image: "chair.jpg"
+            }, {
                 title: "El precio para limpiar un sofá de dos plazas empieza desde 60€, pero necesitamos más detalles para un presupuesto exacto. Envíanos una foto de tu sofá o tapizado para ofrecerte la mejor opción y precio.",
                 image: "sofa.jpg"
             }, {
@@ -80,10 +84,7 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados
             }, {
                 title: "El precio para limpiar una alfombra comienza desde 8€ por m². Necesitamos más detalles para ofrecerte un presupuesto exacto. Envíanos las medidas y una foto de tu alfombra para darte la mejor opción y precio.",
                 image: "carpet.jpg"
-            }, {
-                title: "El precio para limpiar sillas comienza desde 10€. Necesitamos más detalles para ofrecerte un presupuesto exacto. Envíanos una foto de las sillas o sillones para darte la mejor opción y precio.",
-                image: "chair.jpg"
-            },
+            }, 
         ]
     },
 
@@ -116,15 +117,7 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados
             root: '/images/our-works/compare/',
             images: [
                 {
-                    path: 'mattress/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
                     path: 'sofa_brown/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
-                    path: 'sofa_corner/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
@@ -132,6 +125,14 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
+                    path: 'sofa_corner/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
+                    path: 'mattress/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },   {
                     path: 'sofa_light/',
                     before: 'before.jpg',
                     after: 'after.jpg',
