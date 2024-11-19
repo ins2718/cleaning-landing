@@ -26,16 +26,17 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Alfombras de Polipropileno en Madrid: Servicio Especializado en Eliminación de Suciedad y Manchas",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]¿Tu alfombra de polipropileno necesita una limpieza profunda y eliminación de manchas y suciedad?[/b]
-Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras de polipropileno a domicilio. 
-Nos especializamos en la eliminación de manchas, polvo, suciedad, ácaros y alérgenos, garantizando una desinfección completa y un ambiente más saludable en tu hogar.
-Utilizamos productos y equipos de limpieza de alta calidad, diseñados específicamente para alfombras de polipropileno, para que tus alfombras queden como nuevas.
-¡Confía en nosotros para un hogar más limpio y fresco!`,
+        leftSideText: `[b]
+    ¿Tu alfombra de polipropileno necesita una limpieza profunda y eliminación de manchas y suciedad?[/b]
+ Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras de polipropileno a domicilio. 
+ Nos especializamos en la eliminación de manchas, polvo, suciedad, ácaros y alérgenos, garantizando una desinfección completa y un ambiente más saludable en tu hogar.
+ Utilizamos productos y equipos de limpieza de alta calidad, diseñados específicamente para alfombras de polipropileno, para que tus alfombras queden como nuevas.
+ ¡Confía en nosotros para un hogar más limpio y fresco!`,
         leftSideButtonMarginTop: "60px",
     },
 
@@ -116,6 +117,10 @@ Utilizamos productos y equipos de limpieza de alta calidad, diseñados específi
             root: '/images/our-works/compare/',
             images: [
                 {
+                    path: 'sofa_corner/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
