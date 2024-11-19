@@ -28,12 +28,13 @@ const options = {
         title: "Limpieza Industrial de Alfombras en Madrid: Servicio Profesional de Lavado y Eliminación de Suciedad",
         showTitlePicture: false,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras en oficinas, hoteles y restaurantes.[/b]
-Nos especializamos en la eliminación de polvo, suciedad y alérgenos de tus alfombras, garantizando desinfección y la máxima eliminación posible de manchas y suciedad. 
-Utilizamos productos de limpieza profesionales y equipos especializados.`,
+        leftSideText: `[b]
+    Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras en oficinas, hoteles y restaurantes.[/b]
+ Nos especializamos en la eliminación de polvo, suciedad y alérgenos de tus alfombras, garantizando desinfección y la máxima eliminación posible de manchas y suciedad. 
+ Utilizamos productos de limpieza profesionales y equipos especializados.`,
         leftSideButtonMarginTop: "60px",
     },
 
@@ -114,6 +115,10 @@ Utilizamos productos de limpieza profesionales y equipos especializados.`,
             root: '/images/our-works/compare/',
             images: [
                 {
+                    path: 'sofa_corner/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },{
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
