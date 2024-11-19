@@ -26,15 +26,16 @@ const options = {
 
     firstSection: {
         title: "Limpieza Profesional de Sillas en Madrid: Servicios Efectivos para Lavar tus Sillas",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: truee,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]¿Tus sillas necesitan una limpieza profunda?[/b]
-En limpiarmuebles.pro, ofrecemos servicios especializados para limpiar sillas a domicilio con resultados profesionales.
-Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados si es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros, devolviéndoles su frescura original.
-¡Eliminamos manchas, olores, bacterias y ácaros de tus sillas, devolviéndoles su frescura original!`,
+        leftSideText: `[b]
+    ¿Tus sillas necesitan una limpieza profunda?[/b]
+ En limpiarmuebles.pro, ofrecemos servicios especializados para limpiar sillas a domicilio con resultados profesionales.
+ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados si es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros, devolviéndoles su frescura original.
+ ¡Eliminamos manchas, olores, bacterias y ácaros de tus sillas, devolviéndoles su frescura original!`,
         leftSideButtonMarginTop: "60px",
     },
 
@@ -116,7 +117,7 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados
             root: '/images/our-works/compare/',
             images: [
                 {
-                    path: 'mattress/',
+                    path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
@@ -124,14 +125,14 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
+                    path: 'mattress/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },  {
                     path: 'sofa_corner/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                }, {
-                    path: 'sofa_corner_black/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
+                },  {
                     path: 'sofa_light/',
                     before: 'before.jpg',
                     after: 'after.jpg',
