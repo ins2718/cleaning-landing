@@ -28,7 +28,7 @@ const options = {
         title: "Limpieza Profesional de Sillas en Madrid: Servicios Efectivos para Lavar tus Sillas",
         showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: truee,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
         leftSideText: `[b]
