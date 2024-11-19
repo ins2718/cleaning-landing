@@ -26,16 +26,17 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Alfombras, Colchones, Sofás y Sillones en Madrid: Servicio Profesional de Lavado y Eliminación de Suciedad",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]¿Tu alfombra o sofá necesitan una limpieza profunda y eliminación de polvo y suciedad?[/b]
-Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras y sofás a domicilio. 
-Nos especializamos en la eliminación de polvo, suciedad, ácaros y bacterias de tus alfombras, garantizando una desinfección completa y un ambiente más saludable en tu hogar.
-Utilizamos productos y equipos de limpieza de alta calidad para que tus alfombras queden como nuevas, libres de alérgenos y suciedad.
-¡Confía en nosotros para un hogar más limpio y fresco!`,
+        leftSideText: `[b]
+    ¿Tu alfombra o sofá necesitan una limpieza profunda y eliminación de polvo y suciedad?[/b]
+ Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras y sofás a domicilio. 
+ Nos especializamos en la eliminación de polvo, suciedad, ácaros y bacterias de tus alfombras, garantizando una desinfección completa y un ambiente más saludable en tu hogar.
+ Utilizamos productos y equipos de limpieza de alta calidad para que tus alfombras queden como nuevas, libres de alérgenos y suciedad.
+ ¡Confía en nosotros para un hogar más limpio y fresco!`,
         leftSideButtonMarginTop: "60px",
     },
 
@@ -116,19 +117,7 @@ Utilizamos productos y equipos de limpieza de alta calidad para que tus alfombra
             root: '/images/our-works/compare/',
             images: [
                 {
-                    path: 'mattress/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
-                    path: 'sofa_brown/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
                     path: 'sofa_corner/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
-                    path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
@@ -136,6 +125,18 @@ Utilizamos productos y equipos de limpieza de alta calidad para que tus alfombra
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
+                    path: 'mattress/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
+                    path: 'sofa_brown/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },  {
+                    path: 'sofa_corner_black/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },  {
                     path: 'sofa_orange/',
                     before: 'before.jpg',
                     after: 'after.jpg',
