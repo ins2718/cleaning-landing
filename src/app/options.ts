@@ -26,15 +26,16 @@ const options = {
 
     firstSection: {
         title: "Limpieza de Alfombras de Lana, Colchones, Sofás y Sillones en Madrid: Servicio Profesional de Lavado y Eliminación de Suciedad",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]¿Tu alfombra de lana necesita una limpieza profunda y eliminación de polvo y suciedad?[/b]
-Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras de lana a domicilio. 
-Nos especializamos en la eliminación de polvo, suciedad, ácaros y bacterias de tus alfombras de lana, garantizando una desinfección completa y un ambiente más saludable en tu hogar. 
-¡Confía en nosotros para un hogar más limpio y fresco!`,
+        leftSideText: `[b]
+    ¿Tu alfombra de lana necesita una limpieza profunda y eliminación de polvo y suciedad?[/b]
+ Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras de lana a domicilio. 
+ Nos especializamos en la eliminación de polvo, suciedad, ácaros y bacterias de tus alfombras de lana, garantizando una desinfección completa y un ambiente más saludable en tu hogar. 
+ ¡Confía en nosotros para un hogar más limpio y fresco!`,
         leftSideButtonMarginTop: "60px",
     },
 
@@ -115,6 +116,10 @@ Nos especializamos en la eliminación de polvo, suciedad, ácaros y bacterias de
             root: '/images/our-works/compare/',
             images: [
                 {
+                    path: 'sofa_corner/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
@@ -122,11 +127,7 @@ Nos especializamos en la eliminación de polvo, suciedad, ácaros y bacterias de
                     path: 'sofa_brown/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                }, {
-                    path: 'sofa_corner/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
+                },  {
                     path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
