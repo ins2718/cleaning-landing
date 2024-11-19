@@ -31,11 +31,12 @@ const options = {
         showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]¿Tu alfombra necesita una limpieza profunda y eliminación de manchas, polvo, suciedad y ácaros?[/b]
-Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras.
-Nos especializamos en la eliminación de manchas, polvo, suciedad, ácaros y alérgenos, garantizando una desinfección completa y un ambiente más saludable en tu hogar.
-Utilizamos productos y equipos de limpieza de alta calidad para que tus alfombras queden como nuevas, libres de alérgenos y suciedad.
-¡Confía en nosotros para un hogar más limpio y fresco!`,
+        leftSideText: `[b]
+    ¿Tu alfombra necesita una limpieza profunda y eliminación de manchas, polvo, suciedad y ácaros?[/b]
+ Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras.
+ Nos especializamos en la eliminación de manchas, polvo, suciedad, ácaros y alérgenos, garantizando una desinfección completa y un ambiente más saludable en tu hogar.
+ Utilizamos productos y equipos de limpieza de alta calidad para que tus alfombras queden como nuevas, libres de alérgenos y suciedad.
+ ¡Confía en nosotros para un hogar más limpio y fresco!`,
         leftSideButtonMarginTop: "60px",
     },
 
@@ -146,8 +147,12 @@ Utilizamos productos y equipos de limpieza de alta calidad para que tus alfombra
 
     videoSection: {
         title: "Un vídeo que dice más que mil palabras...",
+        subtitle: "",
         videos: [
             {
+                original: "dy8zLn1uF20",
+                thumbnail: "/images/video-thumbs/sofa-yellow.jpg",
+            },{
                 original: "9X9FFHy6hZg",
                 thumbnail: "/images/video-thumbs/sofa-light.png",
             }, {
@@ -157,8 +162,9 @@ Utilizamos productos y equipos de limpieza de alta calidad para que tus alfombra
                 original: "a2np9IDDTHQ",
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
+
         ],
-        mute: true,
+        mute: false,
     },
 
     faqSection: {
