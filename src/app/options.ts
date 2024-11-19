@@ -26,15 +26,16 @@ const options = {
 
     firstSection: {
         title: "Limpieza Profesional de Sillones de Chenille en Madrid: Servicios Especializados y Efectivos",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
         bottomMargin: "170px",
-        leftSideText: `[b]¿Tus sillones de chenille necesitan una limpieza profunda?[/b]
-En limpiarmuebles.pro, ofrecemos servicios de limpieza de sillones de chenille a domicilio con resultados profesionales.
-Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros, devolviéndoles su frescura original.
-¡Eliminamos manchas, olores, bacterias y ácaros en sillones de chenille, devolviéndoles su frescura original!
+        leftSideText: `[b]
+  ¿Tus sillones de chenille necesitan una limpieza profunda?[/b]
+ En limpiarmuebles.pro, ofrecemos servicios de limpieza de sillones de chenille a domicilio con resultados profesionales.
+ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros, devolviéndoles su frescura original.
+ ¡Eliminamos manchas, olores, bacterias y ácaros en sillones de chenille, devolviéndoles su frescura original!
 `,
         leftSideButtonMarginTop: "60px",
     },
@@ -117,22 +118,22 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor si es necesario, p
             root: '/images/our-works/compare/',
             images: [
                 {
-                    path: 'mattress/',
+                    path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                }, {
+                },{
                     path: 'sofa_brown/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
+                    path: 'mattress/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },  {
                     path: 'sofa_corner/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                }, {
-                    path: 'sofa_corner_black/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
+                },  {
                     path: 'sofa_light/',
                     before: 'before.jpg',
                     after: 'after.jpg',
