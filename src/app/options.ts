@@ -26,7 +26,7 @@ const options = {
 
     firstSection: {
         title: "Limpieza Profesional de Sillones Tapizados en Tela en Madrid: Servicios Especializados y Efectivos",
-        showTitlePickture: false,
+        showTitlePicture: false,
         showLogoTitle: false,
         showGallery: false,
         topMargin: "130px",
