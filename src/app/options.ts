@@ -35,7 +35,7 @@ const options = {
         showTitlePicture: true,
         showLogoTitle: false,
         showGallery: true,
-        topMargin: "130px",
+        topMargin: "150px",
         bottomMargin: "170px",
         leftSideText: `[b]
   Reformas integrales de apartamentos en Barcelona desde 580 €/m²[/b]
@@ -267,7 +267,7 @@ Nosotros NO ESTAMOS INTERESADOS EN retrasar los plazos, ya que usted paga por ca
         testimonials: [
             {
                 name: "Adriana González",
-                text: "Gracias por el excelente y buen coordinado trabajo. Fue muy cómodo comunicarse con el operador: me explicó todo de manera clara y sencilla, sin apresurarse con la tecnología y, al mismo tiempo, sin retrasar el proceso. El precio fue muy razonable en mi opinión. El de otras empresas es mucho más alto. Gracias por la calidad y por ser como sois. Definitivamente os recomendaré a mis amigos y familiares.",
+                text: "18/11 2024 Gracias por el excelente y buen coordinado trabajo. Fue muy cómodo comunicarse con el operador: me explicó todo de manera clara y sencilla, sin apresurarse con la tecnología y, al mismo tiempo, sin retrasar el proceso. El precio fue muy razonable en mi opinión. El de otras empresas es mucho más alto. Gracias por la calidad y por ser como sois. Definitivamente os recomendaré a mis amigos y familiares.",
                 image: "adriana-gonzalez.png"
             },
             {
