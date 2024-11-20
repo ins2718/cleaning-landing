@@ -179,10 +179,6 @@ const options = {
                     path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                },  {
-                    path: 'sofa_orange/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
                 },
             ],
         },
