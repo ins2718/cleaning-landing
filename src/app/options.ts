@@ -25,23 +25,23 @@ const options = {
     ],
 
     firstSection: {
-        title: "Servicio Profesional de Limpieza y Lavado de Colchones, Sofás y Sillones en Madrid",
+        title: "Servicio Profesional de Limpieza y Lavado de Futon, Colchones, Sofás y Sillones en Madrid",
         showTitlePicture: true,
         showLogoTitle: false,
         showGallery: true,
         topMargin: "130px",
         bottomMargin: "70px",
         leftSideText: `[b]
-        ¿Tu colchón necesita una limpieza profunda para mejorar tu salud y bienestar?[/b]
-   En limpiarmuebles.pro, ofrecemos servicios profesionales de lavado de colchones a domicilio, enfocados en la eliminación de ácaros, bacterias y alérgenos.
-   Recupera la frescura de tu colchón y disfruta de un entorno más limpio y saludable para descansar. 
+     ¿Tu futón o colchón necesita una limpieza profunda?
+ En limpiarmuebles.pro, ofrecemos servicios profesionales de lavado a domicilio, enfocados en la eliminación de ácaros, bacterias y alérgenos.
+ Recupera la frescura de tu futón o colchón y disfruta de un entorno más limpio y saludable para descansar.
         `,
         leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
-        title: " Calcula el precio de la limpieza de tu colchón en minutos.",
-        subtitle: " ¿Cuál es el tamaño de tu colchón? (Aunque sea aproximado).",
+        title: "Calcula el precio de la limpieza de tu futón en minutos.",  
+        subtitle: "¿Cuál es el tamaño de tu futón? (Aunque sea aproximado)." ,
         showImage: false,
         // @see "../components/main/choose-furnitute-section/right-side.tsx"
     },
