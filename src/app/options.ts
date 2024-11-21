@@ -30,10 +30,10 @@ const options = {
         showLogoTitle: false,
         showGallery: true,
         topMargin: "130px",
-        bottomMargin: "170px",
+        bottomMargin: "70px",
         leftSideText: `[b][/b]
-En limpiarmuebles.pro, ofrecemos servicios de limpieza a domicilio para sofás de polipiel.
-Usamos métodos especializados para eliminar manchas y olores, restaurando el aspecto y la comodidad de tu sofá de polipiel.`,
+  En limpiarmuebles.pro, ofrecemos servicios de limpieza a domicilio para sofás de polipiel.
+ Usamos métodos especializados para eliminar manchas y olores, restaurando el aspecto y la comodidad de tu sofá de polipiel.`,
         leftSideButtonMarginTop: "60px",
     },
 
