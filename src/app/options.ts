@@ -26,15 +26,16 @@ const options = {
 
     firstSection: {
         title: "Limpieza Profesional de Sillones Tapizados en Tela en Madrid: Servicios Especializados y Efectivos",
-        showTitlePicture: false,
+        showTitlePicture: true,
         showLogoTitle: false,
-        showGallery: false,
+        showGallery: true,
         topMargin: "130px",
-        bottomMargin: "170px",
-        leftSideText: `[b]¿Tus sillones tapizados en tela necesitan una limpieza profunda?[/b]
-En limpiarmuebles.pro, ofrecemos servicios de limpieza de sillones tapizados en tela a domicilio con resultados profesionales.
-Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados cuando es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros, devolviéndoles su frescura original.
-¡Eliminamos manchas, olores, bacterias y ácaros en tus sillones tapizados en tela, devolviéndoles su frescura original!`,
+        bottomMargin: "70px",
+        leftSideText: `[b]
+    ¿Tus sillones tapizados en tela necesitan una limpieza profunda?[/b]
+ En limpiarmuebles.pro, ofrecemos servicios de limpieza de sillones tapizados en tela a domicilio con resultados profesionales.
+ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados cuando es necesario, para eliminar polvo, manchas, olores, bacterias y ácaros, devolviéndoles su frescura original.
+ ¡Eliminamos manchas, olores, bacterias y ácaros en tus sillones tapizados en tela, devolviéndoles su frescura original!`,
         leftSideButtonMarginTop: "60px",
     },
 
@@ -116,6 +117,14 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados
             root: '/images/our-works/compare/',
             images: [
                 {
+                    path: 'sofa_light/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
+                    path: 'sofa_orange/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
@@ -131,15 +140,7 @@ Utilizamos técnicas avanzadas, incluyendo limpieza con vapor o agua a 95 grados
                     path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                }, {
-                    path: 'sofa_light/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
-                    path: 'sofa_orange/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                },
+                }, 
             ],
         },
     },
