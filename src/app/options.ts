@@ -158,6 +158,9 @@ Usamos métodos especializados para eliminar manchas y olores, restaurando el as
         subtitle: "",
         videos: [
             {
+                original: "dy8zLn1uF20",
+                thumbnail: "/images/video-thumbs/sofa-yellow.jpg",
+            },{
                 original: "9X9FFHy6hZg",
                 thumbnail: "/images/video-thumbs/sofa-light.png",
             }, {
@@ -167,8 +170,9 @@ Usamos métodos especializados para eliminar manchas y olores, restaurando el as
                 original: "a2np9IDDTHQ",
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
+
         ],
-        mute: true,
+        mute: false,
     },
 
     faqSection: {
