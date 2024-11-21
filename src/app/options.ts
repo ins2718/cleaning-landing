@@ -40,9 +40,9 @@ const options = {
     },
 
     chooseFurnitureSection: {
-        title: "Calcula el precio de la limpieza de tu sofá en minutos",
-        subtitle: "¿Cuál se parece al tuyo?",
-        showImage: true,
+        title: "Calcula el precio de la limpieza de tu alfombra en minutos",
+        subtitle: "¿Cuál es el tamaño de tu alfombra? (Aunque sea aproximado).",
+        showImage: false,
         // @see "../components/main/choose-furnitute-section/right-side.tsx"
     },
 
