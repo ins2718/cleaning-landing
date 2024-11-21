@@ -30,7 +30,7 @@ const options = {
         showLogoTitle: false,
         showGallery: true,
         topMargin: "130px",
-        bottomMargin: "170px",
+        bottomMargin: "70px",
         leftSideText: `[b]
     ¿Tu sofá necesita una limpieza profunda y eliminación de polvo?[/b]
  Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de sofás a domicilio. 
