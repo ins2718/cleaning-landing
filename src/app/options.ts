@@ -117,6 +117,14 @@ const options = {
             root: '/images/our-works/compare/',
             images: [
                 {
+                    path: 'sofa_brown/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
+                    path: 'sofa_corner_black/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
                     path: 'sofa_light/',
                     before: 'before.jpg',
                     after: 'after.jpg',
@@ -128,16 +136,8 @@ const options = {
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                }, {
-                    path: 'sofa_brown/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
+                },  {
                     path: 'sofa_corner/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
-                    path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, 
