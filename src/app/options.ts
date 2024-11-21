@@ -30,7 +30,7 @@ const options = {
         showLogoTitle: false,
         showGallery: true,
         topMargin: "130px",
-        bottomMargin: "170px",
+        bottomMargin: "70px",
         leftSideText: `[b]
     ¿Tu colchón necesita una limpieza profunda y eliminación de manchas?[/b]
    Con más de 10 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de colchones a domicilio, especializados en la eliminación de manchas, ácaros, bacterias y alérgenos.
@@ -39,8 +39,8 @@ const options = {
     },
 
     chooseFurnitureSection: {
-        title: "Calcula el precio de la limpieza de tu sofá en minutos",
-        subtitle: "¿Cuál se parece al tuyo?",
+        title: " Calcula el precio de la limpieza de tu colchón en minutos.",
+        subtitle: " ¿Cuál es el tamaño de tu colchón? (Aunque sea aproximado).",
         showImage: true,
         // @see "../components/main/choose-furnitute-section/right-side.tsx"
     },
