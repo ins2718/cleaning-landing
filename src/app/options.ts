@@ -30,7 +30,7 @@ const options = {
         showLogoTitle: false,
         showGallery: true,
         topMargin: "130px",
-        bottomMargin: "170px",
+        bottomMargin: "70px",
         leftSideText: `[b]
     ¿Tu alfombra o sofá necesitan una limpieza profunda y eliminación de polvo y suciedad?[/b]
  Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras y sofás a domicilio. 
@@ -41,8 +41,8 @@ const options = {
     },
 
     chooseFurnitureSection: {
-        title: "Calcula el precio de la limpieza de tu sofá en minutos",
-        subtitle: "¿Cuál se parece al tuyo?",
+        title: "Calcula el precio de la limpieza de tu alfombra en minutos",
+        subtitle: "¿Cuál es el tamaño de tu alfombra? (Aunque sea aproximado).",
         showImage: false,
         // @see "../components/main/choose-furnitute-section/right-side.tsx"
     },
