@@ -30,7 +30,7 @@ const options = {
         showLogoTitle: false,
         showGallery: true,
         topMargin: "130px",
-        bottomMargin: "170px",
+        bottomMargin: "70px",
         leftSideText: `[b]
     ¿Sabías que limpiar tu colchón por ti mismo puede ser ineficaz y hasta dañino?[/b]
    En limpiarmuebles.pro, entendemos que la limpieza de colchones requieIntentar limpiar un colchón con vaporeta o métodos caseros puede no solo ser ineficaz, sino también empeorar la situación al dañar el material o no eliminar ácaros, bacterias y alérgenos de manera adecuadare un enfoque profesional.
@@ -40,9 +40,9 @@ const options = {
     },
 
     chooseFurnitureSection: {
-        title: "Calcula el precio de la limpieza de tu sofá en minutos",
-        subtitle: "¿Cuál se parece al tuyo?",
-        showImage: true,
+        title: " Calcula el precio de la limpieza de tu colchón en minutos.",
+        subtitle: " ¿Cuál es el tamaño de tu colchón? (Aunque sea aproximado).",
+        showImage: false,
         // @see "../components/main/choose-furnitute-section/right-side.tsx"
     },
 
