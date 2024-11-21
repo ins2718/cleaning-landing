@@ -32,7 +32,7 @@ const options = {
         topMargin: "130px",
         bottomMargin: "70px",
         leftSideText: `[b][/b]
-     Con más de 10 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de sanitización y desinfección de colchones a domicilio, enfocados en la eliminación de ácaros, bacterias y alérgenos.
+     Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de sanitización y desinfección de colchones a domicilio, enfocados en la eliminación de ácaros, bacterias y alérgenos.
     Utilizamos productos y equipos de limpieza profesionales para desinfectar colchones y asegurar un ambiente más limpio y saludable para descansar.`,
         leftSideButtonMarginTop: "60px",
     },
