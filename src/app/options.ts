@@ -30,7 +30,7 @@ const options = {
         showLogoTitle: false,
         showGallery: true,
         topMargin: "130px",
-        bottomMargin: "170px",
+        bottomMargin: "70px",
         leftSideText: `[b]
     Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras en oficinas, hoteles y restaurantes.[/b]
  Nos especializamos en la eliminación de polvo, suciedad y alérgenos de tus alfombras, garantizando desinfección y la máxima eliminación posible de manchas y suciedad. 
@@ -39,9 +39,9 @@ const options = {
     },
 
     chooseFurnitureSection: {
-        title: "Calcula el precio de la limpieza de tu sofá en minutos",
-        subtitle: "¿Cuál se parece al tuyo?",
-        showImage: true,
+        title: "Calcula el precio de la limpieza de tu alfombra en minutos",
+        subtitle: "¿Cuál es el tamaño de tu alfombra? (Aunque sea aproximado).",
+        showImage: false,
         // @see "../components/main/choose-furnitute-section/right-side.tsx"
     },
 
