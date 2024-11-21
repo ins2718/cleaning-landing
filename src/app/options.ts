@@ -30,7 +30,7 @@ const options = {
         showLogoTitle: false,
         showGallery: true,
         topMargin: "130px",
-        bottomMargin: "170px",
+        bottomMargin: "70px",
         leftSideText: `[b]
         ¿Tu colchón necesita una limpieza profunda para mejorar tu salud y bienestar?[/b]
    En limpiarmuebles.pro, ofrecemos servicios profesionales de lavado de colchones a domicilio, enfocados en la eliminación de ácaros, bacterias y alérgenos.
@@ -40,8 +40,8 @@ const options = {
     },
 
     chooseFurnitureSection: {
-        title: "Calcula el precio de la limpieza de tu sofá en minutos",
-        subtitle: "¿Cuál se parece al tuyo?",
+        title: " Calcula el precio de la limpieza de tu colchón en minutos.",
+        subtitle: " ¿Cuál es el tamaño de tu colchón? (Aunque sea aproximado).",
         showImage: false,
         // @see "../components/main/choose-furnitute-section/right-side.tsx"
     },
