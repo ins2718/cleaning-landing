@@ -25,23 +25,23 @@ const options = {
     ],
 
     firstSection: {
-        title: "Servicio Profesional de Limpieza y Lavado de Colchones, Sofás y Sillones en Madrid",
+        title: "Servicio Profesional de Limpieza y Lavado de Sommier, Colchones, Sofás y Sillones en Madrid",
         showTitlePicture: true,
         showLogoTitle: false,
         showGallery: true,
         topMargin: "130px",
         bottomMargin: "70px",
         leftSideText: `[b]
-        ¿Tu colchón necesita una limpieza profunda para mejorar tu salud y bienestar?[/b]
-   En limpiarmuebles.pro, ofrecemos servicios profesionales de lavado de colchones a domicilio, enfocados en la eliminación de ácaros, bacterias y alérgenos.
-   Recupera la frescura de tu colchón y disfruta de un entorno más limpio y saludable para descansar. 
+    ¿Necesitas una limpieza profunda para tu sommier o colchón?
+  En limpiarmuebles.pro, ofrecemos servicios profesionales de limpieza a domicilio, enfocados en la eliminación de ácaros, bacterias y alérgenos.
+Recupera la frescura de tu colchón o sommier y disfruta de un ambiente más limpio y saludable para descansar. 
         `,
         leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
-        title: " Calcula el precio de la limpieza de tu colchón en minutos.",
-        subtitle: " ¿Cuál es el tamaño de tu colchón? (Aunque sea aproximado).",
+        title: " Calcula el precio de la limpieza de tu sommier en minutos.",
+        subtitle: " ¿Cuál es el tamaño de tu sommier? (Aunque sea aproximado).",
         showImage: false,
         // @see "../components/main/choose-furnitute-section/right-side.tsx"
     },
@@ -119,10 +119,6 @@ const options = {
             root: '/images/our-works/compare/',
             images: [
                 {
-                    path: 'sofa_corner/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                },{
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
@@ -131,6 +127,10 @@ const options = {
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
+                    path: 'sofa_corner/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },  {
                     path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
