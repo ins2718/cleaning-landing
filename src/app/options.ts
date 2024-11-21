@@ -30,17 +30,17 @@ const options = {
         showLogoTitle: false,
         showGallery: true,
         topMargin: "130px",
-        bottomMargin: "170px",
+        bottomMargin: "70px",
         leftSideText: `[b]
-    Con más de 10 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza y desinfección de colchones a domicilio, enfocados en la eliminación de ácaros, bacterias y alérgenos.[/b]
+    Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza y desinfección de colchones a domicilio, enfocados en la eliminación de ácaros, bacterias y alérgenos.[/b]
    Utilizamos productos y equipos de limpieza profesionales para desinfectar colchones y asegurar un ambiente más limpio y saludable para descansar.`,
         leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
-        title: "Calcula el precio de la limpieza de tu sofá en minutos",
-        subtitle: "¿Cuál se parece al tuyo?",
-        showImage: true,
+        title: " Calcula el precio de la limpieza de tu colchón en minutos.",
+        subtitle: " ¿Cuál es el tamaño de tu colchón? (Aunque sea aproximado).",
+        showImage: false,
         // @see "../components/main/choose-furnitute-section/right-side.tsx"
     },
 
