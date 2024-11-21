@@ -40,8 +40,8 @@ const options = {
 
     chooseFurnitureSection: {
         title: " Calcula el precio de la limpieza de tu colchón en minutos.",
-        subtitle: " ¿Cuál es el tamaño de tu colchón? (Aunque sea aproximado).",
-        showImage: false,
+        subtitle: "¿Cuál es el tamaño de tu colchón? (Aunque sea aproximado).",
+        showImage: true,
         // @see "../components/main/choose-furnitute-section/right-side.tsx"
     },
 
