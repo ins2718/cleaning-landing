@@ -29,18 +29,19 @@ const options = {
         showTitlePicture: true,
         showLogoTitle: false,
         showGallery: true,
-        topMargin: "160px",
-        bottomMargin: "170px",
+        topMargin: "130px",
+        bottomMargin: "70px",
         leftSideText: `[b]
-        ¿Tu colchón necesita una limpieza profunda y eliminación de manchas?[/b]
- Con más de 10 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de colchones a domicilio, especializados en la eliminación de manchas, ácaros, bacterias y alérgenos.
- Utilizamos productos y equipos de limpieza profesionales para obtener los mejores resultados.`,
+    ¿Tu colchón necesita una limpieza profunda y eliminación de manchas?[/b]
+   Con más de 10 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de colchones a domicilio, especializados en la eliminación de manchas, ácaros, bacterias y alérgenos.
+   Utilizamos productos y equipos de limpieza profesionales para obtener los mejores resultados.`,
         leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
-        title: "Calcula el precio de la limpieza de tu sofá en minutos",
-        subtitle: "¿Cuál se parece al tuyo?",
+        title: " Calcula el precio de la limpieza de tu colchón en minutos.",
+        subtitle: " ¿Cuál es el tamaño de tu colchón? (Aunque sea aproximado).",
+        showImage: false,
         // @see "../components/main/choose-furnitute-section/right-side.tsx"
     },
 
@@ -73,16 +74,17 @@ const options = {
             {
                 title: "El precio para limpiar un colchón de 90 cm de ancho empieza desde 40€, pero necesitamos más detalles para un presupuesto exacto. Envíanos las medidas y una foto de tu colchón para ofrecerte la mejor opción y precio.",
                 image: "mattress.jpg"
-            }, {
+            },  {
                 title: "El precio para limpiar un sofá de dos plazas empieza desde 60€, pero necesitamos más detalles para un presupuesto exacto. Envíanos una foto de tu sofá o tapizado para ofrecerte la mejor opción y precio.",
                 image: "sofa.jpg"
-            }, {
-                title: "El precio para limpiar una alfombra comienza desde 8€ por m². Necesitamos más detalles para ofrecerte un presupuesto exacto. Envíanos las medidas y una foto de tu alfombra para darte la mejor opción y precio.",
+            },  {
+                title: "El precio para limpiar una alfombra comienza desde 8€ por m². Necesitamos más detalles para ofrecerte un presupuesto exacto. Envíanos las medidas y una foto de tu alfombra para darte la mejor opción y precio",
                 image: "carpet.jpg"
             }, {
-                title: "El precio para limpiar sillas comienza desde 10€. Necesitamos más detalles para ofrecerte un presupuesto exacto. Envíanos una foto de las sillas o sillones para darte la mejor opción y precio.",
+                title: "El precio para limpiar sillas comienza desde 10€. Necesitamos más detalles para ofrecerte un presupuesto exacto. Envíanos una foto de las sillas o sillones para darte la mejor opción y precio",
                 image: "chair.jpg"
             },
+
         ]
     },
 
@@ -122,15 +124,11 @@ const options = {
                     path: 'mattress/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                },  {
+                }, {
                     path: 'sofa_corner/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                },  {
-                    path: 'sofa_brown/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                },  {
+                }, {
                     path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
@@ -149,7 +147,6 @@ const options = {
 
     videoSection: {
         title: "Un vídeo que dice más que mil palabras...",
-        subtitle: "",
         videos: [
             {
                 original: "dy8zLn1uF20",
@@ -164,7 +161,6 @@ const options = {
                 original: "a2np9IDDTHQ",
                 thumbnail: "/images/video-thumbs/sofa-brown.png",
             },
-
         ],
         mute: false,
     },
