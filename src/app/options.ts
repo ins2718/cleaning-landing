@@ -30,7 +30,7 @@ const options = {
         showLogoTitle: false,
         showGallery: true,
         topMargin: "130px",
-        bottomMargin: "120px",
+        bottomMargin: "70px",
         leftSideText: `[b]
   ¿Tu alfombra o sofá necesitan una limpieza profunda y eliminación de polvo y suciedad?[/b]
  Con más de 15 años de experiencia, en limpiarmuebles.pro ofrecemos servicios profesionales de limpieza de alfombras y sofás a domicilio. 
