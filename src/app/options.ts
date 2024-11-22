@@ -110,14 +110,23 @@ const options = {
     },
 
     whatWeCleanSection: {
-        title: "¿Cómo seguir el progreso de la reforma?:",
-        subtitle: "Enviamos informes regulares con fotos y videos sobre el progreso de la reforma. Antes de comenzar el proyecto, creamos un chat para intercambiar toda la información importante. En el chat, enviamos fotos y videos de los trabajos realizados, para que siempre esté al tanto de lo que ocurre en su propiedad. La comunicación en el chat es fácil y rápida. Si tiene alguna pregunta, simplemente escríbala en el chat, y le responderemos de inmediato. Antes de enviar el informe, el jefe de proyecto realiza una supervisión técnica adicional y controla nuevamente la calidad y los plazos de las obras. También puede visitar el sitio en cualquier momento para verificar el progreso de los trabajos.",
+        title: "Nuestros servicios:",
+        subtitle: "Entendemos que cada mueble es único, por lo que no podemos ofrecer un precio exacto para la limpieza de tapizados sin ver fotos de tu mobiliario. Para garantizar un servicio de calidad y un precio justo, te invitamos a enviarnos imágenes de tus sofás, sillones, colchones u otros muebles. Así podremos proporcionarte una cotización precisa y adaptada a tus necesidades específicas.",
         root: "/images/what-we-clean/",
         cards: [
             {
                 title: "Limpieza de sofás desde 60€ por sofá de dos plazas",
                 image: "sofa.jpg"
-            }, 
+            }, {
+                title: "Limpieza de colchones desde 40€",
+                image: "mattress.jpg"
+            }, {
+                title: "Limpieza de alfombras desde 8€/m²",
+                image: "carpet.jpg"
+            }, {
+                title: "Limpieza de sillones y sillas desde 10€",
+                image: "chair.jpg"
+            },
         ]
     },
 
