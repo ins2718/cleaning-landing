@@ -36,7 +36,7 @@ const options = {
         showLogoTitle: false,
         showGallery: true,
         topMargin: "150px",
-        bottomMargin: "170px",
+        bottomMargin: "70px",
         leftSideText: `[b]
    ¿Planeas renovar tu hogar en Barcelona? Somos especialistas con gran experiencia en reformas integrales.[/b]
   Cada proyecto es único, y nuestros resultados hablan por sí solos. 
