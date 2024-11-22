@@ -45,9 +45,10 @@ const options = {
     },
 
     chooseFurnitureSection: {
-        title: "Calcule el costo y los plazos preliminares de la reforma de su espacio con un 95% de precisión.",
-        subtitle: "Responda algunas preguntas y obtenga un cálculo del costo de su reforma.",
-        showImage: true,
+        title: "Solicita una visita técnica gratuita para tu reforma.",
+        subtitle: "Un especialista evaluará tu espacio, escuchará tus ideas y te proporcionará un presupuesto detallado sin compromiso. ¡Haz tu consulta ahora!",
+        showImage: false
+        ,
         // @see "../components/main/choose-furnitute-section/right-side.tsx"
     },
 
