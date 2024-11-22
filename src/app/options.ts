@@ -38,15 +38,15 @@ const options = {
         topMargin: "150px",
         bottomMargin: "170px",
         leftSideText: `[b]
-  ¿Planeas renovar tu hogar en Barcelona? Somos especialistas con gran experiencia en reformas integrales.[/b]
- Cada proyecto es único, y nuestros resultados hablan por sí solos. 
+   ¿Planeas renovar tu hogar en Barcelona? Somos especialistas con gran experiencia en reformas integrales.[/b]
+  Cada proyecto es único, y nuestros resultados hablan por sí solos. 
   Echa un vistazo a nuestras fotos antes y después.`,
         leftSideButtonMarginTop: "60px",
     },
 
     chooseFurnitureSection: {
         title: "Solicita una visita técnica gratuita para tu reforma.",
-        subtitle: "Un especialista evaluará tu espacio, escuchará tus ideas y te proporcionará un presupuesto detallado sin compromiso. ¡Haz tu consulta ahora!",
+        subtitle: "Un especialista evaluará tu espacio y te dará un presupuesto detallado. ¡Consulta ahora!",
         showImage: false
         ,
         // @see "../components/main/choose-furnitute-section/right-side.tsx"
