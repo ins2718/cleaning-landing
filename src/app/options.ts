@@ -31,16 +31,16 @@ const options = {
     ],
 
     firstSection: {
-        title: "Reformas y construcción de calidad: 20 años de experiencia en proyectos de todas las escalas, desde la pintura de paredes hasta la construcción de casas completas y el diseño de interiores.",
+        title: "Especialistas en reformas y arquitectos con 15 años de experiencia a tu servicio en Barcelona.",
         showTitlePicture: true,
         showLogoTitle: false,
         showGallery: true,
         topMargin: "150px",
         bottomMargin: "170px",
         leftSideText: `[b]
-  Reformas integrales de apartamentos en Barcelona desde 580 €/m²[/b]
- Calidad garantizada con presupuesto transparente y garantía de hasta 5 años bajo contrato oficial.
-  ¡Visita gratuita de un especialista y presupuesto sin compromiso!`,
+  ¿Planeas renovar tu hogar en Barcelona? Somos especialistas con gran experiencia en reformas integrales.[/b]
+ Cada proyecto es único, y nuestros resultados hablan por sí solos. 
+  Echa un vistazo a nuestras fotos antes y después.`,
         leftSideButtonMarginTop: "60px",
     },
 
