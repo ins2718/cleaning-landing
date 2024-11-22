@@ -110,21 +110,24 @@ const options = {
     },
 
     whatWeCleanSection: {
-        title: "Nuestros servicios:",
-        subtitle: "Entendemos que cada mueble es único, por lo que no podemos ofrecer un precio exacto para la limpieza de tapizados sin ver fotos de tu mobiliario. Para garantizar un servicio de calidad y un precio justo, te invitamos a enviarnos imágenes de tus sofás, sillones, colchones u otros muebles. Así podremos proporcionarte una cotización precisa y adaptada a tus necesidades específicas.",
+        title: "Reformas: ¿Cuánto Cuesta?",
+        subtitle: "Cada reforma es única, y los costos pueden variar considerablemente según el proyecto. No ofrecemos estimaciones generales por metro cuadrado, ya que consideramos que este enfoque no refleja la realidad. Nuestro compromiso es ofrecer presupuestos precisos basados en mediciones detalladas y necesidades específicas. A continuación, presentamos precios orientativos de diferentes tipos de reformas para que tengas una idea aproximada del nivel de inversión necesario.",
         root: "/images/what-we-clean/",
         cards: [
             {
-                title: "Limpieza de sofás desde 60€ por sofá de dos plazas",
-                image: "sofa.jpg"
+                title: "Reforma integral de un piso (hasta 80 m²) — desde 6,000 €",
+                image: "reforma.jpg"
             }, {
-                title: "Limpieza de colchones desde 40€",
+                title: "Reforma cosmética de un piso (hasta 50 m²) — desde 6,000 €",
                 image: "mattress.jpg"
             }, {
-                title: "Limpieza de alfombras desde 8€/m²",
+                title: "Reforma de una habitación — desde 1,500€",
                 image: "carpet.jpg"
             }, {
-                title: "Limpieza de sillones y sillas desde 10€",
+                title: "Pintura de paredes (por m²) — desde 15€",
+                image: "sofa.jpg"
+            },   {
+                title: "Reforma de baño — desde 2,500€",
                 image: "chair.jpg"
             },
         ]
