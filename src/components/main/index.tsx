@@ -15,9 +15,10 @@ const TestimonialsSection = dynamic(() => import("./testimonials-section"), { ss
 function Main() {
     useCsrfCookieQuery();
     const { showGallery } = options.firstSection;
+    const { showImage } = options.chooseFurnitureSection;
     return <main className="overflow-x-hidden">
         <FirstSection />
-        <RenderOnViewportEntry className="min-h-[1183px] lg:min-h-[903px]" id="choose-furniture">
+        <RenderOnViewportEntry className={showImage ? "min-h-[1183px] lg:min-h-[903px]" : "min-h-[700px] lg:min-h-[680px]"} id="choose-furniture">
             <ChooseFurnitureSection />
         </RenderOnViewportEntry>
         <RenderOnViewportEntry className="min-h-[506px]" id="why-us-section">
