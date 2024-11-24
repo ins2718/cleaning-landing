@@ -17,7 +17,7 @@ function Section({ header, subHeader, footer, decorators, bodyWrapperClassName =
             before:top-[-23px] before:left-0 before:right-0 before:my-0 before:mx-auto before:absolute before:content-[''] before:w-[96px] before:h-[2px] before:bg-[#ccc]">
                 {header}
             </h2>
-            {subHeader && <h2 className="font-bold text-[16px] text-left text-black font-secondary">
+            {subHeader && <h2 className="font-bold text-[16px] text-left text-black font-secondary whitespace-pre-line">
                 {subHeader}
             </h2>}
             <div className={`font-secondary ${bodyWrapperClassName}`}>
