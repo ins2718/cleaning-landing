@@ -38,7 +38,8 @@ const options = {
         topMargin: "150px",
         bottomMargin: "70px",
         leftSideText: `[b]
-   ¿Planeas renovar tu hogar en Barcelona? Somos especialistas con gran experiencia en reformas integrales.[/b]
+   ¿Planeas renovar tu hogar en Barcelona?
+  Somos especialistas con gran experiencia en reformas integrales. [/b]
   Cada proyecto es único, y nuestros resultados hablan por sí solos. 
   Echa un vistazo a nuestras fotos antes y después.`,
         leftSideButtonMarginTop: "60px",
@@ -111,7 +112,11 @@ const options = {
 
     whatWeCleanSection: {
         title: "Reformas: ¿Cuánto Cuesta?",
-        subtitle: "Cada reforma es única, y los costos pueden variar considerablemente según el proyecto. No ofrecemos estimaciones generales por metro cuadrado, ya que consideramos que este enfoque no refleja la realidad. Nuestro compromiso es ofrecer presupuestos precisos basados en mediciones detalladas y necesidades específicas. A continuación, presentamos precios orientativos de diferentes tipos de reformas para que tengas una idea aproximada del nivel de inversión necesario.",
+        subtitle: `
+           Cada reforma es única, y los costos pueden variar considerablemente según el proyecto. 
+         No ofrecemos estimaciones generales por metro cuadrado, ya que consideramos que este enfoque no refleja la realidad. 
+         Nuestro compromiso es ofrecer presupuestos precisos basados en mediciones detalladas y necesidades específicas. 
+         A continuación, presentamos precios orientativos de diferentes tipos de reformas para que tengas una idea aproximada del nivel de inversión necesario.`,
         root: "/images/what-we-clean/",
         cards: [
             {
