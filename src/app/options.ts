@@ -157,6 +157,7 @@ const options = {
 
     videoSection: {
         title: "Un vídeo que dice más que mil palabras...",
+        subtitle: "",
         videos: [
             {
                 original: "dy8zLn1uF20",
