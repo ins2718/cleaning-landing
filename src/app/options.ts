@@ -208,14 +208,17 @@ const options = {
         subtitle: "",
         videos: [
             {
-                original: "Di44riJeHX4",
-                thumbnail: "/images/video-thumbs/sofa-light.png",
-            }, {
                 original: "NDQD4okeVLI",
-                thumbnail: "/images/video-thumbs/sofa-gray.png",
+                thumbnail: "/images/video-thumbs/men.png",
             }, {
-                original: "a2np9IDDTHQ",
-                thumbnail: "/images/video-thumbs/sofa-brown.png",
+                original: "9MRw5qDMNvc",
+                thumbnail: "/images/video-thumbs/hand.png",
+            },{
+                original: "nr7qJV-KP4A",
+                thumbnail: "/images/video-thumbs/nathing.png",
+            }, {
+                original: "Di44riJeHX4",
+                thumbnail: "/images/video-thumbs/gray.png",
             },
         ],
         mute: true,
