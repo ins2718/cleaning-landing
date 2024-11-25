@@ -132,9 +132,12 @@ const options = {
             }, {
                 title: "Pintura de paredes (por m²) — desde 15€",
                 image: "sofa.jpg"
-            },   {
+            },  {
                 title: "Reforma de baño — desde 2,500€",
                 image: "chair.jpg"
+            },  {
+                title: "Instalación de suelo (por m²) — desde 20€",
+                image: "floor.jpg"
             },
         ]
     },
@@ -297,67 +300,62 @@ Nosotros NO ESTAMOS INTERESADOS EN retrasar los plazos, ya que usted paga por ca
         testimonials: [
             {
                 name: "Adriana González",
-                text: "18/11 2024 Gracias por el excelente y buen coordinado trabajo. Fue muy cómodo comunicarse con el operador: me explicó todo de manera clara y sencilla, sin apresurarse con la tecnología y, al mismo tiempo, sin retrasar el proceso. El precio fue muy razonable en mi opinión. El de otras empresas es mucho más alto. Gracias por la calidad y por ser como sois. Definitivamente os recomendaré a mis amigos y familiares.",
+                text: "20/11/2024  Contraté la empresa para renovar mi cocina, y quedé impresionado con los resultados. Todo fue rápido y sin complicaciones. Además, siempre estuvieron atentos a mis solicitudes. ¡Recomiendo al 100%!",
                 image: "adriana-gonzalez.png"
             },
             {
                 name: "Alba Lago",
-                text: "Gracias, estamos muy contentos con el resultado. ¡Ahora todos las sillas y el sofá se ven preciosos! Están limpios y da placer sentarse en ellos.",
+                text: "15/09/2024  Profesionales de verdad. Necesitaba reformar mi baño antes de alquilar el piso. Los trabajadores fueron puntuales, ordenados y muy atentos a los detalles. Estoy feliz con el resultado final.",
                 image: "alba-lago.png"
             },
             {
                 name: "Ana Navarro Ramos",
-                text: "¡El resultado superó todas las expectativas! Los chicos llegaron puntualmente. ¡Todo fue rápido, de buena fe y excelente! Lo recomiendo. No se apresure a tirar los sofás viejos, ¡confíelos a los profesionales! :)",
+                text: "10/06/2024  Después de comparar varias opciones, elegí esta empresa. Reformaron el salón y el dormitorio. Todo quedó tal como lo habíamos planeado. Además, respetaron el presupuesto inicial. ¡Gracias por su dedicación!",
                 image: "ana-navarro-ramos.jpg"
             },
             {
                 name: "Christian Gálvez",
-                text: "¡¡Estoy muy agradecida con los chicos por el trabajo!! ¡Todo fue rápido, claro y profesional! Gracias a Manuel, por responder, venir y transformar mi sofá favorito. ¡El resultado es una maravilla! La diferencia entre el antes y el después es muy obvia. ¡Éxitos y prosperidad para vuestra empresa!",
+                text: "25/03/2024  Me ayudaron a diseñar mi cocina desde cero y luego la reformaron con mucho cuidado. Ahora tengo el espacio funcional y bonito que siempre quise. ¡Gracias al equipo!",
                 image: "christian-galvez.png"
             },
             {
                 name: "Diana Martínez",
-                text: "Pedimos la limpieza del sofá, sinceramente, no creíamos mucho en el resultado ¡Pero superaron todas las expectativas! ¡Estamos muy satisfechos! Queríamos tirar el sofá, ¡pero quedó como nuevo! ¡Muchas gracias, sois unos auténticos profesionales!",
+                text: "03/01/2024  Contraté una reforma completa para mi piso. Aunque parecía un proyecto grande, todo fue según lo planeado y con un acabado profesional. Estoy encantado.",
                 image: "diana-martinez.jpg"
             },
             {
                 name: "Paz Juárez Olmos",
-                text: "¡Gracias por la gran limpieza del sofá! Estamos muy contentos con el resultado. ¡Les recomendaremos a nuestros amigos y familiares!",
+                text: "15/10/2023  Quería darle un toque nuevo a mi salón, y ellos lograron captar exactamente mi idea. Pintaron y colocaron el suelo nuevo. ¡Recomendados sin duda!",
                 image: "paz-juarez-olmos.png"
             },
             {
                 name: "Pilar Fernández-Palma",
-                text: "Hoy me limpiaron un par de sillas grandes. Manuel lo hizo maravillosamente rápido, precisa y eficientemente. Prácticamente sin olor. Agradezco al equipo por el servicio profesional y por ser muy amable con nosotros. Y nuestros tres gatos, en mi opinión, ni siquiera sintieron nada.",
+                text: "20/07/2023  No sabía cómo organizar la reforma de mi casa, pero el equipo me ayudó en cada paso. El diseño, el presupuesto y la ejecución fueron perfectos. ¡Muy agradecida!",
                 image: "pilar-fernandez-palma.png"
             },
             {
                 name: "esperanza Calviño",
-                text: "¡Gracias por su rapidez, cortesía y trabajo de calidad! El sofá está como nuevo",
+                text: "02/05/2023  Reformaron mi baño en tiempo récord, y el resultado fue excelente. Los precios son muy competitivos, pero lo mejor fue la calidad del trabajo.",
                 image: "esperanza-calvino.jpg"
             },
             {
                 name: "Judith Arnal Martínez",
-                text: "Gracias al especialista Alex, llegó puntualmente, hizo el trabajo muy delicadamente y con calidad. ¡Ojalá hubiese más como ustedes!",
+                text: "14/03/2023  Tuve un problema urgente con las tuberías, y esta empresa lo resolvió al día siguiente. Después aproveché para hacer una reforma completa del baño. ¡Genial todo!",
                 image: "judith-arnal-martinez.jpg"
             },
             {
                 name: "Cristina Yeste",
-                text: `Buenas tardes. ¡Quiero agradecerles por el trabajo de calidad!
-El sofá está casi como si fuera nuevo.😊
-¡Y gracias al maestro por esperarme!`,
+                text: `10/12/2022  Mi piso necesitaba una renovación integral. Pintaron, arreglaron las paredes y colocaron el suelo. Todo quedó impecable y sin problemas durante el proceso`,
                 image: "cristina-yeste.jpg"
             },
             {
                 name: "Hermosa Aguirre",
-                text: `Buenas tardes.
-¡Muchas gracias a Miguel!
-Estoy muy contenta con su trabajo.
-El sofá, el sillón y las alfombras están tan limpias como si fueran nuevas`,
+                text: `15/09/2022  Quería algo moderno para mi cocina, y esta empresa logró exactamente lo que tenía en mente. El equipo fue profesional y cumplió con el plazo.`,
                 image: "hermosa-aguirre.jpg"
             },
             {
                 name: "Irene Junquera",
-                text: `¡Muchas gracias al equipo de Limpiarmuebles.pro! ¡Las alfombras están divinamente limpias! ¡El maestro Alex es incomparable! ¡Definitivamente os contactaré de nuevo!`,
+                text: `05/07/2022  Encargué un diseño de interiores y reforma para mi nuevo apartamento. Lo mejor fue que todo se adaptó a mi estilo y presupuesto. ¡Encantado con el resultado!.`,
                 image: "irene-junquera.png"
             },
         ],
