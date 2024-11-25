@@ -209,6 +209,18 @@ const options = {
                     path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
+                },{
+                    path: 'white_bags/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },{
+                    path: 'gla_ses/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },{
+                    path: 'sh_ot/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
                 },
             ],
         },
