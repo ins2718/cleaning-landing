@@ -187,6 +187,14 @@ const options = {
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
+                    path: 'sofa_corner_lather/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },{
+                    path: 'sofa_orange/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                },{
                     path: 'sofa_brown/',
                     before: 'before.jpg',
                     after: 'after.jpg',
