@@ -208,10 +208,10 @@ const options = {
         subtitle: "",
         videos: [
             {
-                original: "9X9FFHy6hZg",
+                original: "Di44riJeHX4",
                 thumbnail: "/images/video-thumbs/sofa-light.png",
             }, {
-                original: "-eUt39qBxFw",
+                original: "NDQD4okeVLI",
                 thumbnail: "/images/video-thumbs/sofa-gray.png",
             }, {
                 original: "a2np9IDDTHQ",
