@@ -374,14 +374,14 @@ Nosotros NO ESTAMOS INTERESADOS EN retrasar los plazos, ya que usted paga por ca
     },
 
     orderFormDialog: {
-        title: "Ordenar limpieza",
+        title: "Solicitar presupuesto de reparación gratis",
         sendedOrderTitle: "¡Gracias por realizar tu pedido!",
         subTitle: "No dudes en contactarnos. Rellena el formulario y nuestro especialista se pondrá en contacto contigo a través de WhatsApp en breve para responder a tus preguntas.¡Esperamos tu consulta!",
         sendedOrderSubTitle: "¡Hemos recibido tu pedido y nuestros operadores se pondrán en contacto contigo a la mayor brevedad posible a través del chat de WhatsApp! ¡Gracias por tu atención y que tengas un buen día!",
         phonePlaceholder: "Número de telf",
         namePlaceholder: "Nombre",
         zipPlaceholder: "Zip",
-        buttonText: "Ordenar limpieza",
+        buttonText: " Solictar presupuesto",
         sendedOrderButtonText: "Modificar datos",
         // @see "../components/overlay/order-form-dialog/agree-checkbox.tsx"
         // @see "../components/overlay/order-form-dialog/licence-dialog.tsx"
