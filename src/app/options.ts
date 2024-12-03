@@ -11,7 +11,7 @@ const options = {
     phone: "+34600350787",
     email: "nadim200763@gmail.com",
     form_id: " UC_URV7WO",
-    whatsAppPlaceholder: "Hola, estoy interesado en la limpieza de muebles.",
+    whatsAppPlaceholder: "Hola, estoy interesado en una reforma.",
     whatsAppText: "Pedir cotización por WhatsApp",
     workingHoursText: "Horario de trabajo",
     workingHours: "Lun-Dom: 10.00 - 22.00",
