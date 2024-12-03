@@ -5,7 +5,7 @@ const options = {
     title: "LReformas Integrales en Barcelona: Pisos, Casas y Locales | aurorareforma.es",
     description: "Servicios de reformas integrales en Barcelona para pisos, casas y locales. En aurorareforma.es garantizamos calidad, diseño personalizado y acabados impecables. Solicita tu presupuesto gratis y transforma tu espacio hoy mismo. ¡Visítanos ahora!",
 
-    facebookPixelId: "347504069641224",
+    facebookPixelId: "476803044879423",
     yandexMetricaIds: [96729923],
 
     phone: "+34603450377",
