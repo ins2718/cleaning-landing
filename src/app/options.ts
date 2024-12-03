@@ -8,7 +8,7 @@ const options = {
     facebookPixelId: "476803044879423",
     yandexMetricaIds: [99118025],
 
-    phone: "+34603450377",
+    phone: "+34600350787",
     email: "nadim200763@gmail.com",
     form_id: " UC_URV7WO",
     whatsAppPlaceholder: "Hola, estoy interesado en la limpieza de muebles.",
