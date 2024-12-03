@@ -2,8 +2,8 @@ const options = {
     cloudImages: false || process.env.NODE_ENV === "production",
     logoHeight: 52,
 
-    title: "Limpiamos sofás, colchones, sillas, sillones y alfombras",
-    description: "Limpieza de muebles profesional: sofás, colchones, sillas y alfombras. Eliminamos ácaros, manchas, olores y suciedad. Productos seguros, bajo olor. ¡Presupuesto gratuito y desplazamiento del especialista sin costo!",
+    title: "LReformas Integrales en Barcelona: Pisos, Casas y Locales | aurorareforma.es",
+    description: "Servicios de reformas integrales en Barcelona para pisos, casas y locales. En aurorareforma.es garantizamos calidad, diseño personalizado y acabados impecables. Solicita tu presupuesto gratis y transforma tu espacio hoy mismo. ¡Visítanos ahora!",
 
     facebookPixelId: "347504069641224",
     yandexMetricaIds: [96729923],
