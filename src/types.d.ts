@@ -25,7 +25,6 @@ type SendOrderForm = {
     ip?: string;
     zip?: string;
     fbp?: string;
-    form_id?: string;
 }
 
 type SendOrderFormResponse = {
