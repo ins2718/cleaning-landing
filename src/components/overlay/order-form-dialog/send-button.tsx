@@ -4,4 +4,4 @@ function SendButton({ onClick, disabled = false, text = "Ordenar limpieza" }: Pr
     return <ButtonBasic disabled={disabled} type="submit" onClick={onClick} content={text} className="border-[#e23936] bg-[#e23936] hover:shadow-[0_10px_15px_rgba(226,57,54,0.22)] lead_Click_class" />;
 }
 
-export default SendButton;
+export default SendButton; 
