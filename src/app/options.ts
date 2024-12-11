@@ -7,7 +7,7 @@ const options = {
 
     facebookPixelId: "347504069641224",
     yandexMetricaIds: [96729923],
-    gtmId: "",
+    gtmId: "GTM-5J95FR5L",
 
     phone: "+34603450377",
     email: "nadim200763@gmail.com",
