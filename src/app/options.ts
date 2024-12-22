@@ -132,7 +132,15 @@ En limpiarmuebles.pro ofrecemos un servicio profesional de limpieza de muebles a
             root: '/images/our-works/compare/',
             images: [
                 {
+                    path: 'sofa_light/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
                     path: 'mattress/',
+                    before: 'before.jpg',
+                    after: 'after.jpg',
+                }, {
+                    path: 'sofa_corner_black/',
                     before: 'before.jpg',
                     after: 'after.jpg',
                 }, {
@@ -143,15 +151,7 @@ En limpiarmuebles.pro ofrecemos un servicio profesional de limpieza de muebles a
                     path: 'sofa_corner/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                }, {
-                    path: 'sofa_corner_black/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
-                    path: 'sofa_light/',
-                    before: 'before.jpg',
-                    after: 'after.jpg',
-                }, {
+                },  {
                     path: 'sofa_orange/',
                     before: 'before.jpg',
                     after: 'after.jpg',
