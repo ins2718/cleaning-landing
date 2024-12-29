@@ -37,7 +37,7 @@ function calcImageProps({ img, src, width, height, dpr = [1, 2, 3] }: ImageProps
     const originalSrc = (img ? img.src : src) as string;
     if (cloudImages) {
         let imgName = process.env.NEXT_PUBLIC_CLOUDINARY_PATH + (img ? originalSrc.substring(originalSrc.lastIndexOf("/") + 1) : originalSrc.substring(8));
-        let cldImg = cld.image(imgName).quality("auto");
+        let cldImg = cld.image(imgName).quality("auto").format("auto");
         if (imgName.substring(imgName.lastIndexOf(".")) === ".svg") {
             srcSet = cldImg.toURL();
         } else {
