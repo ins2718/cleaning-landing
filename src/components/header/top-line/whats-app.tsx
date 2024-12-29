@@ -11,7 +11,7 @@ function WhatsApp() {
     const [link, setLink] = useState("#");
     useEffect(function mount() {
         setLink(WhatsAppService.getLink());
-    });
+    }, []);
     return <a
         className="text-green-500"
         href={link}>
