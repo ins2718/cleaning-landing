@@ -38,3 +38,9 @@ type IpDetectAnswer = {
     zip: string;
     query: string;
 }
+
+interface Window {
+    dataLayer?: {
+        push: (params: { event: "form" | "whatsApp" }) => void;
+    }
+}

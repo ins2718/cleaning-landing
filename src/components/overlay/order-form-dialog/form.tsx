@@ -57,6 +57,7 @@ function Form() {
     const [isPrivatePolicyVisible, setIsPrivatePolicyVisible] = useState(false);
     return <form onSubmit={handleSubmit((data) => {
         ym("reachGoal", "sendForm");
+        window.dataLayer?.push({ event: "form" });
         sendForm(updateData(data as SendOrderForm));
     })}>
         <div className="overflow-y-auto overflow-x-hidden top-[3vh] max-h-[94vh] bg-white shadow-[0px_15px_10px_rgba(0,0,0,0.03)] absolute left-0 right-0 mx-auto my-0 p-[46px_58px_48px_59px] max-w-[426px] w-full">
