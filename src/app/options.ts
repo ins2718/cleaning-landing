@@ -151,7 +151,7 @@ En limpiarmuebles.pro ofrecemos un servicio profesional de limpieza de muebles a
                     path: 'sofa_corner/',
                     before: 'before.jpg',
                     after: 'after.jpg',
-                },  {
+                }, {
                     path: 'sofa_orange/',
                     before: 'before.jpg',
                     after: 'after.jpg',
@@ -343,6 +343,7 @@ El sofá, el sillón y las alfombras están tan limpias como si fueran nuevas`,
     },
 
     cookieDialog: {
+        activate: true, // включить / отключить диалог cookie
         title: "Gestionar el consentimiento de las cookies",
         text: "Para ofrecer las mejores experiencias, utilizamos tecnologías como las cookies para almacenar y/o acceder a la información del dispositivo. El consentimiento de estas tecnologías nos permitirá procesar datos como el comportamiento de navegación o las identificaciones únicas en este sitio. No consentir o retirar el consentimiento, puede afectar negativamente a ciertas características y funciones.",
         urls: [
