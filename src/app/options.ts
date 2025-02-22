@@ -3,7 +3,7 @@ const options = {
     logoHeight: 52,
 
     title: "Качественный ремонт в Барселоне – работаем для вас с 2009 года! | aurorareforma.es",
-    description: "Servicios de reformas integrales en Barcelona para pisos, casas y locales. En aurorareforma.es garantizamos calidad, diseño personalizado y acabados impecables. Solicita tu presupuesto gratis y transforma tu espacio hoy mismo. ¡Visítanos ahora!",
+    description: "Комплексные ремонтные услуги в Барселоне для квартир, домов и коммерческих помещений. В aurorareforma.es мы гарантируем качество, индивидуальный дизайн и безупречную отделку. Запросите бесплатную смету и преобразите свое пространство уже сегодня. Посетите нас сейчас!",
 
     facebookPixelId: "476803044879423",
     yandexMetricaIds: [99118025],
@@ -12,7 +12,7 @@ const options = {
     phone: "+34600350787",
     email: "nadim200763@gmail.com",
     form_id: " UC_URV7WO",
-    whatsAppPlaceholder: "Hola, estoy interesado en una reforma.",
+    whatsAppPlaceholder: "Здравствуйте! Меня интересует ремонт помещения.",
     whatsAppText: "Pedir cotización por WhatsApp",
     workingHoursText: "Horario de trabajo",
     workingHours: "Lun-Dom: 10.00 - 22.00",
