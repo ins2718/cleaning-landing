@@ -2,7 +2,7 @@ const options = {
     cloudImages: false || process.env.NODE_ENV === "production",
     logoHeight: 52,
 
-    title: "LReformas Integrales en Barcelona: Pisos, Casas y Locales | aurorareforma.es",
+    title: "Качественный ремонт в Барселоне – работаем для вас с 2009 года! | aurorareforma.es",
     description: "Servicios de reformas integrales en Barcelona para pisos, casas y locales. En aurorareforma.es garantizamos calidad, diseño personalizado y acabados impecables. Solicita tu presupuesto gratis y transforma tu espacio hoy mismo. ¡Visítanos ahora!",
 
     facebookPixelId: "476803044879423",
