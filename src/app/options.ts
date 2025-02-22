@@ -40,10 +40,16 @@ const options = {
         topMargin: "150px",
         bottomMargin: "70px",
         leftSideText: `[b]
-   ¿Planeas renovar tu hogar en Barcelona?
-  Somos especialistas con gran experiencia en reformas integrales. [/b]
-  Cada proyecto es único, y nuestros resultados hablan por sí solos. 
-  Echa un vistazo a nuestras fotos antes y después.`,
+   Планируете обновить свой дом в Барселоне?
+  посмотрите нащи работы до и после. [/b]
+✅ 15 лет опыта
+✅ Ремонт под ключ 
+✅ Прозрачная смета
+✅ Бесплатный выезд и замеры
+
+📅 Гарантируем качество и соблюдение сроков по договору.
+
+💬 Наишите нами в WhatsApp и получите бесплатную консультацию!`,
         leftSideButtonMarginTop: "60px",
     },
 
