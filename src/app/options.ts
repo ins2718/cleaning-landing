@@ -54,8 +54,8 @@ const options = {
     },
 
     chooseFurnitureSection: {
-        title: "Solicita una visita técnica gratuita para tu reforma.",
-        subtitle: "Un especialista evaluará tu espacio y te dará un presupuesto detallado. ¡Consulta ahora!",
+        title: "Бесплатный технический и замеры  для вашего ремонта!",
+        subtitle: "Наш специалист оценит ваше помещение и подготовит подробную смету. Оставьте заявку сейчас!",
         showImage: false
         ,
         // @see "../components/main/choose-furnitute-section/right-side.tsx"
