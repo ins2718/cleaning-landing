@@ -2,7 +2,7 @@ const options = {
     cloudImages: false || process.env.NODE_ENV === "production",
     logoHeight: 52,
 
-    title: "Качественный ремонт в Барселоне – работаем для вас с 2009 года! | aurorareforma.es",
+    title: "Ремонт в Барселоне – работаем для вас с 2009 года! | aurorareforma.es",
     description: "Комплексные ремонтные услуги в Барселоне для квартир, домов и коммерческих помещений. В aurorareforma.es мы гарантируем качество, индивидуальный дизайн и безупречную отделку. Запросите бесплатную смету и преобразите свое пространство уже сегодня. Посетите нас сейчас!",
 
     facebookPixelId: "476803044879423",
@@ -33,15 +33,15 @@ const options = {
     ],
 
     firstSection: {
-        title: " Качественный ремонт в Барселоне, гарантия и сроки по договору, работаем для вас c 2009 года!",
+        title: "Ремонт в Барселоне, гарантия и сроки по договору, работаем для вас с 2009 года!",
         showTitlePicture: true,
         showLogoTitle: false,
         showGallery: true,
         topMargin: "150px",
         bottomMargin: "70px",
         leftSideText: `[b]
-   Планируете обновить свой дом в Барселоне и окрестностях?
-  посмотрите наши работы до и после. [/b]
+Планируете обновить квартиру или дом в Барселоне или окрестностях?
+Посмотрите наши работы до и после. [/b]
 ✅ 15 лет опыта
 ✅ Ремонт под ключ 
 ✅ Прозрачная смета
@@ -62,17 +62,17 @@ const options = {
     },
 
     whyUsSection: {
-        title: "¿Por qué somos la mejor opción para realizar su reforma? Al trabajar con nosotros, usted recibirá: ",
+        title: "Почему мы лучший выбор для вашего ремонта?",
         root: "/images/why-us/",
         cards: [
             {
-                title: "Control de calidad en cada etapa:",
-                text: `Supervisión exhaustiva por especialistas independientes en cada fase del proyecto para garantizar el cumplimiento de los plazos y los estándares de calidad.`,
+                title: "Контроль качества.",
+                text: `Эксперты контролируют каждый этап проекта, гарантируя соблюдение сроков и высоких стандартов. Мы заботимся о вашем спокойствии.`,
                 image: "list.png",
             }, {
-                title: "Gestión personalizada:",
+                title: "Персональный менеджер.",
                 text: `
-                Asignación de un gestor de proyecto dedicado, disponible para resolver cualquier consulta y coordinar las tareas.
+                Мы предоставляем вам выделенного менеджера, который обеспечит эффективное управление проектом и оперативное решение всех возникающих вопросов.
 
 
 
@@ -82,8 +82,8 @@ const options = {
 `,
                 image: "three-people.png",
             }, {
-                title: "Presupuesto transparente:",
-                text: `Elaboramos un presupuesto detallado tras una consulta inicial, garantizando precios fijos y fechas límite estrictas.`,
+                title: "Честная и прозрачная смета.",
+                text: `Мы составляем детальный бюджет после консультации, гарантируя фиксированные цены и соблюдение сроков.`,
                 image: "receive-euro.png",
             }, {
                 title: "Esquema de pago flexible:",
