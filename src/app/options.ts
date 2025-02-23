@@ -147,7 +147,7 @@ const options = {
     },
 
     howToOrderEasySection: {
-        title: "Как мы взаимодействуем с вами?",
+        title: "Как мы рабртаем?",
         subtitle: "",
         root: "/images/how-to-order-easy/",
         cards: [
