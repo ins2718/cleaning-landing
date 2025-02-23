@@ -12,7 +12,7 @@ const options = {
     phone: "+34600350787",
     email: "nadim200763@gmail.com",
     form_id: " UC_URV7WO",
-    whatsAppPlaceholder: "Здравствуйте! Меня интересует ремонт помещения.",
+    whatsAppPlaceholder: "Здравствуйте! Меня интересует ремонт.",
     whatsAppText: "Pedir cotización por WhatsApp",
     workingHoursText: "Horario de trabajo",
     workingHours: "Lun-Dom: 10.00 - 22.00",
