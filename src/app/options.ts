@@ -33,7 +33,7 @@ const options = {
     ],
 
     firstSection: {
-        title: "Ремонт в Барселоне, гарантия и сроки по договору, работаем для вас с 2009 года!",
+        title: "Ремонт в Барселоне, гарантия и сроки по договору, работаем с 2009 года!",
         showTitlePicture: true,
         showLogoTitle: false,
         showGallery: true,
