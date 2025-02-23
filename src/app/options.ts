@@ -86,14 +86,14 @@ const options = {
                 text: `Мы составляем детальный бюджет после консультации, гарантируя фиксированные цены и соблюдение сроков.`,
                 image: "receive-euro.png",
             }, {
-                title: "Esquema de pago flexible:",
+                title: "Гибкая система оплаты.",
                 text: `
-                Realiza pagos por etapas únicamente por los trabajos completados y aprobados.`,
+                Оплата поэтапно, только за выполненные и принятые работы.Ы`,
                 image: "web-analytics.png",
             }, {
-                title: "Equipo profesional:",
+                title: "Профессиональная команда.",
                 text: `
-                Nuestro personal cuenta con al menos 5 años de experiencia y participa regularmente en capacitaciones y certificaciones obligatorias.
+                Наши сотрудники имеют не менее 5 лет опыта и регулярно проходят обязательное обучение и сертификацию.
 
 
 
@@ -103,16 +103,16 @@ const options = {
 `,
                 image: "professional.png",
             }, {
-                title: "Garantías claras:",
-                text: `Ofrecemos una garantía estándar de 2 años en nuestros trabajos, ampliable hasta 5 años según tus necesidades. Todo queda registrado en el contrato.`,
+                title: "Четкие гарантии.",
+                text: `Мы предоставляем стандартную гарантию 2 года на наши работы, которую можно расширить до 5 лет в зависимости от ваших потребностей. Все условия фиксируются в договоре.`,
                 image: "guarantee.png",
             }, {
-                title: "Materiales de calidad:",
-                text: `Accede a precios competitivos gracias a nuestra red de proveedores asociados. También nos encargamos de la logística de entrega y recepción de materiales.`,
+                title: "Качественные материалы по выгодным ценам.",
+                text: `Благодаря нашей сети партнеров-поставщиков, мы предлагаем конкурентоспособные цены на материалы. Мы также берем на себя логистику доставки и приемки материалов.`,
                 image: "good-quality.png",
             }, {
-                title: "Limpieza postobra:",
-                text: `Servicio adicional de limpieza y retiro de escombros para que puedas disfrutar de tu espacio renovado sin preocupaciones.`,
+                title: "Уборка после ремонта.",
+                text: `Уборка и вывоза мусора, чтобы вы могли наслаждаться обновленным пространством без забот.`,
                 image: "cleaning.png",
             },
         ],
