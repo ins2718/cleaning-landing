@@ -252,66 +252,68 @@ const options = {
     },
 
     faqSection: {
-        title: "Nos preguntan a menudo:",
+        title: "Часто задаваемые вопросы.",
         questions: [
             {
-                question: "¿Por qué puedes confiar en nosotros?",
-                answer: `Firmamos un contrato oficial.
+                question: "Почему нам доверяют?",
+                answer: `Официальный договор.
             <ol style="list-style: inside decimal">
-            <li>Si Todos los trabajos se pagan al finalizar y aceptar cada fase.</li>
-            <li>Se Valoramos nuestra reputación. La mayoría de nuestros clientes han llegado a nosotros por recomendaciones de amigos, que son nuestros anteriores clientes.</li>
-            <li>Se Con 20 años de experiencia y relaciones de largo plazo con los principales proveedores y fabricantes de materiales de construcción, acabados y elementos decorativos, además de contar con un equipo propio de empleados, podemos realizar reformas "llave en mano" de cualquier complejidad..</li>
+            <li>Оплата по факту выполненных работ.</li>
+            <li>Se Безупречная репутация и рекомендации клиентов.</li>
+            <li>Se 15 лет опыта и команда профессионалов..</li>
             
             </ol>`,
                 answerInHtml: true,
             }, {
-                question: "¿Puede cambiar el costo de la reforma durante el proceso?",
-                answer: `¡Sí, es posible, pero hay una explicación para ello:
-El costo del contrato puede cambiar, tanto en aumento como en disminución.
-Por ejemplo, si al principio, durante la medición y la elaboración del presupuesto, se especificó que el tamaño de las baldosas sería estándar (30x30 cm), pero luego se decidió cambiar por un porcelanato más grande de 120x60 cm, la instalación de baldosas de mayor tamaño requerirá más tiempo y recursos técnicos, lo que aumentará el costo.
-También es posible que el costo disminuya si, al principio, se había decidido levantar una pared adicional, pero luego, tras reconsiderarlo, se decidió no construirla, lo que reducirá el costo final.
-Si va a seleccionar o comprar los materiales de acabado por su cuenta, le recomendamos que consulte con nuestro especialista para evitar exceder el presupuesto acordado.`,
-            }, {
-                question: "¿Pueden cambiar los plazos?",
-                answer: `Sí, los plazos, al igual que el precio, dependen de muchos factores: por ejemplo, del tiempo de secado del yeso o la masilla (desafortunadamente, en clima húmedo, en paredes sombreadas o en habitaciones con ventilación insuficiente, el secado puede llevar mucho más tiempo), del pago y la entrega de materiales (los materiales fabricados a medida pueden no llegar al sitio en el tiempo previsto, etc.).
-Si por alguna razón los plazos deben cambiar, este cambio se reflejará en un acuerdo adicional que se adjuntará al contrato, previa consulta y firma con usted.
-Nosotros NO ESTAMOS INTERESADOS EN retrasar los plazos, ya que usted paga por cada etapa solo cuando se ha completado. ¡Por lo tanto, cumplimos con los plazos y los fijamos en el contrato!`,
-            }, {
-                question: "¿Cuánto cuesta la visita de un especialista?",
-                answer: `La visita del especialista es gratuita. La medición no lo compromete en absoluto. 
-            
-            Es una oportunidad para inspeccionar el apartamento, conocernos, recibir asesoramiento profesional sobre su proyecto y conocer el costo real de la reforma.
+                question: "Может ли измениться стоимость ремонта в процессе?",
+                answer: `¡Да, это возможно, но всегда есть объяснение:
 
-            
-            Después de eso, podrá reflexionar y tomar decisiones basadas en cifras reales.`,
+Стоимость по договору может измениться как в большую, так и в меньшую сторону.
+Например, если изначально планировалась стандартная плитка (30x30 см), а затем выбрали крупноформатный керамогранит (120x60 см), то укладка крупной плитки потребует больше времени и ресурсов, что увеличит стоимость.
+Также стоимость может уменьшиться, если отменены запланированные работы, например, возведение перегородки.
+Если вы самостоятельно выбираете материалы, проконсультируйтесь с нашим специалистом, чтобы не выйти за рамки бюджета.`,
             }, {
-                question: "¿Cuánto cuesta la reforma por metro cuadrado?",
-                answer: `Una de las preguntas más frecuentes, y la respuesta es muy simple. Cada proyecto/reforma es único, por lo que el precio puede variar. Dar cifras 'al azar' no es correcto ni justo. Las cifras por metro cuadrado solo las mencionan los amateurs, generalmente solo para captar su atención e iniciar el proyecto, pero al final, no es así. Tomar medidas precisas del sitio y elaborar un presupuesto es el enfoque que consideramos correcto y honesto.`,
+                question: "Могут ли измениться сроки ремонта?",
+                answer: `Да, сроки могут корректироваться из-за различных факторов:
+
+Время высыхания материалов (штукатурка, шпаклевка), которое зависит от влажности и вентиляции.
+Сроки поставки материалов, особенно заказных.
+При необходимости, изменения сроков фиксируются в дополнительном соглашении к договору.
+Мы не заинтересованы в затягивании сроков, так как вы платите только за выполненные этапы.
+Сроки фиксируются в договоре, и мы стремимся их соблюдать!`,
             }, {
-                question: "¿Cómo se realiza el pago?",
-                answer: `El pago se realiza por etapas, al finalizar y recibir cada fase del trabajo.`,
+                question: "Сколько стоит выезд спецалиста для замеров и консультации?",
+                answer: `Выезд специалиста – бесплатно!
+
+Выезд специалиста и замеры – абсолютно бесплатны и ни к чему вас не обязывают. Это возможность осмотреть квартиру, познакомиться с нами, получить консультацию по вашему проекту и узнать реальную стоимость ремонта. После этого вы сможете принять взвешенное решение.`,
             }, {
-                question: "¿Es el costo del presupuesto definitivo?",
-                answer: `Los cambios solo son posibles si usted decide modificar el conjunto de trabajos o los materiales establecidos en el presupuesto.`,
+                question: "Сколько стоит ремонт за квадратный метр?",
+                answer: `Это один из самых частых вопросов, и ответ на него прост. Каждый ремонт уникален, поэтому цена может варьироваться. Указывать "случайные" цифры некорректно и нечестно. Цены за квадратный метр обычно называют дилетанты, чтобы привлечь внимание и начать проект, но в итоге это не соответствует действительности. Мы считаем правильным и честным подходом точные замеры объекта и составление сметы.`,
             }, {
-                question: "¿Se puede pedir un proyecto de diseño?",
-                answer: `Sí. Además, el diseñador se desplazará hasta su propiedad para una consulta y le sugerirá/propondrá la mejor solución según el tipo de distribución de su vivienda.`,
+                question: "Как производится оплата?",
+                answer: `Оплата производится поэтапно, после завершения и приемки каждого этапа работ или по договоренности`,
             }, {
-                question: "¿Quién debe comprar los materiales?",
-                answer: `Podemos encargarnos de la compra de los materiales o trabajar con los materiales que usted proporcione.`,
+                question: "Является ли смета окончательной?",
+                answer: `Стоимость сметы может измениться только в случае, если вы решите изменить объем работ или материалы, указанные в смете.`,
             }, {
-                question: "¿Se retira la basura después de la reforma?",
-                answer: `Sí. Al finalizar la reforma, por encargo del cliente, realizamos la limpieza en seco y/o húmeda y retiramos la basura. Además, llevamos a cabo limpiezas regulares durante el proceso de reforma.`,
+                question: "Можно ли заказать дизайн-проект?",
+                answer: `Да, конечно. Наш дизайнер приедет к вам для консультации и предложит оптимальное решение, учитывая особенности планировки вашей квартиры.`,
             }, {
-                question: "¿Cómo se puede supervisar el progreso de la reforma?",
-                answer: `Se puede controlar el progreso de los trabajos tanto en persona como de forma remota. Regularmente enviamos informes fotográficos y videos a través de WhatsApp.`,
+                question: "Кто закупает материалы?",
+                answer: `Мы можем взять на себя закупку материалов или работать с вашими материалами.`,
+            }, {
+                question: "Вывоз мусора после ремонта.",
+                answer: `Да, по завершении ремонта мы по желанию клиента выполняем сухую и/или влажную уборку и вывозим мусор. Также мы проводим регулярную уборку в процессе ремонта.`,
+            }, {
+                question: "Как контролировать ход ремонта?",
+                answer: `Вы можете контролировать ход работ лично или удаленно. Мы регулярно отправляем фото- и видеоотчеты через WhatsApp.`,
             }, 
         ],
     },
 
     testimonialsSection: {
-        title: "Comentarios de nuestros clientes",
-        subTitle: "Durante 15 años de trabajo exitoso, hemos logrado ganar credibilidad entre los clientes. La mayoría de nuestros clientes, tras el primer contacto con la empresa, colaboran con nosotros de forma continua.",
+        title: "Что говорят наши клиенты...",
+        subTitle: "За 15 лет успешной работы мы выстроили прочные партнерские отношения с клиентами, которые продолжают сотрудничать с нами на постоянной основе.",
         imagesPath: '/images/testimonials/',
         testimonials: [
             {
