@@ -119,31 +119,28 @@ const options = {
     },
 
     whatWeCleanSection: {
-        title: "Reformas: ¿Cuánto Cuesta?",
+        title: "Ремонт: сколько это стоит?",
         subtitle: `
-           Cada reforma es única, y los costos pueden variar considerablemente según el proyecto. 
-         No ofrecemos estimaciones generales por metro cuadrado, ya que consideramos que este enfoque no refleja la realidad. 
-         Nuestro compromiso es ofrecer presupuestos precisos basados en mediciones detalladas y necesidades específicas. 
-         A continuación, presentamos precios orientativos de diferentes tipos de reformas para que tengas una idea aproximada del nivel de inversión necesario.`,
+           Каждый ремонт уникален, и стоимость может значительно варьироваться в зависимости от проекта. Мы не предлагаем общие оценки за квадратный метр, так как считаем, что этот подход не отражает реальность. Наша цель – предоставить точные сметы на основе детальных измерений и конкретных потребностей. Ниже представлены ориентировочные цены на различные виды ремонта, чтобы вы могли получить представление о необходимом уровне инвестиций.`,
         root: "/images/what-we-clean/",
         cards: [
             {
-                title: "Reforma integral de un piso (hasta 80 m²) — desde 6,000 €",
+                title: "Стоимость комплексного ремонта квартиры площадью (до 80 м²) начинается от 6 000€.",
                 image: "reforma.jpg"
             }, {
-                title: "Reforma cosmética de un piso (hasta 50 m²) — desde 6,000 €",
+                title: "Косметический ремонт квартиры  (до 80 м²) — от 5 000€",
                 image: "mattress.jpg"
             }, {
-                title: "Reforma de una habitación — desde 1,500€",
+                title: "Ремонт комнаты (~10 м²) — от 1 500€",
                 image: "carpet.jpg"
             }, {
-                title: "Pintura de paredes (por m²) — desde 15€",
+                title: "Покраска стен (за м²) — от 15€",
                 image: "sofa.jpg"
             },  {
-                title: "Reforma de baño — desde 2,500€",
+                title: "Ремонт ванной комнаты — от 2 500€",
                 image: "chair.jpg"
             },  {
-                title: "Instalación de suelo (por m²) — desde 20€",
+                title: "Укладка напольного покрытия (за м²) — от 20€",
                 image: "floor.jpg"
             },
         ]
