@@ -147,33 +147,33 @@ const options = {
     },
 
     howToOrderEasySection: {
-        title: "¿Cómo trabajamos?",
+        title: "Как мы взаимодействуем с вами?",
         subtitle: "",
         root: "/images/how-to-order-easy/",
         cards: [
             {
-                title: "1. Medición:",
-                text: `Un especialista visita su propiedad, discute con usted todos los aspectos del futuro proyecto de reforma y realiza la medición. Todo esto es completamente gratuito para usted.`,
+                title: "1. Замер бесплатно.",
+                text: `Мы приедем к вам, чтобы обсудить все аспекты вашего проекта и провести необходимые замеры. Это абсолютно бесплатно.`,
                 image: "tape-measure.png",
             }, {
-                title: "2. Presupuesto:",
-                text: `El especialista, junto con los departamentos técnico y de producción, elabora el presupuesto del proyecto de reforma en base a sus deseos y necesidades.`,
+                title: "2. Составление сметы.",
+                text: `Наш специалист совместно с техническим и производственным отделами разработает смету проекта, учитывая ваши пожелания и потребности.`,
                 image: "calculator.png",
             }, {
-                title: "3. Contrato:",
-                text: `	Todos los trabajos se realizan únicamente bajo un contrato, en el cual se especifican todas las condiciones, el costo de los trabajos y los plazos de ejecución.`,
+                title: "3. Официальный договор.",
+                text: `	Все работы выполняются только по договору, в котором прописаны все условия, стоимость и сроки выполнения.`,
                 image: "checked.png",
             }, {
-                title: "4. Compra y entrega de materiales:",
-                text: `Puede proporcionar los materiales de construcción y acabados por su cuenta o puede contar con nuestra empresa para la compra, entrega y recepción de los mismos.`,
+                title: "4. Покупка и доставка материалов.",
+                text: `Вы можете самостоятельно приобрести строительные и отделочные материалы или доверить их закупку, доставку и приемку нашей компании.`,
                 image: "building-material.png",
             }, {
-                title: "5.Trabajos de reparación y acabados:",
-                text: `Comenzamos los trabajos de acuerdo con el contrato. Todos los trabajos se realizan por etapas.`,
+                title: "5. Ремонтно-отделочные работы.",
+                text: `Мы начинаем работы в соответствии с договором и выполняем их поэтапно, обеспечивая контроль качества на каждом этапе.`,
                 image: "worker.png",
             }, {
-                title: "6. Recepción y pago de trabajos:",
-                text: `	Después de completar cada etapa del trabajo, se proporciona un Acta de trabajos realizados. El pago se realiza solo después de la recepción y aprobación de cada etapa.`,
+                title: "6. Приемка и оплата работ.",
+                text: `	После завершения каждого этапа работ предоставляется акт выполненных работ. Оплата производится только после приемки и утверждения каждого этапа.`,
                 image: "checked.png",
             },
         ],
