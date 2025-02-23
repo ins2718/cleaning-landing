@@ -62,7 +62,7 @@ const options = {
     },
 
     whyUsSection: {
-        title: "Почему мы лучший выбор для вашего ремонта?",
+        title: "Почему мы?",
         root: "/images/why-us/",
         cards: [
             {
